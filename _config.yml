@@ -1,2 +1,10 @@
-baseurl: /NET
+markdown: rdiscount
+permalink: /:year/:month/:day/:title/
+url: http://yonsm.tk
+name: Yonsm.NET
+author: Yonsm
+pygments: true
+safe: true
+paginate: 16
+auto: true
 
