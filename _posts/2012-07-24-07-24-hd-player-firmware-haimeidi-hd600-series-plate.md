@@ -1,0 +1,152 @@
+---
+author: Yonsm
+comments: true
+date: 2012-07-24 09:00:41+00:00
+layout: post
+slug: 07-24-hd-player-firmware-haimeidi-hd600-series-plate
+title: '[07.24]海美迪 HD600 系列高清播放机固件定制版'
+wordpress_id: 557
+categories:
+- 资源
+---
+
+如果你不喜欢固件中的 BT 程序，如果你想获得一个 /opt 目录的可写权限，如果你想使用 ipkg 安装额外的软件包，如果你喜欢最大化地控制启动或停止外部服务（HTTP、FTP、Transmission等），请往下看。
+
+海美迪 HD600A 固件 Yonsm 2012.07.24 版，本固件基于官方 1.0.7.28 固件（http://bbs.himedia-tech.cn/forum.php?mod=viewthread&tid=54275）。
+
+<!-- more -->一、修改
+
+1. IMS 修改，支持更多的在线视频，精简部分国内不常用的组件（如  GTalk，谁有兴致在这种破硬件上跑 Google Talk？）。
+
+2. 替换 geigi 提供的精美图标主题（http://www.hdpfans.com/thread-43379-1-1.html）。
+
+3. 修改
+
+* 完全删除内置的 BT 和原有的 WEB 服务。
+
+* 主机名从 Venus 修改为 Media（个人喜好，勿喷：）。如果需要修改，请修改 /usr/local/etc/hostname 文件。
+
+* 安全关机脚本支持自动停止 Samba、Transmission（如果安装了且启动了的话），以便关机前停止这些服务保护硬盘。（和官方一样，默认并没有开启安全关机。需要在设置中开启）
+
+4. **WEB 控制台**
+
+* 内置简单的 WEB 控制台，支持各种扩展功能管理和执行自定义命令（文件在 /usr/local/etc/www/index.html 和 /usr/local/etc/www/cgi-bin/cele.cgi）。
+
+* 本功能**仅增加了一个网页和一个 CELE.CGI 脚本程序**，直接利用的是官方原有的 HTTP 服务，并没有增加 lighthttpd 等额外的需求。
+
+* 请用浏览器访问 **http://media** 查看各种功能：
+
+* 包括磁盘、内存、文件、CPU 信息；
+* 支持一次性修改 FTP、TELNET 和 SAMBA 密码；
+* 安装、启用、禁用和卸载 IPKG（默认已安装）、FTP（默认已启动）、TRANSMISSION（默认已安装）、BUSYBOX（默认未安装，修改密码和查看资源占用时会自动下载安装，请确保互联网连接畅通；请勿安装 ipkg 中的 BusyBox）、ARIA（HTTP 和 BT 下载程序，我汉化了一个 YAAW 控制台，默认未安装） 等软件；
+* 点击“控制台”几个字可以转到**网页遥控器**。
+* 控制台具有升级功能。
+
+![](http://www.hdpfans.com/data/attachment/album/201205/14/1857500z6dzpdmy2df2d2s.png)
+
+5. 默认 OptWare 支持
+
+* 每次启动后自动查找硬盘上的 Downloads 目录并创建链接到** /tmp/Downloads**，然后自动加载 /opt/etc/inet.d/S*** 文件。
+
+* /opt 中预装了 ipkg，如果需要安装 ipkg 程序包，可以直接安装，如：/opt/bin/ipkg install atop
+
+* /opt 中预装了 ipkg 程序包 vsftpd。
+
+* /opt 中预装了 ipkg 程序包 transmission 2.51。WEB 控制端为汉化版本。
+* 默认没开启 Transmission 服务，刷机后用遥控器控制 主界面->设置->网络->BT 程序 的开关，改为控制 Transmission 开关（实际执行为 /opt/etc/bt.script -> /usr/local/bin/cele -> /usr/local/etc/www/cgi-bin/cele.cgi BT_START）。
+* Transmission下载目录为 /tmp/Downloads（即指向硬盘中的下载目录，就是说你想下载到某个分区上，则在根目录创建 Downloads 目录即可，建议用 EXT3 分区下载）：
+/tmp/hdd/volumes/HDD*/Downloads
+/mnt/usbmounts/sd*/Downloads
+/tmp/hdd/volumes/HDD*/（自动创建Downloads）
+/mnt/usbmounts/sd*/（自动创建Downloads）
+/opt/tmp/Downloads/（自动创建Downloads）（即刷机后启动时神马都没有接，好吧，大佬，U盘你都拔掉啦？）
+* 请用浏览器访问 http://media:9091 访问 WEB 控制台。
+* 同时进行的下载任务初始化时已经改为 2，建议手动设置下载速度限制在 1500 KB/s 以下，否则 CPU 可能吃不消。
+
+* /opt 指向 /usr/local/etc/opt，以便可以读写此目录。此目录可写空间达到令人发指 102M！（这是我多次反复测试后得到的比较理想的数值，再调大了就可能无法刷入了），官方版只有 40M。
+
+* /opt 中的所有东西均可编辑或删除（请在 WEB 控制台中点击删除所有软件）。如果你想获得更大的 /opt 空间，请把 /usr/local/etc/opt 删除，然后创建链接符号到外部磁盘上（当然删除之前你可以拷贝里面的所有内容到外部磁盘上）。
+
+三、刷机
+
+1. 下载、解压，得到 install.img 拷贝到 U 盘；
+2. 顶住后面电源和 HDMI 中间的小孔内的按键，再上电开机；
+3. 上电 5 秒后松开（按更长时间没有关系），会看到带升级提示的开机画面 （仅在 HDMI 接口和分量即可可以显示， AV没有）
+4. 等待升级完成（如果重启之后中途一段时间无显示，是正常现象，请耐心等待，但整个过程不会超过 10 分钟）。
+
+四、使用
+
+* Telnet/FTP，用户名：root，密码：无 （请使用 WEB 控制台修改密码）。
+
+* Samba（与 Windows 共享文件），用户名：无，密码：无 （可以在遥控器的设置上开启密码功能，用户名为 root，密码为 toor；请使用 WEB 控制台修改密码）。
+
+* Transmission、ARIA、WEB 控制台，均无密码，如果有安全性考虑，建议不用时在 WEB 控制台中禁用相关服务。
+
+五、定制
+
+* 如果你想重新定制此固件，请在 Mac OS X 下操作（可以从 http://www.hdpfans.com/forum.php?mod=viewthread&tid=43707 下载我编译的工具和脚本文件）：
+* 解开，执行 open_rom.sh 即可。
+* 打包，执行 make_rom.sh 即可，会提示输入 root 密码。
+* Linux 下的定制工具可以从 http://www.hdpfans.com/forum.php?mod=viewthread&tid=18314 中下载；如果是 Windows 则似乎会有问题。
+* 有用的发现：/etc 下只保留部分必须的文件即可，opt 文件实际上不会占用 squashfs1.img 的空间，所以打包 squashfs1.img 的时候 /opt 只是一个链接而不是真实目录，真正的 /opt 打包到了 usr.local.etc.tar.bz2 中。
+* 修改，请随意……
+
+六、历史
+
+**2012.07.24**
+** 1. 跟进官方 1.0.7.28 升级（未如约升级 TR 到 2.6，因为 IPKG 未更新，还是继续用 2.52 吧，非常稳定）。**
+
+2012.05.14
+1. 修改几个收藏相关的图片；
+2. 加入 WEB 控制台，方便安装和管理扩展软件；
+3. 加入 ARIA 安装功能，可以支持 HTTP 下载。
+
+2012.05.10
+1. 升级为官方最新 1.0.7.11 固件；
+2. 替换 geigi 提供的精美图标主题；
+3. 去除在线平台中的 PPS 模块（据说国外 IP 可以访问，多一个不多少一个也不少，不能用的东西不保留；但 YouTube 无可替代，通过路由器指定 VPN 出口访问可以访问），加入了 RealPilot 凑数（可以看新浪的天气、新闻和股票）。
+4. 去掉了很多无用的残余文件（如 GTalk 等模块，以及无用的图片文件），/usr/local/etc 的可写空间达到令人发指的 102M；
+5. 加入官方原版的 WEB 遥控器（用手机访问高清播放器的地址 http://media，默认端口号 80 HTTP 服务就是网页遥控器）；
+6. 其它小改进。
+
+2012.03.14
+1. 遥控器上可以控制 Transmission 开启或关闭。
+2. 优化 Transmission 脚本。
+3. 优化安全关机脚本（如果启用，则每次启动都要手动开启 Transmission）。
+4. IMS 同步更新为 zhw 的最新版本风格（除了图片，无实际修改）。
+5. 编译了 Mac OS X 下的解包和封包工具，提供了相关工具和脚本文件（如果你要做Linux解包封包，请下载旧版本替换 install.img即可）。
+6. 修正了 install_busybox.sh 的潜在问题。
+7. 其它没想到的小修改。
+
+2012.03.06
+1. 修改了transmission 的启动脚本，更智能了。
+2. 允许修改 hostname 了。
+3. 修改了在线网络视频，整理成了3×4=12个，完美显示无需翻页滚屏。YouTube需要路由器开VPN才可以，其它没有死链接了。
+
+2012.03.05
+1. 第一个版本。
+2. 124M，内部install.dmg为142M
+未仔细测试，请酌情使用。
+
+版权所无 Yonsm
+WWW.Yonsm.NET
+2012.05.14
+FOR MY JEANZ，FOR MY DREAM
+
+ 
+
+![](http://www.hdpfans.com/data/attachment/album/201203/29/12591406g1aegg6ad905c6.jpg)
+
+ 
+
+![](http://www.hdpfans.com/data/attachment/album/201203/29/125911cdhdd9dhadd88ahc.jpg)
+
+（以上图片为原作者设计并非本固件截图）
+
+下载（07.24版本）：[**http://115.com/file/c2cw4vxp**](http://115.com/file/c2cw4vxp)
+
+下载（05.14版本）：**[http://115.com/file/dpww794v](http://115.com/file/dpww794v)**
+
+论坛讨论：[http://www.hdpfans.com/forum.php?mod=viewthread&tid=42801](http://www.hdpfans.com/forum.php?mod=viewthread&tid=42801)
+
+ 

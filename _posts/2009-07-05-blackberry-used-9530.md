@@ -1,0 +1,27 @@
+---
+author: Yonsm
+comments: true
+date: 2009-07-05 21:05:14+00:00
+layout: post
+slug: blackberry-used-9530
+title: BlackBerry 9530 使用感受
+wordpress_id: 470
+categories:
+- 日志
+---
+
+前段时间被人送了个 BlackBerry 9530，琢磨了两天，如果不是从最终用户的角度看的话，简直是个非常差的设计——Java系统永远是那么的轻浮（不知道Andriod表现是否如此）。<!-- more -->这是一个向运营商示好的系统设计——不是最终用户（iPhone？），也不是开发者的（WM？）。  
+  
+正好有朋友830电板不行了，于是又送了，实在没精力和兴趣去继续琢磨这个。  
+  
+下面呢……没了。  
+  
+
+
+* * *
+
+  
+  
+分布式GPS终端位置收集（GMatrix+GCell） ，一个PPC（SP应该也行）GPS 位置收集的测试包，可以收集多个PPC GPS终端的位置，并输出为KML（在Google地球和Google地图中查看）。仅为验证用户，半成品，包含源代码。  
+  
+[file]/store/GMatrix.zip[/file] 

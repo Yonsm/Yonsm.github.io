@@ -1,0 +1,35 @@
+---
+author: Yonsm
+comments: true
+date: 2007-10-24 08:41:49+00:00
+layout: post
+slug: celetask-2-2-2500-smartphone-day-to-day-task-management-tool
+title: CeleTask 2.2.2500 - Smartphone日常必备任务管理工具
+wordpress_id: 380
+categories:
+- 软件
+---
+
+本程序适用于 Windows Mobile Smartphone/PocketPC 2003/5.0/6.0。  
+  
+[![](/CeleTask/CeleTask.gif)](/CeleTask/CeleTask.gif)  
+  
+最新更新：  
+1.完全解决列出任务假死的问题。  
+2.完全解决进程无法列出的问题。  
+3.修正一个 BUG：显示序号勾选无法取消。<!-- more -->  
+4.增加一个Trick（不是针对普通用户，请忽略），可以在启动CT后检测长按事件，从而启动另外的程序。如果需要，在CT 注册表中增加以下键值：  
+ HoldKey=按键代码（默认0xC3，即830机器的相机键）  
+ HoldRun=要启动的程序（默认Camera.exe，即相机程序）  
+ 通过这个小功能可以在设定某个按键关联启动 CeleTask 的时候，短按启动CT，长按则启动另外的程序。  
+  
+另外，旋转屏幕功能仅针对 PPC 有效。蓝牙音频仅针对部分设备有效。  
+  
+这是 CeleTask 2.2 的最后一个版本，近期会升级到 CeleTask 2.4，请关注 WWW.Yonsm.NET 获取最新信息。  
+  
+此此次更新暂时只提供中文版，繁体中文用户如果需要请留言。  
+  
+下载（2007.10.27 更新）：  
+[file]CeleTask/CeleTask.2.2.rar[/file]  
+  
+IOICN 讨论贴：http://www.ioicn.com.cn/forum/thread-238302-1-1.html

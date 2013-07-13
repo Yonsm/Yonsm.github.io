@@ -1,0 +1,16 @@
+---
+author: Yonsm
+comments: true
+date: 2006-08-31 07:46:12+00:00
+layout: post
+slug: ppc-is-also-hung-up
+title: PPC 又又挂了
+wordpress_id: 248
+categories:
+- 日志
+tags:
+- 手机
+---
+
+刚换给同学一天，PPC 又挂了，问题未知，狂郁闷……  
+如果你有维修渠道，不妨帮我一下（O2 XDA Neo 买来两个月已经维修过两次，一次扬声器挂了，一次刷机字库挂了，这次估计也是字库问题，现象一样，就像没电池似的，但这次没刷机，好好的就挂了）……

@@ -1,0 +1,108 @@
+---
+author: Yonsm
+comments: true
+date: 2012-04-23 14:57:04+00:00
+layout: post
+slug: htc-one-x-chinese-simplified-rom-os-perfect-customization
+title: HTC ONE X 简体中文 ROM OS 完美定制
+wordpress_id: 665
+categories:
+- 资源
+---
+
+欢迎使用 Yonsm.NET 定制的 HTC ONE X 简体中文 ROM OS！希望它能带给您一个全新的完美体验。<!-- more -->
+一、特性
+
+◎ 基于官方 欧版 1.29.401.11 内核，稳定省电，完美定制。
+
+◎ 大规模精简不常用的程序，仅保留必要的程序（请看截图）。
+
+◎ 去除菜单条，程序切换键改为菜单键。
+
+◎ 添加 超级授权 和 程序安装。
+
+◎ 添加 BusyBox 1.19。
+
+◎ 系统内置程序均已在桌面上显示，自己安装的在所有程序的“下载”标签下显示，不会和系统程序混在一起很难找。
+
+◎ 浏览器收藏夹添加常用网站（如可以看 10 天的天气预报，淘宝网、网页 QQ等，无人个商业目的，仅为方便）。
+
+◎ 除上面列出的程序之外，未添加其它任何东西（更无任何商业和程序），也没有在任何不知晓后果的情况下胡乱修改（所有修改都是官方 ROM 的基础上做的保守修改）。
+二、准备
+
+以下步骤假设你有一个全新的 HTC One X 设备，如果某些步骤已经做过，可以跳过：
+
+1. 建议使用欧版 1.29.401.11 RUU 刷机包，升级到最新的官方 ROM（以便更新除了 system 之外的其它部分，如 radio 模块）。下载地址参考：http://bbs.xda.cn/forum.php?mod=viewthread&tid=11044292
+
+2. 官方解锁（或者 SPL S-OFF 也行，但目前似乎没有公开方法），请参考：http://bbs.hiapk.com/thread-3554021-1-1.html，或者更简单的方法：http://bbs.shuame.com/forum.php?mod=viewthread&tid=20195（未验证）
+
+3. 刷 Recovery，请参考：http://bbs.xda.cn/forum.php?mod=viewthread&tid=11068451
+
+4. 类似刷 Recovery 的方法，刷 boot.img（解开 update.zip 里面的 boot.img，手机进入 HBOOT 状态，然后 adb flash boot boot.img）。
+三、刷机
+
+1. 进入 Recovery
+
+1). 关机，按音量减小键 + 电源键开机，如果 HBOOT 界面。
+
+2). 用音量键上下选择 RECOVERY，电源键确认，进入 Recovery 模式。
+
+如果是重刷 ROM，似乎经常遇到进入 Recovery 后一闪就重新启动的情况，此时请正常进入系统一次，长按完全关机，然后再次尝试进入（或者重新刷 Recovery 一次）。
+
+2. 在 Recovery 中选择正确的 ROM 文件（update.zip）刷入（无需WIPE，刷入ROM过程中会自动WIPE数据）。
+
+3. 重新启动即可。
+四、问答
+
+■ 如何扩展定制此 ROM？
+答：直接修改 update.zip 文件即可。
+
+■ 这个 ROM 没有启动声音？
+答：是的，如果需要启动声音，把解开 ROM 并加入 system\customize\resource\htc_boot.mp3 到 system\customize\resource 中然后重新打包 ROM。
+
+五、致谢
+
+◎ 感谢 Kavana 提供的全程技术支持：）
+◎ 感谢各位作者提供的 ROM 定制工具和相关资源。
+◎ 感谢您的测试结果和建议报告（如果有的话）。
+◎ 感谢您使用本 ROM（如果您使用的话）。
+六、许可
+
+◎ 本人未持有 ROM 及其中的软件的版权，请以研究和学习为目的，合法使用。
+◎ 如果您根据我提供的方法以及工具修改了 ROM，建议继续公开和分享您的工作成果。
+◎ 本人特此申明对 ROM 之使用不提供任何保证，不对任何用户保证本 ROM 的适用性，不保证无故障产生；亦不对任何用户使用此 ROM 所遭遇到的任何理论上的或实际上的损失承担责任。
+◎ 如果您使用本软件，即表示已经默认接受了此协议。
+七、历史
+
+■ 2012.04.23 X1
+◎ 第一个版本。
+
+■ 2012.04.24 X2
+◎ 小改进。
+
+■ 2012.04.29 X3
+◎ 大改进。
+
+■ 2012.06.01 X4
+◎ 升级内核。
+◎ 修正 Google 服务登录后图标消失的问题。
+◎ 其它改进。
+
+Yonsm
+Yonsm@msn.com
+WWW.Yonsm.NET
+2012.06.01，杭州
+
+FOR MY JANE, FOR MY DREAM...
+
+ 
+
+下载：
+
+[http://115.com/file/dpvyj0qj](http://115.com/file/dpvyj0qj)
+
+ 
+
+ 
+
+ 

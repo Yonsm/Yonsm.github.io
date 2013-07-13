@@ -1,0 +1,134 @@
+---
+author: Yonsm
+comments: true
+date: 2010-12-15 22:35:53+00:00
+layout: post
+slug: plcmd-iphone-ipad-ipa-program-name-batch-modify-tool-plist-command-line-editor
+title: PLCMD - iPhone/iPad IPA 程序名称批量修改工具（PLIST 命令行编辑器）
+wordpress_id: 508
+categories:
+- 资源
+---
+
+2011.08.02 更新，请看最新版本：http://bbs.weiphone.com/read-htm-tid-2631741.html#tpc  
+  
+iPhone/iPad 下的图标在iTunes中竟然不能改名，看着五花八门的名字都不爽。网上找找也没有很好的工具来整理 IPA 程序名。（weiphone 有个 Rename 支持在 iPhone 内改名，但直接修改的是Info.plist，非完美支持多语言显示，也不支持预先修改IPA文件。不过当然也不错了）  
+  
+这里基于 CoreFoundation 自己做了个 PLED<!-- more -->，用法如下：  
+  
+
+
+  
+PLED 1.0 - PList EDitor  
+Copyright (C) Yonsm 2010, All rights reserved.  
+  
+Usage: PLED {File} {Name} {Value} [/b[inary]]  
+  
+File 是文件名称  
+Name 是plist中的KeyName  
+Value 就是值了  
+/b 参数指定输出的文件格 bplist 格式（二进制plist），对于 IPA 修改，建议加上这个参数。  
+  
+活用一下，顺便还有一个功能，就是把 bplist 保存为 XML 格式的 plist，随便写点东西进去，不加 /b 参数就是XML输出了。输出XML后可以调用 EmEditor 之类的编辑，完成后再次 用 /b 改写一下 plist 又变成 bplist 了。  
+  
+
+
+  
+  
+完整版本包括源代码请参看：http://www.yonsm.net/read.php?507  
+  
+
+
+* * *
+
+  
+  
+基于上面的 PLED，做了个PLCMD，支持修改 IPA 文件内部的程序名称为IPA的文件名称 。  
+  
+
+
+  
+PLCMD [IPA/DIR] [LANG]  
+  
+第一个参数可以是 IPA 文件或者 文件夹（将处理里面的所有 IPA 文件）。  
+第二个参数是语言（如“zh_CN”），如果省略,将写入 Info.plist（影响所有语言）。  
+  
+您也可以在资源管理器中直接拖动 IPA 或者 文件夹 到当前批处理文件上。  
+  
+请按任意键继续. . .  
+
+
+  
+  
+使用方法：预先把某个目录内所有的 IPA 文件命名为为“程序名称.ipa”这种格式，然后拖动文件夹到 批处理文件上（或者在命令行中加入第二个参数 zh_CN，以便生成的plist只对中文有效，不影响多语言）。  
+  
+文件名可以是“iPhone.程序名称.ipa”的格式，会自动提取“程序名称”几个字，截掉扩展和前导的部分（也可以没有前导的部分）。  
+  
+注意：必须越狱后装了 IPA 破解补丁（hackulo.us 的 AppSync）的设备才能使用修改过的 IPA 文件。  
+  
+  
+
+
+  
+  
+D:\>D:\Projects\PLCMD\Release\PLCMD\PLCMD "D:\Mobile Applications" zh_CN  
+  
+程序名称: iBooks.app  
+显示名称：书籍  
+修改文件: Payload\iBooks.app\zh_CN.lproj\InfoPlist.strings  
+PLED 1.0 - PList EDitor  
+Copyright (C) Yonsm 2010, All rights reserved.  
+  
+Set CFBundleDisplayName to 书籍: Done  
+  
+回写文件：Payload\iBooks.app\zh_CN.lproj\InfoPlist.strings  
+  
+  
+程序名称: Night Stand HD.app  
+显示名称：夜钟  
+修改文件: Payload\Night Stand HD.app\zh_CN.lproj\InfoPlist.strings  
+PLED 1.0 - PList EDitor  
+Copyright (C) Yonsm 2010, All rights reserved.  
+  
+Set CFBundleDisplayName to 夜钟: Done  
+  
+回写文件：Payload\Night Stand HD.app\zh_CN.lproj\InfoPlist.strings  
+  
+  
+程序名称: AccuWXCirrus.app  
+显示名称：天气  
+修改文件: Payload\AccuWXCirrus.app\zh_CN.lproj\InfoPlist.strings  
+PLED 1.0 - PList EDitor  
+Copyright (C) Yonsm 2010, All rights reserved.  
+  
+Set CFBundleDisplayName to 天气: Done  
+  
+回写文件：Payload\AccuWXCirrus.app\zh_CN.lproj\InfoPlist.strings  
+  
+  
+……  
+
+
+  
+  
+上面这么多废话，总结为两句话：  
+  
+1. 把所有的 IPA 改名为和程序名称一致的文件名，如：“谷歌搜索.ipa”。  
+2. 把“谷歌搜索.ipa”（或者所在的文件夹）拖动到 PLCMD.cmd 文件上。  
+  
+  
+  
+懒得自己去写 Zip 处理的代码了，用7ZA+批处理做的，有兴趣可以看看。  
+  
+2010.12.15 批处理工具包也更新了，自动改名 ipa 为名称_版本.ipa 的格式（如果定制可以可以自己修改批处理）  
+[file]big/PLCMD.1.2.zip[/file]  
+  
+  
+2010.12.15 已更新，PLED程序增加新功能（源代码下载，普通用户只要下载上面的工具包即可）  
+[file]big/PLED.2010.11.12.zip[/file]  
+  
+2012.01.28 更新：  
+  
+http://115.com/file/be898pc2#PLCMD.2012.01.28.rar  
+  
+

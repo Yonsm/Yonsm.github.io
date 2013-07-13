@@ -1,0 +1,56 @@
+---
+author: Yonsm
+comments: true
+date: 2008-11-28 05:53:25+00:00
+layout: post
+slug: celelibunibase-celereg-celeutil-celectrl-and-other-basic-functions
+title: CeleLib：UniBase, CeleReg, CeleUtil, CeleCtrl 等基础函数库
+wordpress_id: 440
+categories:
+- 代码
+tags:
+- 编程
+---
+
+把新近整理的基础代码整理一下，欢迎评估使用。<!-- more -->  
+  
+一、简要说明  
+  
+1. CoStyle.doc 是代码风格文档。请参考 SourceStyler C++ 的 MFC 风格（部分规则已过期，未及时更新）。  
+  
+2. UniLib.doc 是 UniBase 的说明文档，尚未更新到最新版本，请酌情参考。  
+  
+3. CeleLib\UniBase.h 是统一接口的平台库，这里提供的是 Windows 和 Windows Mobile 上的实现（请参看开头的编译注释）。  
+  
+4. CeleLib\CeleReg.h 是 Windows 和 Windows Mobile 上通用注册表操作类。  
+  
+5. CeleLib\CeleUtil.h 是 Windows Mobile 中使用的基础使用函数库。  
+  
+6. CeleLib\CeleCtrl.h 是 Windows Mobile 上的实用控件库，包括部分轻量级的控件、打开文件对话框和其它界面相关的类。  
+  
+5. CeleLib\CeleCfg.h 是基于 UniBase 的 INI 操作类（不支持 Section，这应该是最高效的 INI 操作类了）。  
+  
+7. AppDef.h 是一个应用程序的基本宏定义。  
+  
+8. Resource.h/Resource.rc 是资源文件框架。请使用 -n 命令编译。如果需要 Manifest，请定义好相应的 _M_IX86 或 _M_X64 宏。  
+  
+  
+二、许可  
+  
+1. Yonsm 保留这些代码的版权。  
+  
+2. 任何人可以无偿使用这些代码。如果你使用了这写代码，请在软件界面、发布文档或者软件网站中写明“使用 Yonsm.NET 提供的部分代码”。  
+  
+3. 任何人可以修改代码以供自己使用或重新发布。如果修改代码后重新发布，请在代码或者说明文档中提及“Yonsm.NET”。  
+  
+4. Yonsm 不提供任何明示或隐含的担保。  
+  
+  
+欢迎经常访问 WWW.Yonsm.NET 或许更新版本。  
+  
+  
+Yonsm  
+2009.04.25  
+杭州  
+  
+[file]/up/CeleLib.rar[/file] 

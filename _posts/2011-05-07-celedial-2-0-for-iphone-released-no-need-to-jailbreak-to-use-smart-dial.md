@@ -1,0 +1,38 @@
+---
+author: Yonsm
+comments: true
+date: 2011-05-07 14:43:11+00:00
+layout: post
+slug: celedial-2-0-for-iphone-released-no-need-to-jailbreak-to-use-smart-dial
+title: CeleDial 2.0 for iPhone 已发布，不需要越狱也能使用智能拨号了
+wordpress_id: 538
+categories:
+- 软件
+---
+
+CeleDial 曾经是 Windows Mobile Pocket PC 上必备的智能拨号助手。现已推出 iPhone 版本,它可以帮助您简单、方便、快速地定位联系人,让您随心所欲,想拨就拨。
+
+迅捷易用:提供精美设计的拨号程序,支持换肤。使用类似 T9 的屏幕键盘,简单易用。
+
+智能匹配:支持通过姓名、拼音、简拼和电话号码智能查找联系人;支持所有 Unicode 中文汉字拼音。
+
+码表定制:内置支持简体拼音、通用拼音、注音符号方式搜索联系人,如果选择注音符号搜索方式,会自动显示注音符号拨号盘。
+
+语言支持:支持简体中文、繁体中文和英文界面。
+
+iPhone 版本加入了号码归属查询功能, 直接在拨号盘上就能查询号码归属地信息。默认是智能方式决定何时查询归属地, 即, 当输入的号码不在联系人列表时, 才会查询归属地。如果要强制开启查询归属地功能, 可以在设置中『显示“添加”按钮”当输入达到』中, 输入一个数字, 如『3』。, <!-- more -->
+
+iPhone 版本局限性:1.拨打电话和无法回到CeleDial程序;2.无法读取来电通话记录。这两点都是因为 iPhone 设计的限制,AppStore 版本暂时无法实现这两点功能。
+
+实用类工具,专注客户端查找体验,未加入任何网络功能，绝对隐私保证。除了关于界面上的几个在线信息页面之外,本程序不会进行任何网络连接。请放心使用:)
+
+官方网站：http://www.celedial.com
+AppStore：http://itunes.apple.com/cn/app/id434119998
+
+
+
+
+已经到AppStore中国区所有免费软件的第9名了：）
+新浪微博上的CeleDial话题也不少：http://t.sina.com.cn/k/celedial
+WeiPhone帖子：http://bbs.weiphone.com/read.php?tid=2124799
+网易数码：http://tech.163.com/digi/11/0508/19/73IAAE8M001663ND.html

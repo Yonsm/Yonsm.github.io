@@ -1,0 +1,103 @@
+---
+author: Yonsm
+comments: true
+date: 2007-05-02 10:53:41+00:00
+layout: post
+slug: codezap-add-extra-code-to-exe-cengine
+title: CodeZap - 给 EXE 添加额外代码的 C++ Engine
+wordpress_id: 323
+categories:
+- 代码
+---
+
+给 EXE 添加节显示启动信息的代码多得很，CodeZap 这个最大的特色就是 C++ 写成的，且提供了比较独立美观的Z函数。只要了解 C/C++ 语言，就能写添加大量的代码，完全可以工程化操作。  
+  
+CodeZap 简要说明  
+  
+CodeZap 是用来给 PE 文件添加额外代码的 C++ SDK。您可以通过使用熟悉而且容易工程化的 C/C++ 语言来添加大量的可执行代码。  
+  
+Codez 使用非常简单，你只要模仿 ZCode 函数，写出自己的 ZCode 即可。其中 ZCode 的要求如下：  
+  
+1. ZCode 必须是 CDECL 调用规范。  
+2. ZCode 函数最后的 __asm 块，除 #ifdef _DEBUG 包围的之外，必须保留。  
+3. ZCode 中不能使用字符串常量。  
+4. ZCode 中不能调用外部函数。  
+5. ZCode 中可以调用 __forceinline 声明的函数。  
+6. ZCode 中可以使用 CodeZap 中所有 Z 开头的函数。  
+7. ZCode 中的 C++ 代码可以任意添加，只要符合前面的所有条件。  
+8. 可以修改  #ifdef _DEBUG 中的汇编代码为你所所要情形。  
+9. 可以修改函数的参数（基于上一条为前提）。  
+  
+  
+基于以上要求， Viual Studio 2003/2005 中使用，必须在 Project 设置中，关闭缓冲区安全检查。否则将会生成的代码中会调用 security_cookie 函数，导致代码无法在目标文件中正确执行。  
+  
+另外，用这些Z函数来写 ShellCode，也是非常高效的，比平时写 C/C++ 程序麻烦一点点而已。  
+  
+CodeZap 调用示例：  
+CodeZap(TEXT("C:\\ABC.CZ.exe"), TEXT("C:\\ABC.exe"), (PBYTE) ZCode);  
+  
+Powered By Yonsm  
+WWW.Yonsm.NET  
+2007.4.31   
+  
+接口函数：  
+BOOL CodeZap(PCTSTR ptzDst, PCTSTR ptzSrc, PBYTE pbCode);  
+ZAPI HMODULE ZGetKernelHandle();  
+ZAPI HMODULE ZGetModuleHandle(PCTSTR ptzModule = NULL);  
+ZAPI HMODULE ZSearchModuleHandle(PCTSTR ptzModule, PBYTE pbBase = (PBYTE) 0x70000000, PBYTE pbMax = (PBYTE) 0x80000000);  
+ZAPI FARPROC ZGetProcAddress(HMODULE hModule, PCTSTR ptzProc);  
+  
+<!-- more -->  
+  
+ZCode 示例  
+VOID CDECL ZCode()  
+{  
+ // KERNEL32  
+ HMODULE hKernel32 = ZGetKernelHandle();  
+  
+ // GetProcAddress  
+ TCHAR szGetProcAddress[] = {'G', 'e', 't', 'P', 'r', 'o', 'c', 'A', 'd', 'd', 'r', 'e', 's', 's', 0};  
+ PGetProcAddress pGetProcAddress = (PGetProcAddress) ZGetProcAddress(hKernel32, szGetProcAddress);  
+ if (!pGetProcAddress) return;  
+  
+ // LoadLibrary  
+ CHAR szLoadLibrary[] = {'L', 'o', 'a', 'd', 'L', 'i', 'b', 'r', 'a', 'r', 'y', ZEND};  
+ PLoadLibrary pLoadLibrary = (PLoadLibrary) pGetProcAddress(hKernel32, szLoadLibrary);  
+ if (!pLoadLibrary) return;  
+  
+ // USER32  
+ TCHAR tzUser32[] = {'U', 'S', 'E', 'R', '3', '2', 0};  
+ HMODULE hUser32 = pLoadLibrary(tzUser32);  
+  
+ // MessageBox  
+ CHAR szMessageBox[] = {'M', 'e', 's', 's', 'a', 'g', 'e', 'B', 'o', 'x', ZEND};  
+ PMessageBox pMessageBox = (PMessageBox) pGetProcAddress(hUser32, szMessageBox);  
+  
+ TCHAR tzText[] = {'H', 'a', 'h', 'a', ',', ' ', 'I', ' ', 'a', 'm', ' ', 'C', 'o', 'd', 'e', 'Z', 'a', 'p', '!', 0};  
+ TCHAR tzCaption[] = {'C', 'o', 'd', 'e', 'Z', 'a', 'p', 0};  
+ pMessageBox(NULL, tzText, tzCaption, MB_ICONINFORMATION);  
+  
+ __asm  
+ {  
+   JMP    _ZCodeEnd;  
+  
+_ZJumpOEP:  
+   // Jump to OEP: Jump delta will be fixed by CodeZap  
+   JMP    $ + 5;  
+  
+#ifndef _DEBUG  
+   // Put your own ASM code here  
+   PUSHAD;  
+   CALL  ZCode;  
+   POPAD;  
+#endif  
+  
+   JMP    _ZJumpOEP;  
+_ZCodeEnd:  
+ }  
+}  
+  
+  
+  
+下载：  
+[file]attachment/CodeZap.rar[/file] 

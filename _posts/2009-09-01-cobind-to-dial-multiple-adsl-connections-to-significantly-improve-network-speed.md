@@ -1,0 +1,51 @@
+---
+author: Yonsm
+comments: true
+date: 2009-09-01 01:15:34+00:00
+layout: post
+slug: cobind-to-dial-multiple-adsl-connections-to-significantly-improve-network-speed
+title: CoBind - 拨通多个 ADSL 连接，大幅度提升网络速度
+wordpress_id: 13
+categories:
+- 代码
+tags:
+- 技巧
+---
+
+副题：在Windows Socket SPI 层实现客户端负载均衡
+翻出2005年的帖子，发现在今天看来依然还是好有创意啊……
+
+程序实现了轮番邦定RAS拨号连接IP地址。要使CoBind生效，必须先注册它，且必须先按亮ScrollLock键。
+
+代码示例，演示了Windows Socket SPI的使用，仅供参考： [CoBind 1.0.54.242](up/CoBind%201.0.54.242.rar)<!-- more -->
+
+有关WSP SPI的文章，请参看：[基于SPI的数据报过滤原理与实现](http://www.xfocus.net/articles/200304/518.html)
+
+我这里指的是杭州的 ADSL，特点是，不支持绑定多重连接到同一个 IP 地址。但是可以同一个用户名密码拨通多个连接，且不限速（或能提供比一个连接更大的速度）。
+
+[![](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1251767462_431101de.png)](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1251767462_431101de.png)
+
+大致步骤：
+1.安装 RASPPPoE，设置 PPPoE 协议属性（本地连接->属性，PPPoE 属性），启用多个“线数（WAN 端点）”（虚拟设备），如4个。重新启动系统。
+2.建立多个 PPPoE 拨号连接，每个都能拨成功，此时已获取多个IP地址。但是，这并没有任何用处，因为绝大部分软件作为客户端上网时，都不会指定绑定某个 IP 地址的，系统总是选择最后拨通的那个连接来访问。气死！
+为了解决问题，就要使每个连接之前，自动轮番绑定所有可能的 IP。
+3.注册 CoBind.dll （RegSvr32.exe CoBind.dll），按亮 ScrollLock，CoBind 在每个程序访问网络时会弹出对话框提示，按需选择即可（默认一般确定即可）。（按亮ScrollLock仅仅是允许CoBind弹出提示，设置好后，下次无论是否按亮，均可生效）
+4.要卸载，请注销CoBind.dll（RegSvr32.exe /u CoBind.dll）。
+
+
+感谢 風の語 提供的方法，直接用Windows自带的PPPoE就拿拨通多个连接，方便多了。不用装 RasPPPoE 之类的:
+
+
+
+
+
+
+
+
+
+发现在windows 2003可以不用装RASPPPoE的方法，（xp估计也可以，没试过）修改注册表里HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\4D36E972-E325-11CE-BFC1-08002bE10318\0004
+下的WanEndpoints的数值，修改为99，就可以同时连接99个PPPOE拨号，不过这么多个连接CPU要顶得住
+重新启动就可以在系统建立并连接多个PPPOE拨号了。
+
+
+

@@ -1,0 +1,38 @@
+---
+author: Yonsm
+comments: true
+date: 2005-11-26 08:33:23+00:00
+layout: post
+slug: codingstyleforyonsm
+title: Coding Style For Yonsm
+wordpress_id: 12
+categories:
+- 文档
+---
+
+编码风格 (仅供Yonsm遵循) ([下载PDF版本](up/CS.pdf))<!-- more -->
+
+编码风格  
+一、 概述  
+二、 方案  
+(一) 目录组织  
+(二) 项目组织  
+三、 文件  
+四、 注释  
+五、 代码  
+(一) 表达式  
+(二) 语句  
+(三) 变量  
+(四) 常量  
+(五) 预处理指示符  
+(六) 标号  
+(七) 结构  
+(八) 联合  
+(九) 枚举  
+(十) 类  
+(十一) 命名空间  
+(十二) 模版  
+(十三) 函数  
+(十四) 内联汇编  
+(十五) MASM汇编  
+
