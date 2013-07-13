@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
 url: http://yonsm.tk
@@ -8,7 +7,3 @@ pygments: true
 safe: true
 paginate: 16
 auto: true
-
-=======
-baseurl: /
->>>>>>> b6edc1ce4e940725222f47b302c6bc2dc3486d74
