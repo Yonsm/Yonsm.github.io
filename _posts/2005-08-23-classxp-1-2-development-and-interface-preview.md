@@ -12,3 +12,25 @@ tags:
 - 编程
 ---
 
+ClassXP 是一个轻量级的 UI 引擎，应用程序只需要调用一个函数，即可使用 ClassXP 所提供的界面风格。
+
+调用方式如下：
+
+			// 功能: 设置或取消 ClassXP
+			// 参数: hWnd 指定窗口句柄。如果为 NULL 则针对当前线程中的所有窗口
+			//       bClassXP 指定设置或取消。 FALSE 表示取消，否则表示设置
+			// 返回: FALSE 表示失败，否则表示成功
+			#ifdef __cplusplus
+			extern “C”
+			#endif
+			BOOL WINAPI ClassXP(HWND hWnd, BOOL bClassXP);
+
+ClassXP 开始与 2002 年，其中经历了 0.32/0.55/1.0 均为不完全成熟完善的版本。此次升级，对原来的 ClassXP 做了大量更改：
+
+支持 Windows 95/98/ME/2000/XP/2003 等目前所有的 PC 端 Windows 系统。
+内置将支持与 Windows XP 完全一样的界面风格。
+将绘制函数与消息处理等代码完全分离，用户可以重写界面风格绘制函数（ClassXP 将同时内置支持汉化新世纪论坛 曾半仙 网友的 FlatUI 样式的界面风格，如需要其它风格，可以自己绘制）。
+支持多线程 UI （没多少意义）。
+完美解决除内置 Scroll Bar 以外的所有问题 （内置 Scroll Bar 将看着办吧）……
+编译后的完整目标 将控制在 50K 以内，预计 30~40 K应该能搞定（目前20K）。
+目前，已经成了 FrameWork、消息处理和 PushButton/CheckBox/RadioBox 的绘制代码，只要添加其它控件的绘制代码即可。
