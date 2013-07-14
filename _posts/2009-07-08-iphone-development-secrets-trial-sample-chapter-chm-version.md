@@ -122,4 +122,4 @@ iPhone开发秘籍 译者序
   
   
 下载：  
-[file]/store/iPhoneCookBook.chm) 
+[下载](/assets/iPhoneCookBook.chm) 

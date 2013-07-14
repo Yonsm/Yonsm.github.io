@@ -14,7 +14,7 @@ CeleScript 是一个从 PE 的 XCMD 和为 Windows Mobile 上的 CeleCmd 演变�
   
 <!-- more -->  
   
-下载：[CeleScript 3.0.820](/attachment/CeleScript.3.0.820.zip)   
+下载：[CeleScript 3.0.820](/assets/CeleScript.3.0.820.zip)   
   
 2009.1.11 更新  
 PC 上的一键安装工具包：  

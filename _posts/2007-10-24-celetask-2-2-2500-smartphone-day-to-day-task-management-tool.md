@@ -12,7 +12,7 @@ categories:
 
 本程序适用于 Windows Mobile Smartphone/PocketPC 2003/5.0/6.0。  
   
-[![](/CeleTask/CeleTask.gif)](/CeleTask/CeleTask.gif)  
+[![](/assets/CeleTask.gif)](/assets/CeleTask.gif)  
   
 最新更新：  
 1.完全解决列出任务假死的问题。  
@@ -29,7 +29,8 @@ categories:
   
 此此次更新暂时只提供中文版，繁体中文用户如果需要请留言。  
   
-下载（2007.10.27 更新）：  
-[file]CeleTask/CeleTask.2.2.rar)  
+[下载](/assets/CeleTask.2.2.rar)（2007.10.27 更新）
+[使用说明](/assets/CeleTask.htm)
   
 IOICN 讨论贴：http://www.ioicn.com.cn/forum/thread-238302-1-1.html
+

@@ -14,4 +14,6 @@ categories:
 
 希望 RegistryWorkshop 能加入注册表脚本自动排序载入功能，如果需要可以Publish源代码——虽然理论简单，但实现应麻烦的。
 
-<!-- more -->下载：[https://docs.google.com/open?id=0B82bVcrjTtZUVXA0N1J2MzFXNFU](https://docs.google.com/open?id=0B82bVcrjTtZUVXA0N1J2MzFXNFU)
+![ ](/assets/SortReg.png) 
+
+<!-- more -->[下载](/assets/SortReg.rar)

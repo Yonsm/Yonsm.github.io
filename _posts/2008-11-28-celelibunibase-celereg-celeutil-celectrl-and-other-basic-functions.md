@@ -53,4 +53,4 @@ Yonsm
 2009.04.25  
 杭州  
   
-[file]/up/CeleLib.rar) 
+[下载](/assets/CeleLib.rar) 

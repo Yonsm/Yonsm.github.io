@@ -24,4 +24,4 @@ categories:
   
 分布式GPS终端位置收集（GMatrix+GCell） ，一个PPC（SP应该也行）GPS 位置收集的测试包，可以收集多个PPC GPS终端的位置，并输出为KML（在Google地球和Google地图中查看）。仅为验证用户，半成品，包含源代码。  
   
-[file]/store/GMatrix.zip) 
+[下载](/assets/GMatrix.zip) 

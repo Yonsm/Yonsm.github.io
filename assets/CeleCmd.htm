@@ -2,7 +2,7 @@
 
 <HEAD>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
-<TITLE>CeleCmd 使用说明</TITLE>
+<TITLE>CeleCmd 2.0 使用说明</TITLE>
 <STYLE>
 H5
 {
@@ -23,14 +23,12 @@ B
 
 <BODY STYLE="font-size: 12px">
 
-<H4 ALIGN="center"><A NAME="Catalog"></A></A>CeleCmd 使用说明</H4>
-<P ALIGN="center">[<A HREF="#Introduction">简介</A>] [<A HREF="#Feature">特点</A>] [<A HREF="#Installation">安装</A>] 
-[<A HREF="#Usage">使用</A>] [<A HREF="#Menu">菜单</A>] [<A HREF="#Command">命令</A>] [<A HREF="#Tips">问答</A>] 
-[<A HREF="#License">许可</A>] [<A HREF="#Donation">致谢</A>]</P>
+<H4 ALIGN="center"><A NAME="Catalog"></A></A>CeleCmd 2.0 使用说明</H4>
+<P ALIGN="center">[<A HREF="#Introduction">简介</A>] [<A HREF="#Feature">特点</A>] [<A HREF="#Installation">安装</A>] [<A HREF="#Usage">使用</A>] [<A HREF="#Menu">菜单</A>] 
+[<A HREF="#Command">命令</A>] [<A HREF="#Tips">问答</A>] [<A HREF="#License">许可</A>] [<A HREF="#Donation">致谢</A>]</P>
 <H5><A NAME="Introduction"></A>一、简介</H5>
 <OL>
-	欢迎使用功能强大、灵活方便的 CeleCmd 命令解释引擎。您只要编写简单的 CeleCmd 命令文件，就能在 Windows Mobile 
-	中实现灵活强大的批处理功能。</OL>
+	欢迎使用功能强大、灵活方便的 CeleCmd 命令解释引擎。您只要编写简单的 CeleCmd 命令文件，就能在 Windows Mobile 中实现灵活强大的批处理功能。</OL>
 <P ALIGN="right">[<A HREF="#Catalog">目录</A>]</P>
 <H5><A NAME="Feature"></A>二、特点</H5>
 <OL>
@@ -38,12 +36,11 @@ B
 	　</LI>
 	<LI><B>功能强大</B>：内置支持多种命令，使用这些命令可以编写出功能强大的批处理脚本。<BR>
 	　</LI>
-	<LI><B>扩展支持</B>：支持调用外部 EXE 和 DLL 函数。<BR>
+	<LI><B>扩展支持</B>：支持调用外部 EXE 和 DLL 函数；支持解压缩 RAR 文件。<BR>
 	　</LI>
 	<LI><B>使用灵活</B>：支持格式统一的命令行参数和命令文件，可以在命令行、命令文件和程序界面中，调用 CeleCmd 的各种功能。<BR>
 	　</LI>
-	<LI><B>其它功能</B>：支持导入标准的 Windows 注册表导出文件和 Windows Mobile RGU 注册表脚本脚本，支持处理 Windows 
-	Mobile XML/PROVXML 配置文件。<BR>
+	<LI><B>其它功能</B>：支持导入标准的 Windows 注册表导出文件和 Windows Mobile RGU 注册表脚本脚本，支持处理 Windows Mobile XML/PROVXML 配置文件。<BR>
 	　</LI>
 	<LI><B>方便调试</B>：在程序界面中执行命令或命令文件，可以在日志窗口中跟踪脚本执行的流程和结果，方面发现命令脚本的问题。<BR>
 	　</LI>
@@ -56,8 +53,7 @@ B
 <OL>
 	<LI><B>安装</B>：把 CeleCmd.exe 复制到 Windows Mobile 设备中即可使用。<BR>
 	　</LI>
-	<LI><B>卸载</B>：CeleCmd 是“绿色”软件，删除 CeleCmd.exe 即可卸载。如果选择了关联 .CCS 命令文件，请先在 
-	CeleCmd 程序中取消文件关联。</LI>
+	<LI><B>卸载</B>：CeleCmd 是“绿色”软件，删除 CeleCmd.exe 即可卸载。如果选择了关联 CCS/REG/PROVXML 文件，请先在 CeleCmd 程序中取消文件关联。</LI>
 </OL>
 <P ALIGN="right">[<A HREF="#Catalog">目录</A>]</P>
 <H5><A NAME="Usage"></A>四、使用</H5>
@@ -70,8 +66,7 @@ B
 		　</LI>
 		<LI>在命令文件中使用，例如，“CeleCmd.exe LOAD \Storage Card\*.CCS”。<BR>
 		　</LI>
-		<LI>如果省略命令关键字，将把参数作为文件路径看待，执行“LOAD”命令。CeleCmd 支持 CeleCmd 脚本文件、注册表脚本文件、和 
-		XML 配置文件。<BR>
+		<LI>如果省略命令关键字，将把参数作为文件路径（支持通配符）来查找相关文件，并根据扩展名类型执行相应的命令（智能“OPEN”）：“.CCS/.REG/.RGU/.XML/.PROVXML”将执行“LOAD”命令；“.DLL”文件将执行“CDLL”的 DllRegisterServer 命令；“.RAR”文件将被“RARX”解压缩；其它则调用系统的默认打开命令。如果文件路径以“!”开头，则递归查找子目录重的匹配文件。<BR>
 		　</LI>
 	</UL>
 	</LI>
@@ -94,13 +89,14 @@ B
 		<LI>D&nbsp;&nbsp;&nbsp; 当前日期</LI>
 		<LI>X&nbsp;&nbsp;&nbsp; 最后一条命令的返回值，十六进制格式，如 0XFFFFFFFF</LI>
 		<LI>x&nbsp;&nbsp;&nbsp; 最后一条命令的返回值，十进制格式，如 -1 </LI>
-		<LI>0-9&nbsp; 用户变量值，用户可以通过 EVAL 命令设置变量 0 到 9 的内容</LI>
+		<LI>0-9&nbsp; 用户变量值，用户可以通过 EVAL 命令设置变量 0 到 9 的内容，每个变量能容纳 260 个字符（技巧：其实变量 0 可以容纳 260 * 10 个字符，但第 260 个字符开始与变量 1 重叠，依次类推）</LI>
 		<LI>A&nbsp;&nbsp;&nbsp; 可能是 \Application Data </LI>
 		<LI>Y&nbsp;&nbsp;&nbsp; 可能是 \My Documents</LI>
 		<LI>S&nbsp;&nbsp;&nbsp; 可能是 \Windows\Startup</LI>
 		<LI>W&nbsp;&nbsp;&nbsp; 可能是 \Windows</LI>
 		<LI>P&nbsp;&nbsp;&nbsp; 可能是 \Windows\“开始”菜单\程序</LI>
 		<LI>M&nbsp;&nbsp;&nbsp; 可能是 \Windows\“开始”菜单</LI>
+		<LI>V&nbsp;&nbsp;&nbsp; 可能是 \Windows\收藏夹</LI>
 		<LI>F&nbsp;&nbsp;&nbsp; 可能是 \Program Files</LI>
 		<LI>R&nbsp;&nbsp;&nbsp; 回车字符</LI>
 		<LI>N&nbsp;&nbsp;&nbsp; 换行字符</LI>
@@ -116,10 +112,9 @@ B
 	　<UL>
 		<LI>每条命令单独一行。</LI>
 		<LI>命令文件中可以使用注释，注释必须单独一行，以“;”作为注释行开始。</LI>
-		<LI>命令文件支持 UNICODE 格式和 ASCII 格式，为了更高的执行效率，推荐使用 UNICODE 格式。</LI>
-		<LI>命令文件中可以杂合 Windows Registry Script 内容，CeleCmd 会把 Registry Script 
-		导入到注册表。但是使用这种方式必须十分小心，因为执行过程中，Registry Script 部分会被修改（仅在内存中），可能导致 CALL 和 
-		GOTO 无法正常使用（使用原则：最新会被执行到的 Registry Script 放在文件最后的子过程中，这样就能避免问题）。</LI>
+		<LI>命令文件支持 UNICODE 格式<FONT COLOR="#FF0000">（已支持带 BOM 的 UTF-8 和 UTF-16）</FONT>和 ASCII 格式，为了更高的执行效率，推荐使用 UNICODE 格式。</LI>
+		<LI>命令文件中可以杂合 Windows Registry Script 内容，CeleCmd 会把 Registry Script 导入到注册表。但是使用这种方式必须十分小心，因为执行过程中，Registry Script 部分会被修改（仅在内存中），可能导致 CALL 和 GOTO 无法正常使用（使用原则：最新会被执行到的 
+		Registry Script 放在文件最后的子过程中，这样就能避免问题）。</LI>
 	</UL>
 	</LI>
 </OL>
@@ -141,17 +136,12 @@ B
 <P ALIGN="right">[<A HREF="#Catalog">目录</A>]</P>
 <H5><A NAME="Command"></A>六、命令</H5>
 <OL>
-	<P ALIGN="center">
-	[<A HREF="#LOAD">LOAD</A>] [<A HREF="#BATC">BATC</A>] [<A HREF="#IFEX">IFEX</A>] [<A HREF="#ELSE">ELSE</A>] 
-	[<A HREF="#CALL">CALL</A>] [<A HREF="#GOTO">GOTO</A>] [<A HREF="#PROC">PROC</A>] [<A HREF="#ENDP">ENDP</A>] 
-	[<A HREF="#PLAY">PLAY</A>] [<A HREF="#BEEP">BEEP</A>] [<A HREF="#MSGX">MSGX</A>] [<A HREF="#DLGX">DLGX</A>] 
-	[<A HREF="#LINK">LINK</A>] [<A HREF="#FILE">FILE</A>] [<A HREF="#REGX">REGX</A>] [<A HREF="#TGZX">TGZX</A>] 
-	[<A HREF="#SEND">SEND</A>] [<A HREF="#WAIT">WAIT</A>] [<A HREF="#KILL">KILL</A>] [<A HREF="#SHUT">SHUT</A>] 
-	[<A HREF="#EXEC">EXEC</A>] [<A HREF="#CDLL">CDLL</A>] [<A HREF="#EVAL">EVAL</A>] [<A HREF="#ASOC">ASOC</A>] 
-	[<A HREF="#CCUI">CCUI</A>] [<A HREF="#HELP">HELP</A>]
-	</P>
-	<LI><A NAME="LOAD"></A><FONT COLOR="#C0C0C0">[</FONT><B>LOAD</B>
-	<FONT COLOR="#C0C0C0">]&lt;</FONT><FONT COLOR="#0000FF">文件路径</FONT><FONT COLOR="#C0C0C0">&gt;</FONT><BR>
+	<P ALIGN="center">[<A HREF="#LOAD">LOAD</A>] [<A HREF="#BATC">BATC</A>] [<A HREF="#IFEX">IFEX</A>] [<A HREF="#ELSE">ELSE</A>] [<A HREF="#CALL">CALL</A>] [<A HREF="#GOTO">GOTO</A>] 
+	[<A HREF="#PROC">PROC</A>] [<A HREF="#ENDP">ENDP</A>] [<A HREF="#PLAY">PLAY</A>] [<A HREF="#BEEP">BEEP</A>] [<A HREF="#MSGX">MSGX</A>] [<A HREF="#DLGX">DLGX</A>] 
+	[<A HREF="#LINK">LINK</A>] [<A HREF="#FILE">FILE</A>] [<A HREF="#REGX">REGX</A>] [<A HREF="#RARX">RARX</A>] [<A HREF="#SEND">SEND</A>] [<A HREF="#WAIT">WAIT</A>] 
+	[<A HREF="#KILL">KILL</A>] [<A HREF="#SHUT">SHUT</A>] [<A HREF="#EXEC">EXEC</A>] [<A HREF="#CDLL">CDLL</A>] [<A HREF="#EVAL">EVAL</A>] [<A HREF="#ASOC">ASOC</A>] 
+	[<A HREF="#DISP">DISP</A>] [<A HREF="#POST">POST</A>] [<A HREF="#CCUI">CCUI</A>] [<A HREF="#HELP">HELP</A>] </P>
+	<LI><A NAME="LOAD"></A><FONT COLOR="#C0C0C0">[</FONT><B>LOAD</B> <FONT COLOR="#C0C0C0">]&lt;</FONT><FONT COLOR="#0000FF">文件路径</FONT><FONT COLOR="#C0C0C0">&gt;</FONT><BR>
 	　<UL>
 		<LI><B>功能</B>：LOAD script file/加载并解释命令脚本文件、注册表脚本文件或者 XML 配置文件。<BR>
 		　</LI>
@@ -162,11 +152,8 @@ B
 		<LI><B>备注</B>：</LI><BR>
 		<BR>
 		<UL>
-			<LI>文件路径支持支持通配符“*”和“?”，自动搜索匹配文件。如“LOAD \Storage Card\Cele*.CCS”。</LI>
-			<LI>如果文件路径中的最后两个字符是“\*”，则自动搜索该目录中所有子目录下的 *.CCS 文件。如“LOAD \*”，表示搜索根目录下所有子目录中的 
-			*.CCS 文件。</LI>
+			<LI><FONT COLOR="#FF000000">注意：此命令不再支持通配符“*”和“?”。如果要支持通配符，请直接使用路径名称（不用任何命令），如“\Storage Card\Cele*.CCS”。</FONT></LI>
 			<LI>此命令可以执行 CeleCmd 命令脚本，导入注册表脚本，还可以处理 XML 配置文件。CeleCmd 将会根据文件内容格式（而不是文件扩展名），决定使用什么方式来处理文件。</LI>
-			<LI>LOAD 关键字可以省略，也就是说，您可以把 .CCS/.REG/.RGU/.XML/.PROVXML 文件类型关联到 CeleCmd，解释引擎可以直接处理它们。</LI>
 			<LI>注册表脚本文件中，最后一行不会被处理，建议最后留一个空行。<BR>
 			</LI>
 		</UL>
@@ -217,7 +204,7 @@ B
 		　</LI>
 		<LI><B>示例</B>：IFEX %x&amp;0x08,BATC BEEP;MSGX Sure!<BR>
 		　</LI>
-		<LI><B>备注</B>：本命令不修改返回值（即，您可以连续判断“%x”并执行相应的操作）。<BR>
+		<LI><B>备注</B>：本命令不修改返回值（即，您可以连续判断“%x”并执行相应的操作）。PROC 中的 IFEX 判断不影响调用者的 ELSE 结果。<BR>
 		　</LI>
 	</UL>
 	</LI>
@@ -232,7 +219,7 @@ B
 		<LI><B>备注</B>：本命令不修改返回值。基于此点，DLGX 后可以连续用此命令判断 %x 的值，而不用担心会被 IFEX 后面的命令修改返回值。<BR>
 		　</LI>
 	</UL>
-	</LI>	
+	</LI>
 	<LI><A NAME="CALL"></A><B>CALL</B> <FONT COLOR="#C0C0C0">&lt;</FONT><FONT COLOR="#0000FF">子程序名</FONT><FONT COLOR="#C0C0C0">&gt;</FONT><BR>
 	　<UL>
 		<LI><B>功能</B>：CALL procedure/调用子程序。<BR>
@@ -344,21 +331,25 @@ B
 		　</LI>
 	</UL>
 	</LI>
-	<LI><A NAME="DLGX"></A><B>DLGX</B> <FONT COLOR="#C0C0C0">[[</FONT><FONT COLOR="#008000">[选中]</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">{选中}</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">&lt;选中&gt;</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">$</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">文本1</FONT><FONT COLOR="#C0C0C0">][[</FONT><FONT COLOR="#008000">[选中]</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">{选中}</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">&lt;选中&gt;</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">$</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">文本2</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">...</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
+	<LI><A NAME="DLGX"></A><B>DLGX</B> <FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">标题,[#]</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">[选中]</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">{选中}</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">&lt;选中&gt;</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">$</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">文本1</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">,[选中]</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">{选中}</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">&lt;选中&gt;</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">$</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">文本2</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">...</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
 	　<UL>
 		<LI><B>功能</B>：DiaLoG boX/显示对话框。<BR>
 		　</LI>
-		<LI><B>参数</B>：定义对话框中的控件文字；初始值表示复选框和单选框的初始状态，最低位为 1 表示第一个对话框控件选中，依此类推。<BR>
+		<LI><B>参数</B>：指定对话框标题（逗号后“#”表示隐藏“取消”软按键）；定义对话框中的控件文字；初始值表示复选框和单选框的初始状态，最低位为 1 表示第一个对话框控件选中，依此类推。<BR>
 		　</LI>
-		<LI><B>示例</B>：DLGX $请选择要执行的操作,$,{1}安装梅花输入法,&lt;0&gt;安装中天 A4 输入法,$,[1]开启 STK 服务,$,$设置字符串:,%0<BR>
+		<LI><B>示例</B>：DLGX 初始设置,#$请选择要执行的操作,$,{1}安装梅花输入法,&lt;0&gt;安装中天 A4 输入法,$,[1]开启 STK 服务,$,$设置字符串:,%0<BR>
 		　</LI>
 		<LI><B>备注</B>：<BR>
 		<BR>
 		<UL>
-			<LI>前导“[]”表示复选框；前导“&lt;&gt;”表示单选框；前导“{}”表示分组单选框；前导“$”表示提示文字；如果没有前导符且是第一项，设置对话框标题，否则表示编辑框。</LI>
+			<LI>前导“[]”表示复选框；前导“&lt;&gt;”表示单选框；前导“{}”表示分组单选框；前导“$”表示提示文字；否则表示编辑框（如果第一项，则会认为是对话框标题）。</LI>
 			<LI>如果用户点击确定，将返回所有控件选中状态的组合（即，如果第一个控件被选中，则返回值的最低位为 1，依此类推）。只有复选框和单选框能被选中，但其它控件也计入选中状态组合。</LI>
-			<LI>如果用户点击确定，第一个编辑框的结果将保存在 %0 中，第二个编辑框的结果将保存在 %1 中，依此类推。</LI>
-			<LI>如果用户点击取消，将返回 -1；<BR>
+			<LI>如果用户点击确定，第一个编辑框的结果将保存在 %0 中，第二个编辑框的结果将保存在 %1 中，依此类推。最多支持 32 个控件。</LI>
+			<LI>如果用户点击取消，将返回 -1；</LI>
+			<LI><FONT COLOR="#FF0000">此命令功能已增强，且已完全支持 Smartphone 按键在控件之间导航，和 PPC 中的上下滚动。</FONT></LI>
+			<LI>特别地，前导“@”表示复选框，后面紧跟“|注册表数据”（参考“REGX”格式），在对话框中会自动判断注册表键值并设置复选状态，返回之前会自动设置注册表键值，利用此功能可以写出很强大的注册表设置界面。如:<BR>
+				<BR>DLGX 初始设置,@显示 SIM 卡联系人|HKCU\ControlPanel\Phone\#ShowSIM=1?0,@启用 STK 服务|HKLM\Services\STK_Service\#Flag=0?4,$,$(C) Yonsm.NET<BR>
+				</LI>
 			<BR>
 			</LI>
 		</UL>
@@ -393,11 +384,11 @@ B
 		　</LI>
 		<LI><B>参数</B>：指定源文件路径和目标路径，支持通配符。如果有没有以下操作符存在，则表示删除文件；否则，表示以下操作：<BR>
 		<BR>
-		<B>-&gt;</B>：移动文件或目录<BR>
+		<B>-&gt;</B>：移动文件或目录（不支持通配符，推荐使用“=>”复制命令，然后用删除命令）<BR>
 		<BR>
-		<B>=&gt;</B>：复制文件或目录<BR>
+		<B>=&gt;</B>：复制文件或目录（如果复制文件夹，文件夹必须用“\”结尾，如“FILE \Temp\XX\=>\Windows\XX\”；如果要递归复制，必须以“!”前导）<BR>
 		<BR>
-		<B>&lt;-</B>：创建文件，并把目标数据以 ASCII 方式写入到文件中<BR>
+		<B>&lt;-</B>：创建文件，并把目标数据以 ASCII 方式写入到文件中（无法写入空字符，即“%#0000”）<BR>
 		<BR>
 		<B>&lt;=</B>：创建文件，并把目标数据以 ASCII 方式追加到文件中<BR>
 		<BR>
@@ -405,13 +396,13 @@ B
 		<BR>
 		<B>{=</B>：创建文件，并把目标数据以 UNICODE 方式追加到文件中<BR>
 		　</LI>
-		<LI><B>示例</B>：FILE \Temp\*.txt<BR>
+		<LI><B>示例</B>：FILE !\Temp\*.png=>\My Documents\<BR>
 		　</LI>
-		<LI><B>备注</B>：在创建文件功能中，无法写入空字符（即“%#0000”）。<BR>
+		<LI><B>备注</B>：此命令的复制功能可以覆盖 ROM 重的文件，如果要使 ROM 文件，可写直接复制到本身，“FILE %W\PlumCh1=>%W\PlumCh1”。<BR>
 		　</LI>
 	</UL>
 	</LI>
-	<LI><A NAME="REGX"></A><B>REGX</B> <FONT COLOR="#C0C0C0">&lt;&lt;</FONT><FONT COLOR="#0000FF">根项</FONT><FONT COLOR="#C0C0C0">&gt;&lt;</FONT><FONT COLOR="#0000FF">\子项\</FONT><FONT COLOR="#C0C0C0">&gt;[[</FONT><FONT COLOR="#008000">-</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">#</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">@</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">键值</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">=数据</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
+	<LI><A NAME="REGX"></A><B>REGX</B> <FONT COLOR="#C0C0C0">&lt;&lt;</FONT><FONT COLOR="#0000FF">根项</FONT><FONT COLOR="#C0C0C0">&gt;&lt;</FONT><FONT COLOR="#0000FF">\子项\</FONT><FONT COLOR="#C0C0C0">&gt;[[</FONT><FONT COLOR="#008000">-</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">#</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">@</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">键值</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">=数据</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">?判断</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
 	　<UL>
 		<LI><B>功能</B>：REGistry eXecution/读取、设置、删除注册表数据。<BR>
 		　</LI>
@@ -421,10 +412,11 @@ B
 		<BR>
 		<B>子项</B>：所选 ROOTKEY 下注册表项的完整名，可以是 HKU、HKCU、HKCR、HKLM 或 HKEY_USERS、HKEY_CURRENT_USER、HKEY_CLASSES_ROOT、HKEY_LOCAL_MACHINE。<BR>
 		<BR>
-		<B>键值</B>：要操作的键值。如果前导“#”则表示 REG_DWORD 整数类型的数据，如“#0x20”；如果前导“@”则为 REG_BINARY，如“@23 
-		34 90 255”；否则为字符串。<BR>
+		<B>键值</B>：要操作的键值。如果前导“#”则表示 REG_DWORD 整数类型的数据，如“#0x20”；如果前导“@”则为 REG_BINARY，如“@23 34 90 255”；否则为字符串。<BR>
 		<BR>
-		<B>数据</B>：要设置的数据。如果没有“=”则表示获取数据，并保存在 %0 中。如果前导“-”，且数据中没有“=”则删除值或子项。<BR>
+		<B>数据</B>：要设置的数据。如果没有“=”则表示获取数据：如果是字符串数据，则保存在 %0 中；<FONT COLOR="#FF0000">如果是整数键值，则保存在 %x 中</FONT>。如果前导“-”，且数据中没有“=”则删除值或子项。<BR>
+		<BR>
+		<B>判断</B>：判断键值是否等于数据（而不是设置数据），“?”后面的内容被此命令忽略（为兼容“DLGX”）。<BR>
 		　</LI>
 		<LI><B>示例</B>：REGX HKCR\CeleCmd\#Test=%x<BR>
 		　</LI>
@@ -432,16 +424,15 @@ B
 		　</LI>
 	</UL>
 	</LI>
-	<LI><A NAME="TGZX"></A><B>TGZX</B> <FONT COLOR="#C0C0C0">&lt;</FONT><FONT COLOR="#0000FF">文件路径</FONT><FONT COLOR="#C0C0C0">&gt;[,目标目录]</FONT><BR>
+	<LI><A NAME="RARX"></A><B>RARX</B> <FONT COLOR="#C0C0C0">&lt;</FONT><FONT COLOR="#0000FF">文件路径</FONT><FONT COLOR="#C0C0C0">&gt;[,目标目录]</FONT><BR>
 	　<UL>
-		<LI><B>功能</B>：TGZ file eXtraction/解压缩 TAR GZip 文件到指定目录。<BR>
+		<LI><B>功能</B>：RAR file eXtraction/解压缩 TAR GZip 文件到指定目录。<BR>
 		　</LI>
-		<LI><B>参数</B>：指定源文件路径和目标路径。如果没有目标目录，将解压缩到根目录。TGZ 格式可以用 7-Zip 来制作。<BR>
+		<LI><B>参数</B>：指定源文件路径和目标路径。如果没有目标目录，将解压缩到根目录。<BR>
 		　</LI>
-		<LI><B>示例</B>：TGZX %C\CeleSetup.tgz<BR>
+		<LI><B>示例</B>：RARX %C\CeleSetup.rar,%C<BR>
 		　</LI>
-		<LI><B>备注</B>：定制 ROM 时可以用此命令来解压缩文件，以避免 InitFlashFiles.dat 中大量的文件拷贝命令，以及 
-		CAB 文件中不支持中文的困扰。<BR>
+		<LI><B>备注</B>：此命令必须由 UnRAR.dll 支持。定制 ROM 时可以用此命令来解压缩文件，以避免 InitFlashFiles.dat 中大量的文件拷贝命令，以及 CAB 文件中不支持中文的困扰。<BR>
 		　</LI>
 	</UL>
 	</LI>
@@ -485,37 +476,33 @@ B
 	　<UL>
 		<LI><B>功能</B>：SHUT down or reboot device/关闭、重起或硬起设备。<BR>
 		　</LI>
-		<LI><B>参数</B>：分别表示 GwesPowerOffSystem()/EWX_POWEROFF/keybd_event/HTC_ColdBoot/HTC_Shutdown/SetCleanRebootFlag/KernelIoControl/EWX_REBOOT 
-		方式执行。默认为 EWX_REBOOT，即重新启动。<BR>
+		<LI><B>参数</B>：分别表示 GwesPowerOffSystem()/EWX_POWEROFF/keybd_event/HTC_ColdBoot/HTC_Shutdown/SetCleanRebootFlag/KernelIoControl/EWX_REBOOT 方式执行。默认为 EWX_REBOOT，即重新启动。<BR>
 		　</LI>
 		<LI><B>示例</B>：SHUT<BR>
 		　</LI>
-		<LI><B>备注</B>：参数“H”和“C”表示硬起，将导致所有数据丢失，请谨慎使用。<BR>
+		<LI><B>备注</B>：参数“H”表示硬起（H 可后接一个 Kernel IO ID（默认为 H0x1012048），表示硬启命令，但每钟设备的硬启代码不一样：HTC Touch Diamond 为 0x1012048；HTC Prophet 为0x1012594；ASUS P527 为 0x1012004；其它设备需要分析才能得知），将导致所有数据丢失，请谨慎使用。<BR>
 		　</LI>
 	</UL>
 	</LI>
-	<LI><A NAME="EXEC"></A><B>EXEC</B> <FONT COLOR="#C0C0C0">[!]</FONT><FONT COLOR="#0000FF">&lt;EXE 
-	路径</FONT><FONT COLOR="#C0C0C0">&gt;[</FONT><FONT COLOR="#008000">,参数</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
+	<LI><A NAME="EXEC"></A><B>EXEC</B> <FONT COLOR="#C0C0C0">[!]</FONT><FONT COLOR="#0000FF">&lt;EXE 路径</FONT><FONT COLOR="#C0C0C0">&gt;[</FONT><FONT COLOR="#008000">,参数</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
 	　<UL>
 		<LI><B>功能</B>：EXECute a program/执行 EXE 程序。<BR>
 		　</LI>
 		<LI><B>参数</B>：指定 EXE 路径和参数。<BR>
 		　</LI>
-		<LI><B>示例</B>：EXEC WCELoad.exe,/nogui &quot;%C\CeleTest.cab&quot;<BR>
+		<LI><B>示例</B>：EXEC \Windows\WCELoad.exe,"\Windows\HTC Black.tsk" /silent /nodelete /safe<BR>
 		　</LI>
 		<LI><B>备注</B>：前导“!”表示后台执行，不等待执行完成。<BR>
 		　</LI>
 	</UL>
 	</LI>
-	<LI><A NAME="CDLL"></A><B>CDLL</B> <FONT COLOR="#C0C0C0">&lt;</FONT><FONT COLOR="#0000FF">DLL 
-	路径</FONT><FONT COLOR="#C0C0C0">&gt;[</FONT><FONT COLOR="#008000">,函数名称</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">,</FONT><FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">#</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">参数1</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">,</FONT><FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">#</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">参数2</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">,</FONT><FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">#</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">参数3</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">,</FONT><FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">#</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">参数4</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
+	<LI><A NAME="CDLL"></A><B>CDLL</B> <FONT COLOR="#C0C0C0">&lt;</FONT><FONT COLOR="#0000FF">DLL 路径</FONT><FONT COLOR="#C0C0C0">&gt;[</FONT><FONT COLOR="#008000">,函数名称</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">,</FONT><FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">#</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">参数1</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">,</FONT><FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">#</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">参数2</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">,</FONT><FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">#</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">参数3</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">,</FONT><FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">#</FONT><FONT COLOR="#C0C0C0">]</FONT><FONT COLOR="#008000">参数4</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
 	　<UL>
 		<LI><B>功能</B>：Call DLL function/调用 DLL 函数。<BR>
 		　</LI>
-		<LI><B>参数</B>：指定 DLL 路径、函数名称和参数。如果省略函数名称，将调用“DllRegisterServer”。参数默认为 UNICODE 
-		字符串，如果以“#”前导则表示整数；最多支持四个函数参数。<BR>
+		<LI><B>参数</B>：指定 DLL 路径、函数名称和参数。如果省略函数名称，将调用“DllRegisterServer”。参数默认为 UNICODE 字符串，如果以“#”前导则表示整数；最多支持四个函数参数。<BR>
 		　</LI>
-		<LI><B>示例</B>：CALL SHELL32.DLL,DllInstall,#1,I<BR>
+		<LI><B>示例</B>CDLL %W\SHELL32.DLL,DllInstall,#1,I<BR>
 		　</LI>
 		<LI><B>备注</B>：函数必须以 STDCALL 方式导出（不明白什么意思的话，就当没任何问题）。<BR>
 		　</LI>
@@ -539,7 +526,7 @@ B
 		</UL>
 		</LI>
 	</UL>
-	</LI>	
+	</LI>
 	<LI><A NAME="ASOC"></A><B>ASOC</B> <FONT COLOR="#C0C0C0">[!][</FONT><FONT COLOR="#008000">文件类型</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
 	　<UL>
 		<LI><B>功能</B>：ASOC file type/显示帮助信息。<BR>
@@ -552,11 +539,35 @@ B
 		　</LI>
 	</UL>
 	</LI>
-	<LI><A NAME="CCUI"></A><B>CCUI</B><BR>
+	<LI><A NAME="DISP"></A><B>DISP</B> <FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">0</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">1</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">2</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#008000">4</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
 	　<UL>
-		<LI><B>功能</B>：CeleCommmand UI/显示 CeleCmd 程序主界面。<BR>
+		<LI><B>功能</B>：DISPlay rotation/旋转屏幕。<BR>
 		　</LI>
-		<LI><B>参数</B>：无。<BR>
+		<LI><B>参数</B>：指定屏幕方向，如果不指定，则切换横屏和竖屏。<BR>
+		　</LI>
+		<LI><B>示例</B>：DISP 4<BR>
+		　</LI>
+		<LI><B>备注</B>：可以用这个来旋转屏幕，然后用“EXEC”来加载一些导航软件，并等待执行完成。<BR>
+		　</LI>
+	</UL>
+	</LI>
+	<LI><A NAME="POST"></A><B>POST</B> <FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">=</FONT><FONT COLOR="#C0C0C0">]&lt;</FONT><FONT COLOR="#0000FF">$</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#0000FF">窗口名称</FONT><FONT COLOR="#C0C0C0">|</FONT><FONT COLOR="#0000FF">窗口类名</FONT><FONT COLOR="#C0C0C0">&gt;&lt;</FONT><FONT COLOR="#008000">,消息</FONT><FONT COLOR="#C0C0C0">&gt;[</FONT><FONT COLOR="#008000">,wParam</FONT><FONT COLOR="#C0C0C0">][</FONT><FONT COLOR="#008000">,lParam</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
+	　<UL>
+		<LI><B>功能</B>POST message/给窗口发送消息。<BR>
+		　</LI>
+		<LI><B>参数</B>：指定窗口名称或类名，以及消息标识和参数。前导“=”表示等待完成，“$”表示给所有窗口发送消息。<BR>
+		　</LI>
+		<LI><B>示例</B>：POST =$,0x111,1234,0<BR>
+		　</LI>
+		<LI><B>备注</B>：无。<BR>
+		　</LI>
+	</UL>
+	</LI>
+	<LI><A NAME="CCUI"></A><B>CCUI</B> <FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000"> 命令</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
+	　<UL>
+		<LI><B>功能</B>：CeleCmd UI/显示 CeleCmd 程序主界面。<BR>
+		　</LI>
+		<LI><B>参数</B>：填写命令到 CeleCmd 主窗口的编辑框中。<BR>
 		　</LI>
 		<LI><B>示例</B>：CCUI<BR>
 		　</LI>
@@ -565,26 +576,24 @@ B
 		<UL>
 			<LI>在程序界面中，可以交互式执行命令，还可以查看命令的执行结果。</LI>
 			<LI>不带参数执行 CeleCmd，默认将会执行此命令，显示程序主界面。</LI>
-			<LI>您也可以修改 CeleCmd.exe 的资源，把您的 CCS 文件脚本（必须是 UNICODE 格式，且最后一个字符必须是空字符）导入到&nbsp; 
-			CeleCmd RCDATA 资源中，则 CeleCmd 默认将执行您的自定义命令。</LI>
+			<LI>您也可以修改 CeleCmd.exe 的资源，把您的 CCS 文件脚本（必须是 UNICODE 格式，且最后两个字节必须是 0）导入到&nbsp; CeleCmd RCDATA 资源中，则 CeleCmd 默认将执行您的自定义命令。</LI>
 		</UL>
 		<P>　</P>
 		</LI>
 	</UL>
 	</LI>
-	<LI><A NAME="HELP"></A><B>HELP</B><BR>
+	<LI><A NAME="HELP"></A><B>HELP</B> <FONT COLOR="#C0C0C0">[</FONT><FONT COLOR="#008000">文字</FONT><FONT COLOR="#C0C0C0">]</FONT><BR>
 	　<UL>
 		<LI><B>功能</B>：HELP information/显示帮助信息。<BR>
 		　</LI>
-		<LI><B>参数</B>：无。<BR>
+		<LI><B>参数</B>：在帮助窗口中要显示的 URL（如“http://www.yonsm.net”）、文件（如“\Test.txt”）或文字（支持 HTML）。默认显示 CeleCmd 帮助。<BR>
 		　</LI>
-		<LI><B>示例</B>：HELP<BR>
+		<LI><B>示例</B>：HELP 欢迎使用我定制的 ROM<BR>
 		　</LI>
-		<LI><B>备注</B>：无。<BR>
+		<LI><B>备注</B>：帮助信息已更新，建议看看。另外关于对话框也重写了，有兴趣也看看：）<BR>
 		　</LI>
 	</UL>
 	</LI>
-	
 </OL>
 <P ALIGN="right">[<A HREF="#Catalog">目录</A>]</P>
 <H5><A NAME="Tips"></A>七、问答</H5>
@@ -595,9 +604,32 @@ B
 	<BR>
 	1). Windows Mobile 硬起后解释 InitFlashFiles.dat：创建系统目录；显示欢迎和屏幕调整界面；加载 CeleCmd.exe。<BR>
 	2). CeleCmd 加载根目录下所有子目录下的 *.CCS：假设自动扫描到 \Windows\CeleSetup.CCS。<BR>
-	3). CeleSetup.CCS 内的命令：创建基本的快捷方式；解压缩 CeleSetup.tgz 压缩包中的文件到相应位置；加载 \Storage\* 
-	和 \Storage Card\*，即扫描 SD 卡上的子目录中所有 .CCS 文件。<BR>
-	4). 在 SD 卡中放个 CeleCard.CCS 和 CeleCard.REG，自动把卡上的软件的快捷方式添加到开始菜单-&gt;程序-&gt;工具中，并把相应的设置导入注册表中。</LI>
+	3). CeleSetup.CCS 内的命令：创建基本的快捷方式；解压缩 CeleSetup.rar 压缩包中的文件到相应位置；加载 \Storage\* 和 \Storage Card\*，即扫描 SD 卡上的子目录中所有 .CCS 文件。<BR>
+	4). 在 SD 卡中放个 CeleCard.CCS 和 CeleCard.REG，自动把卡上的软件的快捷方式添加到开始菜单-&gt;程序-&gt;工具中，并把相应的设置导入注册表中。
+	<BR><BR></LI>
+
+	<LI><B>如何安装 CAB 而没有界面提示？</B>
+	<BR><BR>EXEC %W\WCELoad.exe,"\Storage Card\ABC.cab" /silent /nodelete /safe
+	<BR><BR></LI>
+	
+	<LI><B>如何通知系统刷新桌面插件？</B>
+	<BR><BR>POST $,0x1A,0xF2
+	<BR><BR></LI>
+
+	<LI><B>PPC 中，如何更改今日主题？</B><BR>
+	<PRE>
+	PROC _更换桌面主题
+		FILE %W\stwater.jpg
+		REGX HKCU\Software\Microsoft\Today\-UseStartImage
+		EXEC %W\WCELoad.exe,"%W\HTC Black.tsk" /silent /nodelete /safe
+		REGX HKCU\Software\Microsoft\Today\Skin=%W\HTC Black.tsk
+		REGX HKLM\Software\Microsoft\Color\BaseHue=4
+		REGX HKLM\Software\Microsoft\Color\-BaseHue
+		POST $,0x1A,0xF2
+		WAIT 12000
+	ENDP _更换桌面主题
+	</PRE>
+	</LI>
 </OL>
 <P ALIGN="right">[<A HREF="#Catalog">目录</A>]</P>
 <H5><A NAME="License"></A>八、许可</H5>
@@ -608,23 +640,23 @@ B
 	　</LI>
 	<LI><FONT COLOR="#FF0000">您可以复制、分发和传播无限制数量的软件产品，但您必须保证每一份复制、分发和传播都必须是完整和真实的，包括所有有关本软件产品的软件、电子文档，版权和商标宣言。</FONT><BR>
 	　</LI>
-	<LI><FONT COLOR="#FF0000">作者特此申明对本软件产品之使用不提供任何保证，不对任何用户保证本软件产品的适用性，不保证无故障产生；亦不对任何用户使用此软件所遭遇到的任何理论上的或实际上的损失承担 
-	责任。</FONT><BR>
+	<LI><FONT COLOR="#FF0000">作者特此申明对本软件产品之使用不提供任何保证，不对任何用户保证本软件产品的适用性，不保证无故障产生；亦不对任何用户使用此软件所遭遇到的任何理论上的或实际上的损失承担 责任。</FONT><BR>
 	　</LI>
 	<LI><FONT COLOR="#FF0000">如果您使用本软件，即表示已经默认接受了此协议。</FONT></LI>
 </UL>
 <P ALIGN="right">[<A HREF="#Catalog">目录</A>]</P>
 <H5><A NAME="Donation"></A>九、致谢</H5>
 <UL>
-	<LI>感谢 Kavana 的建议以及热心测试，并为本程序制作了图标。</LI>
+	<LI>感谢我亲爱滴 Jane，让我在夜深人静的时候还有心情和精力去完善这个程序。<BR>
+	<BR>
+	</LI>
+	<LI>感谢 Kavana 的建议以及热心测试，以及一直以来各种非常聪明的想法和雷同的看法。</LI>
 </UL>
 <P ALIGN="right">[<A HREF="#Catalog">目录</A>]</P>
 <P ALIGN="center">Powered by Yonsm<BR>
-Tencent QQ: 123018<BR>
-MSN: <A HREF="mailto:Yonsm@msn.com">Yonsm@msn.com</A><BR>
-电邮: <A HREF="mailto:Yonsm@163.com">Yonsm@163.com</A><BR>
-网站: <A HREF="http://www.Yonsm.net/mobile">WWW.Yonsm.NET</A><BR>
-版权所有 (C) 2007 <A HREF="http://www.yonsm.net/">Yonsm.NET</A>，保留所有权利<BR>
+电子邮件: <A HREF="mailto:Yonsm@msn.com">Yonsm@msn.com</A><BR>
+博客网站: <A HREF="http://www.Yonsm.net/mobile">WWW.Yonsm.NET</A><BR>
+版权所有 (C) 2007-2009 <A HREF="http://www.yonsm.net/">Yonsm.NET</A>，保留所有权利<BR>
 　</P>
 
 </BODY>

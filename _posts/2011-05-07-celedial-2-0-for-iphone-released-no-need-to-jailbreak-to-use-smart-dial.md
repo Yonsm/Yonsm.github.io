@@ -4,7 +4,7 @@ comments: true
 date: 2011-05-07 14:43:11+00:00
 layout: post
 slug: celedial-2-0-for-iphone-released-no-need-to-jailbreak-to-use-smart-dial
-title: CeleDial 2.0 for iPhone 已发布，不需要越狱也能使用智能拨号了
+title: CeleDial 2.0 for iPhone - 不需要越狱也能使用智能拨号了
 wordpress_id: 538
 categories:
 - 软件
@@ -26,13 +26,13 @@ iPhone 版本局限性:1.拨打电话和无法回到CeleDial程序;2.无法读�
 
 实用类工具,专注客户端查找体验,未加入任何网络功能，绝对隐私保证。除了关于界面上的几个在线信息页面之外,本程序不会进行任何网络连接。请放心使用:)
 
-官方网站：http://www.celedial.com
-AppStore：http://itunes.apple.com/cn/app/id434119998
+官方网站：[http://www.celedial.com](http://www.celedial.com)
+AppStore：[http://itunes.apple.com/cn/app/id434119998](http://itunes.apple.com/cn/app/id434119998)
 
+已经到AppStore中国区所有免费软件的第7名了：）
 
+新浪微博上的CeleDial话题也不少：[http://t.sina.com.cn/k/celedial](http://t.sina.com.cn/k/celedial)
 
+WeiPhone帖子：[http://bbs.weiphone.com/read.php?tid=2124799](http://bbs.weiphone.com/read.php?tid=2124799)
 
-已经到AppStore中国区所有免费软件的第9名了：）
-新浪微博上的CeleDial话题也不少：http://t.sina.com.cn/k/celedial
-WeiPhone帖子：http://bbs.weiphone.com/read.php?tid=2124799
-网易数码：http://tech.163.com/digi/11/0508/19/73IAAE8M001663ND.html
+网易数码：[http://tech.163.com/digi/11/0508/19/73IAAE8M001663ND.html](http://tech.163.com/digi/11/0508/19/73IAAE8M001663ND.html)
