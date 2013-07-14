@@ -1,7 +1,7 @@
 ---
 author: Yonsm
 comments: true
-date: 2012-07-13 19:43:57+00:00
+date: 2013-07-13 19:43:57+00:00
 layout: post
 slug: in-those-years-i-did-localization
 title: 那些年，我曾经做过的汉化
@@ -9,6 +9,8 @@ wordpress_id: 2034
 categories:
 - 资源
 ---
+
+现在已经没有汉化“陋习”了，整个分类删除掉了，记录一下历史：
 
 xScope 2.5 汉化版 – 设计、测量、校准和检查屏幕图形和布局的辅助工具
 2011-08-12
