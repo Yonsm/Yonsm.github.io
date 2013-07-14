@@ -1,5 +1,5 @@
 <!-- Duoshuo Comment BEGIN -->
-	<div class="ds-thread" data-thread-key="{{ post.wordpress_id }}"></div>
+	<div class="ds-thread" data-thread-key="{{ page.wordpress_id }}"></div>
 	<script type="text/javascript">
 	var duoshuoQuery = {short_name:"yonsm"};
 	(function() {
