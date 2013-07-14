@@ -102,10 +102,10 @@ Email: nanling@sina.com
   
   
 下载 QuickMenu 2.6 for Poccket PC 2003：  
-[file]attachment/quickmenu_2003_2.6.rar[/file]  
+[下载](/asserts/quickmenu_2003_2.6.rar)  
   
 下载 QuickMenu 2.6 for Windows Mobile 5.0/6.0 Poccket PC：  
-[file]attachment/quickmenu_2.6.rar[/file]  
+[下载](/asserts/quickmenu_2.6.rar)  
   
   
 感谢 nanling 兄提供的的好软件。nanling 兄是以前的同事，他是著名的音乐播放软件 [千千静听](http://www.ttplayer.com) 的作者。  

@@ -100,4 +100,4 @@ _ZCodeEnd:
   
   
 下载：  
-[file]attachment/CodeZap.rar[/file] 
+[下载](/asserts/CodeZap.rar) 

@@ -304,7 +304,7 @@ WWW.Yonsm.NET
 ![zan](wp-content/bo/emot/zan.gif)[attachment/Prophet.Yonsm.WM5.png](attachment/Prophet.Yonsm.WM5.png)  
   
 下载 Prophet WM5 ROM 2008.04.06 版：  
-[file]attachment/Prophet.Yonsm.WM5.2008.04.06.exe[/file]  
+[下载](/asserts/Prophet.Yonsm.WM5.2008.04.06.exe)  
   
 感谢 ling830 网友的看图刷机指南：  
 http://bbs.pdafans.com/viewthread.php?tid=399263&page;=1#pid4120561  
@@ -313,17 +313,17 @@ http://bbs.pdafans.com/viewthread.php?tid=399263&page;=1#pid4120561
   
   
 下载 Prophet WM5 ROM 2007.12.28 版：  
-[file]attachment/Prophet.Yonsm.WM5.2007.12.28.exe[/file]  
+[下载](/asserts/Prophet.Yonsm.WM5.2007.12.28.exe)  
   
 下载 Prophet WM5 ROM 2007.09.24 版：  
-[file]attachment/Prophet.Yonsm.WM5.2007.09.24.exe[/file]  
+[下载](/asserts/Prophet.Yonsm.WM5.2007.09.24.exe)  
   
 下载 Prophet WM5 ROM 2007.10.28 版：  
-[file]attachment/Prophet.Yonsm.WM5.2007.10.28.exe[/file]  
+[下载](/asserts/Prophet.Yonsm.WM5.2007.10.28.exe)  
   
 下载 O2 启动画面（最漂亮的 Prophet 启动画面，确认G4可刷，G3未验证）：  
-[file]attachment/02_Logo_Prophet.exe[/file]  
+[下载](/asserts/02_Logo_Prophet.exe)  
   
 下载 Prophet 2.69.21 Radio ROM （GSM 模块，G3/G4 均可刷）：  
-[file]attachment/Prophet_G3_G4_RadioRom_v2.69.21.exe[/file]  
+[下载](/asserts/Prophet_G3_G4_RadioRom_v2.69.21.exe)  
 

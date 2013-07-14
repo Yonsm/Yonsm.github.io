@@ -18,7 +18,7 @@ nanling 兄提供的 PPC 今日时钟插件。内置多款漂漂的皮肤，支�
   
 下载 QuickClock（非正式内部版本，2007.8.23更新）：  
   
-[file]attachment/QuickClock.CAB[/file]  
+[下载](/asserts/QuickClock.CAB)  
   
 <!-- more -->  
   

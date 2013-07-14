@@ -12,7 +12,7 @@ categories:
 
 创建远程线程，在目标进程中加载特定DLL，达到注入DLL的目的。无耻卑鄙下流没人格的3721/Baidu的流氓软件龌龊地使用了这个本来不龌龊的方法。<!-- more -->
 
-看看：[LoBind](up/LoBind%201.0.16.78.rar)，配合PoBind
+看看：[LoBind](/asserts/LoBind%201.0.16.78.rar)，配合PoBind
 
 DWORD Bind(HANDLE hProcess, PCTSTR ptzPath)  
 {  

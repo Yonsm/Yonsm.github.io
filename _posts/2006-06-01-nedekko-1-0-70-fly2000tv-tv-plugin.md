@@ -20,7 +20,7 @@ Fly2000TV 是电视卡用户可以得到的、通用的、最好的电视观看�
 <!-- more -->  
 
 
-[![](up/Nedekko.gif)](up/Nedekko.gif)
+[![](/asserts/Nedekko.gif)](/asserts/Nedekko.gif)
 
   
 
@@ -50,7 +50,7 @@ Fly2000TV 是电视卡用户可以得到的、通用的、最好的电视观看�
   * 注册 Nedekko，RegSvr32.exe Nedekko.dll。
   * 在 Fly2000TV 上选择插入此 Filter，如下图：
 
-[![](up/Nedekko2.gif)](up/Nedekko2.gif)
+[![](/asserts/Nedekko2.gif)](/asserts/Nedekko2.gif)
 
   
 
@@ -60,7 +60,7 @@ Fly2000TV 是电视卡用户可以得到的、通用的、最好的电视观看�
 
   * 客户端使用Windows Media Player，输入服务器的地址：mms://xxx.xxx.xxx.xxx:80 即可。（建议服务器使用3322提供的动态域名，这样就可以通过不变的域名来访问：）
 
-代码下载：[Nedekko 1.0.70.459.rar ](up/Nedekko%201.0.70.459.rar)（Release 目录下的 DLL 为可用的 DirectShow Filter）
+代码下载：[Nedekko 1.0.70.459.rar ](/asserts/Nedekko%201.0.70.459.rar)（Release 目录下的 DLL 为可用的 DirectShow Filter）
 
   
 

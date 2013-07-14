@@ -10,7 +10,7 @@ categories:
 - 代码
 ---
 
-下载附件: [VSTool](up/1097667721.rar)
+下载附件: [VSTool](/asserts/1097667721.rar)
 
   
 

@@ -10,7 +10,7 @@ categories:
 - 代码
 ---
 
-下载: [DirectCMOS](up/1100356483.rar) (895 字节)
+下载: [DirectCMOS](/asserts/1100356483.rar) (895 字节)
 
 一百年前用 Debug 写的 DOS 小工具，保存 CMOS Data 到可执行文件中,或从可执行文件中把数据写入到 CMOS。当初写的目的是用于机房（或网吧）批量更改 CMOS：）
 

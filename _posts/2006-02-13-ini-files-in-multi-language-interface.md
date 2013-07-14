@@ -185,7 +185,7 @@ static VOID TranslateDialog(HWND hWnd, PCTSTR ptzResName);
   
 
 
-下载: [MultiLang](up/1101221272.rar) (32 KB，包括示例代码和可重用 CLanguage 静态类)
+下载: [MultiLang](/asserts/1101221272.rar) (32 KB，包括示例代码和可重用 CLanguage 静态类)
 
   
 

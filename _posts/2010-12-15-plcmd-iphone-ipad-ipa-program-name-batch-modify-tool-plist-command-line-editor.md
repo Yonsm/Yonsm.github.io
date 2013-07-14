@@ -121,11 +121,11 @@ Set CFBundleDisplayName to 天气: Done
 懒得自己去写 Zip 处理的代码了，用7ZA+批处理做的，有兴趣可以看看。  
   
 2010.12.15 批处理工具包也更新了，自动改名 ipa 为名称_版本.ipa 的格式（如果定制可以可以自己修改批处理）  
-[file]big/PLCMD.1.2.zip[/file]  
+[file]big/PLCMD.1.2.zip)  
   
   
 2010.12.15 已更新，PLED程序增加新功能（源代码下载，普通用户只要下载上面的工具包即可）  
-[file]big/PLED.2010.11.12.zip[/file]  
+[file]big/PLED.2010.11.12.zip)  
   
 2012.01.28 更新：  
   

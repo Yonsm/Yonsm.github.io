@@ -15,7 +15,7 @@ tags:
 
 都用 Visual Studio 2005 了，偶尔还要用用 VC6，每次都懒得安装，特做了个绿色版本。集成了 SP5+PP5，解压缩到任意目录，执行 MSVC.BAT 即可。需要调试 MFC 程序，请使用 Static 链接，或者吧 MFC42D.DLL 复制到 System32 目录中。  
   
-[file]attachment/MSVC.EXE[/file]  
+[下载](/asserts/MSVC.EXE)  
   
 另外还提供附加扩展包，解压缩后包括 DirectX 9.0 SDK，WMF SDK、XTreme Toolkit、Brew SDK 和相关工具（莫名其妙包括这些“乱七八糟”的SDK：）。下载地址稍后提供。  
   

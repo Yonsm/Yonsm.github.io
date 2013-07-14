@@ -21,4 +21,4 @@ tags:
   
 顺便评论一下 IE7，2003 下使用，感觉风格与 2003 很不适应，决定待会儿恢复系统回到 IE6 状态，正如我没有选择 Office 2007 一样——还是等着用 Vista 的时候再说吧——我现在的机器，决定不用 Vista。  
   
-[file]attachment/Template.Yonsm.rar[/file] 
+[下载](/asserts/Template.Yonsm.rar) 

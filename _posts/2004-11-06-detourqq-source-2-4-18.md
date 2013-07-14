@@ -10,7 +10,7 @@ categories:
 - 代码
 ---
 
-下载: [DetourQQ 2.4.18.68](up/1099686627.rar) (63K)
+下载: [DetourQQ 2.4.18.68](/asserts/1099686627.rar) (63K)
 
   
 

@@ -10,7 +10,7 @@ categories:
 - 代码
 ---
 
-下载: [TBDemo](up/1099054171.rar) (25K/VC6 Project)
+下载: [TBDemo](/asserts/1099054171.rar) (25K/VC6 Project)
 
   
 

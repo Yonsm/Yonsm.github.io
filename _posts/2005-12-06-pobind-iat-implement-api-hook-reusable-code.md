@@ -14,4 +14,4 @@ categories:
 
 此DLL一旦被任何进程载入，即会替换进程内的相关API的所有地址，包括后面载入的的DLL。详细情况，请参考代码和《Windows核心编程》。<!-- more -->
 
-下载：[PoBind](up/PoBind%201.0.69.271.rar)
+下载：[PoBind](/asserts/PoBind%201.0.69.271.rar)

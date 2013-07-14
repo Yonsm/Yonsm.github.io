@@ -17,7 +17,7 @@ tags:
 
 程序实现了轮番邦定RAS拨号连接IP地址。要使CoBind生效，必须先注册它，且必须先按亮ScrollLock键。
 
-代码示例，演示了Windows Socket SPI的使用，仅供参考： [CoBind 1.0.54.242](up/CoBind%201.0.54.242.rar)<!-- more -->
+代码示例，演示了Windows Socket SPI的使用，仅供参考： [CoBind 1.0.54.242](/asserts/CoBind%201.0.54.242.rar)<!-- more -->
 
 有关WSP SPI的文章，请参看：[基于SPI的数据报过滤原理与实现](http://www.xfocus.net/articles/200304/518.html)
 

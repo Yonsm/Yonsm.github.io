@@ -52,6 +52,6 @@ OK，然后在 WinMain 开始调用一下我的 AeonInit(hInstance)，WinMain �
   
   
   
-[file]attachment/Aeon.h[/file]  
+[下载](/asserts/Aeon.h)  
   
 

@@ -47,5 +47,5 @@ Core Foundation 是 Apple 的开源基础组件，提供了各种基础设施，
   
 其他的文件是 PLCMD 的东西，PLED.cpp 可以认为是一个 PLIST 读写的 Sample 吧：）  
   
-[file]/big/CFLite.zip[/file]  
+[下载](/asserts/CFLite.zip)  
 

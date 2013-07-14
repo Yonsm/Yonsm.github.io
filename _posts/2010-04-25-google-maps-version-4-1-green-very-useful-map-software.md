@@ -22,7 +22,7 @@ Google Maps 支持多种手机（智能手机都支持，非智能手机也支�
   
 [![](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1241094363_6214a0c3.gif)](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1241094363_6214a0c3.gif)  
   
-[file]/big/PPCGPS.zip[/file]  
+[下载](/asserts/PPCGPS.zip)  
   
   
 另外，下面是修改方法：  

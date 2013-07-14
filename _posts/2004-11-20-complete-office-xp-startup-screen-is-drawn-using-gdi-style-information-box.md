@@ -10,7 +10,7 @@ categories:
 - 代码
 ---
 
-下载: [CAboutDlg 静态类](up/1100867377.rar) (17.5 KB)
+下载: [CAboutDlg 静态类](/asserts/1100867377.rar) (17.5 KB)
 
   
 

@@ -56,4 +56,4 @@ tags:
 
     现在还没有一个权威一点的 SP 汉化发布平台，建议 Hanzify 来一个。（各个小论坛和其它网站上的 SP 汉化，质量良莠不齐呀……）
 
-下载： [SignFix & SignCode](up/signfix.rar) （包括SignFix的代码，要的话可以自己修改一下方便店）
+下载： [SignFix & SignCode](/asserts/signfix.rar) （包括SignFix的代码，要的话可以自己修改一下方便店）

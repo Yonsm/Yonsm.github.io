@@ -30,6 +30,6 @@ categories:
 此此次更新暂时只提供中文版，繁体中文用户如果需要请留言。  
   
 下载（2007.10.27 更新）：  
-[file]CeleTask/CeleTask.2.2.rar[/file]  
+[file]CeleTask/CeleTask.2.2.rar)  
   
 IOICN 讨论贴：http://www.ioicn.com.cn/forum/thread-238302-1-1.html

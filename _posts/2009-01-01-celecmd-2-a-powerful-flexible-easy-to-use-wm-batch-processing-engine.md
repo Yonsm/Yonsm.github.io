@@ -36,13 +36,13 @@ POST：发送消息。
   
   
 2.0 下载：  
-[file]/CeleCmd/CeleCmd.rar[/file]  
+[file]/CeleCmd/CeleCmd.rar)  
   
 2.0.686 源代码下载（请遵循许可协议）：  
-[file]/CeleCmd/CeleCmd.2.0.686.zip[/file]  
+[file]/CeleCmd/CeleCmd.2.0.686.zip)  
   
 下载 (1.6，支持TGZ 解压)：  
-[file]/attachment/CeleCmd.1.6.360.zip[/file]  
+[file]/attachment/CeleCmd.1.6.360.zip)  
   
 论坛讨论：  
 http://www.ioicn.com.cn/forum/viewthread.php?tid=311207  

@@ -91,4 +91,4 @@ Wordfile.txt，用它覆盖 UltraEdit 自带的即可。
 接执行这条命令。当然，也可以通过内置的热键调用这条命令：Ctrl+Shift+工具号。   
   
   
-下载附件: [UEASM.rar](up/1097148757.rar)，包括示例 BAT 文件和 UE 的语法高亮文件 WordFile.txt。
+下载附件: [UEASM.rar](/asserts/1097148757.rar)，包括示例 BAT 文件和 UE 的语法高亮文件 WordFile.txt。

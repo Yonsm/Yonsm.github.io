@@ -118,14 +118,14 @@ WWW.Yonsm.NET
   
   
 2009.08.13 ROM  
-[file]/big/Diamond.Yonsm.2009.08.13.rar[/file]  
+[下载](/asserts/Diamond.Yonsm.2009.08.13.rar)  
   
   
 2009.08.13 模板  
-[file]/big/Diamond.Kitchen.Yonsm.2009.08.13.zip[/file]  
+[下载](/asserts/Diamond.Kitchen.Yonsm.2009.08.13.zip)  
   
   
 PDAFANS 论坛讨论和反馈，感谢 scomper 开贴：  
 http://bbs.pdafans.com/viewthread.php?tid=652776  
   
-[![](up/Diamond.Yonsm.png)](up/Diamond.Yonsm.png)
+[![](/asserts/Diamond.Yonsm.png)](/asserts/Diamond.Yonsm.png)

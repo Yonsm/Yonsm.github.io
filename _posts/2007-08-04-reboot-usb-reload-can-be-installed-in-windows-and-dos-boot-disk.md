@@ -174,4 +174,4 @@ WWW.Yonsm.NET
 讨论和截图请到无忧论坛：  
 [http://bbs.wuyou.com/viewthread.php?tid=86175&extra;=page%3D2](http://bbs.wuyou.com/viewthread.php?tid=86175&extra=page%3D2)  
   
-下载:[file]/big/REBOOT.ISO[/file] 
+下载:[下载](/asserts/REBOOT.ISO) 

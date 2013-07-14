@@ -16,6 +16,6 @@ tags:
   
 [![](attachment/DevEnum.png)](attachment/DevEnum.png)  
   
-[file]attachment/DevEnum.7z[/file]<!-- more -->  
+[下载](/asserts/DevEnum.7z)<!-- more -->  
   
 需要其他模拟器映像文件（如Smartphone模拟器ROM），可以到 Microsoft 官方网站下载。

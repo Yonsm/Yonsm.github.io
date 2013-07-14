@@ -52,7 +52,7 @@ categories:
   
 
 
-[![ ](up/1096798563.jpg)](up/1096798563.jpg)
+[![ ](/asserts/1096798563.jpg)](/asserts/1096798563.jpg)
 
   
 
@@ -62,7 +62,7 @@ categories:
   
 
 
-[![ ](up/1096798652.jpg)](up/1096798652.jpg)
+[![ ](/asserts/1096798652.jpg)](/asserts/1096798652.jpg)
 
   
 
@@ -77,7 +77,7 @@ categories:
   
 
 
-[![ ](up/1096798665.jpg)](up/1096798665.jpg)
+[![ ](/asserts/1096798665.jpg)](/asserts/1096798665.jpg)
 
   
 
