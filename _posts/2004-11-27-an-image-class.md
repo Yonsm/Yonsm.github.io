@@ -10,7 +10,7 @@ categories:
 - 代码
 ---
 
-下载: [CImage](/asserts/1101483036.rar) (6 KB)
+下载: [CImage](/assets/1101483036.rar) (6 KB)
 
   
 

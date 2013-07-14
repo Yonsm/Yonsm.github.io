@@ -76,7 +76,7 @@ WWW.Yonsm.NET
   
   
 下载工具包（25MB，2009.12.10）：  
-[下载](/asserts/PPCTools.zip)  
+[下载](/assets/PPCTools.zip)  
   
   
 3GTan  
@@ -116,7 +116,7 @@ SysMgr.exe
   
   
 下载扩展工具包（11MB，2009.12.10）：  
-[下载](/asserts/PPCExtras.zip)  
+[下载](/assets/PPCExtras.zip)  
   
 BizCard  
 BusLine  
@@ -132,13 +132,13 @@ Remote2PC
 VoiceBook  
   
 下载游戏包（10MB，2009.04.24）：  
-[下载](/asserts/PPCGames.zip)  
+[下载](/assets/PPCGames.zip)  
   
 下载GPS包（1.3MB，2009.12.09，GPS 导航软件未提供，请自行下载）：  
-[下载](/asserts/PPCGPS.zip)  
+[下载](/assets/PPCGPS.zip)  
   
 下载词典包（87MB，2009.01.01）：  
-[下载](/asserts/PPCDicts.rar)  
+[下载](/assets/PPCDicts.rar)  
   
   
 其中词典包包含以下词典库：  
@@ -152,7 +152,7 @@ MDX: http://www.rayfile.com/files/63daba63-d0cc-11dd-9dca-0014221b798a/
   
   
 屏幕截图（实际情况可能稍有出入）  
-[attachment/PPCPack.Yonsm.WM5.png](/asserts/PPCPack.Yonsm.WM5.png)  
+[attachment/PPCPack.Yonsm.WM5.png](/assets/PPCPack.Yonsm.WM5.png)  
   
 欢迎评测：）  
 

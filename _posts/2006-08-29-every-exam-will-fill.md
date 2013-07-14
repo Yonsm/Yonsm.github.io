@@ -12,4 +12,4 @@ tags:
 - 流水账
 ---
 
-驾照考试 桩考 没过，真TMD猪头……![cry](wp-content/bo/emot/cry.gif)
+驾照考试 桩考 没过，真TMD猪头……

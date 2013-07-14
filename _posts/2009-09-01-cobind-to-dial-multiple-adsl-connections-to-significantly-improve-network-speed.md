@@ -17,13 +17,13 @@ tags:
 
 程序实现了轮番邦定RAS拨号连接IP地址。要使CoBind生效，必须先注册它，且必须先按亮ScrollLock键。
 
-代码示例，演示了Windows Socket SPI的使用，仅供参考： [CoBind 1.0.54.242](/asserts/CoBind%201.0.54.242.rar)<!-- more -->
+代码示例，演示了Windows Socket SPI的使用，仅供参考： [CoBind 1.0.54.242](/assets/CoBind%201.0.54.242.rar)<!-- more -->
 
 有关WSP SPI的文章，请参看：[基于SPI的数据报过滤原理与实现](http://www.xfocus.net/articles/200304/518.html)
 
 我这里指的是杭州的 ADSL，特点是，不支持绑定多重连接到同一个 IP 地址。但是可以同一个用户名密码拨通多个连接，且不限速（或能提供比一个连接更大的速度）。
 
-[![](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1251767462_431101de.png)](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1251767462_431101de.png)
+[![](/assets/1251767462_431101de.png)](/assets/1251767462_431101de.png)
 
 大致步骤：
 1.安装 RASPPPoE，设置 PPPoE 协议属性（本地连接->属性，PPPoE 属性），启用多个“线数（WAN 端点）”（虚拟设备），如4个。重新启动系统。

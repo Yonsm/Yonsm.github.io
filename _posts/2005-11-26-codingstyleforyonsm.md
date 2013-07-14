@@ -10,7 +10,7 @@ categories:
 - 文档
 ---
 
-编码风格 (仅供Yonsm遵循) ([下载PDF版本](/asserts/CS.pdf))<!-- more -->
+编码风格 (仅供Yonsm遵循) ([下载PDF版本](/assets/CS.pdf))<!-- more -->
 
 编码风格  
 一、 概述  

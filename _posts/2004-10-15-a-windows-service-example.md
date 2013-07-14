@@ -15,7 +15,7 @@ categories:
   
 
 
-下载附件：[BeepSrv](/asserts/1097751870.rar)
+下载附件：[BeepSrv](/assets/1097751870.rar)
 
 <!-- more -->  
   

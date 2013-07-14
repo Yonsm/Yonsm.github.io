@@ -101,4 +101,4 @@ Yonsm
 WWW.Yonsm.NET  
   
 下载（因为包含 WXPE 启动盘，所以总共将近 30M）：  
-[下载](/asserts/BOOT.rar) 
+[下载](/assets/BOOT.rar) 

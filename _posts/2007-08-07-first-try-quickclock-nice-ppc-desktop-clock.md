@@ -14,11 +14,11 @@ tags:
 
 nanling 兄提供的 PPC 今日时钟插件。内置多款漂漂的皮肤，支持自定义皮肤。看图：  
   
-[![](/asserts/QuickClock.PNG)](/asserts/QuickClock.PNG)  
+[![](/assets/QuickClock.PNG)](/assets/QuickClock.PNG)  
   
 下载 QuickClock（非正式内部版本，2007.8.23更新）：  
   
-[下载](/asserts/QuickClock.CAB)  
+[下载](/assets/QuickClock.CAB)  
   
 <!-- more -->  
   

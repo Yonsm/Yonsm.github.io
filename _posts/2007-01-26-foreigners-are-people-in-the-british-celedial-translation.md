@@ -54,7 +54,7 @@ In my opinion, celedial is way better then anything I know, its light, its simpl
   
 Here you English guys can download CeleDial English Beta version:  
   
-[http://www.yonsm.net/CeleDial/CeleDialENU.CAB](http://www.yonsm.net/CeleDial/CeleDialENU.CAB)  
+[/assets/CeleDialENU.CAB](/assets/CeleDialENU.CAB)  
   
 It can support PPC2003/WM5.0 in most of PPC phone device.  And, I'll release the formal version in the future. If you want to translate it into you own language, just [contact me](mailto:yonsm@163.com), please.  
   

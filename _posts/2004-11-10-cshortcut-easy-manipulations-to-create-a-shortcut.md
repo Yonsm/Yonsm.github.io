@@ -10,7 +10,7 @@ categories:
 - 代码
 ---
 
-下载: [CShortcut](/asserts/1100001180.rar) (13 KB，包含示例代码)
+下载: [CShortcut](/assets/1100001180.rar) (13 KB，包含示例代码)
 
   
 

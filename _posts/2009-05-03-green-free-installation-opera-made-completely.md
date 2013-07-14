@@ -118,7 +118,7 @@ OK，完成收工，好麻烦。上面只是给出一个可行的方法。顺便
 By Yonsm 2009.05.03 4:29 AM, My LP is sleeping soundly:)  
   
   
-[下载](/asserts/Opera.zip)  
+[下载](/assets/Opera.zip)  
   
   
 

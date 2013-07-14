@@ -10,7 +10,7 @@ categories:
 - 代码
 ---
 
-下载: [WiaHelper](/asserts/1097237213.rar)
+下载: [WiaHelper](/assets/1097237213.rar)
 
   
 

@@ -57,6 +57,6 @@ Allows tokens used as actual arguments to be concatenated to form other tokens
 
     继续……
 
-    Define.h 中假设 VER_Release/VER_Build 分别指 Release 号和 Build 号，如果让这两个值分别表示我们用 Release 方式编译的次数和总编译次数，多好：）为此我写了个小工具 [BPP](/asserts/1098100310.rar) (Build++ 的意思)：
+    Define.h 中假设 VER_Release/VER_Build 分别指 Release 号和 Build 号，如果让这两个值分别表示我们用 Release 方式编译的次数和总编译次数，多好：）为此我写了个小工具 [BPP](/assets/1098100310.rar) (Build++ 的意思)：
 
     首先把 BPP.exe 放在工程目录下，然后在 VC Project 属性中，Debug 方式：在“生成事件”->“预生成事件”->“命令行”中输入“BPP Define.h”，Release 方式：“BPP -Release Define.h”。这样，每次 VC 编译都会调用 BPP.exe 使 VER_Build 或 VER_Reelase 自增一。好酷酷吧……

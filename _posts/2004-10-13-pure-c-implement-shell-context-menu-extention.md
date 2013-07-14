@@ -23,7 +23,7 @@ categories:
 有关 Shell 扩展编程，这里有个详细的 CHM 文档: [http://www.vckbase.com/tools/downtools.asp?id=105](http://www.vckbase.com/tools/downtools.asp?id=105)
 
   
-附件下载：[CxtMenu](/asserts/1097580159.rar)
+附件下载：[CxtMenu](/assets/1097580159.rar)
 
   
 

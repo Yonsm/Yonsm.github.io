@@ -12,7 +12,7 @@ categories:
 
 　　一大早就在半睡的状态下被LG强行拉起，就这样迷迷糊糊的准备出发了......  
   
-　　接上朋友Yicho，再与老四、WJ、村长他们的车会合后，一行六个“浩浩荡荡”地出发了，目的地——浙西大峡谷，我们来了![grin](wp-content/bo/emot/grin.gif)！路上行程很简单，从市区转到留下上杭徽高速，在浙西大峡谷（龙岗收费站）的出口下去，走S102瞬间到达龙岗镇后转到S209就可直达售票口。如果你也像我家LG一样“无GPS寸步难行”的话，那一路就更简单了，根据指示一路到底就OK了。<!-- more -->  
+　　接上朋友Yicho，再与老四、WJ、村长他们的车会合后，一行六个“浩浩荡荡”地出发了，目的地——浙西大峡谷，我们来了！路上行程很简单，从市区转到留下上杭徽高速，在浙西大峡谷（龙岗收费站）的出口下去，走S102瞬间到达龙岗镇后转到S209就可直达售票口。如果你也像我家LG一样“无GPS寸步难行”的话，那一路就更简单了，根据指示一路到底就OK了。<!-- more -->  
   
   
 [查看大图](http://ditu.google.cn/maps?f=d&source=embed&saddr=30.265591,120.101509&daddr=%EF%BC%90%EF%BC%92%E7%9C%81%E9%81%93+to:%E6%B5%99%E6%B1%9F%E7%9C%81%E6%9D%AD%E5%B7%9E%E5%B8%82%E4%B8%B4%E5%AE%89%E5%B8%82%E5%A4%A7%E5%B3%A1%E8%B0%B7%E9%95%87+to:%E6%9C%AA%E7%9F%A5%E8%B7%AF%E6%AE%B5&geocode=%3BFRJDzAEdFAUaBw%3B%3BFYQ7zgEd0KAZBw&hl=zh-CN&mra=dme&mrcr=0&mrsp=0&sz=14&sll=30.271966,120.118332&sspn=0.057226,0.11158&ie=UTF8&brcurrent=3,0x344b62ffb0972b01:0x4705b4b7a5248c75%3B5,0&ll=30.207158,119.108105&spn=0.126099,0.085831&z=13)  
@@ -38,15 +38,13 @@ categories:
 　　晚上，熊熊的篝火（名副其实）升起来了，周围一片静谧，除了隔壁邻居的歌声，还是非常难得的惬意。我们吃的竹筒饭，粽子（正是端午节），零食
 ，他们还喝着啤酒，几个人聊天，真的很难得轻松。虽然没有尽善尽美，但是有遗憾也是一种残缺美（篝火8点烧到11点多，没带红薯和土鸡来烧烤，真是有点遗憾）。  
   
-[![](/plugin/DDRR_Album/album/%D5%E3%CE%F7%B4%F3%CF%BF%B9%C8/%BA%FE%D0%C4%B5%BA.jpg)](/plugin/DDRR_Album/album/%D5%E3%CE%F7%B4%F3%CF%BF%B9%C8/%BA%FE%D0%C4%B5%BA.jpg)  
+[![](/album/浙西大峡谷/湖心岛.jpg)](/album/浙西大峡谷/湖心岛.jpg)  
   
 　 伴着风声睡在帐篷里，虽然有点害怕，因为景区人员一直告诉我们这里有野猪和梅花鹿晚上会出来。不过我们一觉睡到天亮倒也相安无事。  
   
-[![](/plugin/DDRR_Album/album/%D5%E3%CE%F7%B4%F3%CF%BF%B9%C8/%D5%CA%C5%F1.jpg)](/plugin/DDRR_Album/album/%D5%E3%CE%F7%B4%F3%CF%BF%B9%C8/%D5%CA%C5%F1.jpg)  
+[![](/album/浙西大峡谷/帐篷.jpg)](/album/浙西大峡谷/帐篷.jpg)  
   
-　　总体来说，这是一回非常难得经历，下回露营，还想去！![grin](wp-content/bo/emot/grin.gif)  
+　　总体来说，这是一回非常难得经历，下回露营，还想去！  
   
 　　流水账式记录结束......  
   
-更多图片请看：http://www.yonsm.net/index.php?act=DDRR_Album  
-

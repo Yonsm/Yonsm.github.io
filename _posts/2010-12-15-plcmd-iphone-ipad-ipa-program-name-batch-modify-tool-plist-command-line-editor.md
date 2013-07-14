@@ -35,7 +35,7 @@ Value 就是值了
 
   
   
-完整版本包括源代码请参看：http://www.yonsm.net/read.php?507  
+完整版本包括源代码请参看其它帖子 
   
 
 

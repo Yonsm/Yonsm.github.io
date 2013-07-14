@@ -20,9 +20,9 @@ iPhone中一直在找这种软件，一直没找到，绝大多数的控制PC的
 用途：在客厅中，用蓝牙鼠标其实很不方便，因为没有支撑处（茶几一般都比较矮，而且杯具、洗具之类的比较多）。此时，使用iPhone来操作HTPC或者其他设备就非常爽了——就是一个蓝牙键鼠、爱控制PC、Mac、PSP, MCE、XMBC、FrontRow、Keynote、PowerPoint什么的，随便，哈哈。  
   
 软件下载（包含原版、汉化和说明图片，注意看图片中的说明）：  
-[下载](/asserts/WeBe++_1.1-6_Crack_CHS.zip)  
+[下载](/assets/WeBe++_1.1-6_Crack_CHS.zip)  
   
 有图有真相（注意看图片中的说明）：  
-[![](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1303469168_7035595c.png)](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1303469168_7035595c.png)  
+[![](/assets/1303469168_7035595c.png)](/assets/1303469168_7035595c.png)  
   
 推荐 http://apt.178.com 把这个给收了，顺便更新一下178里面的BT Stack，太老了。

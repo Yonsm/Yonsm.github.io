@@ -103,7 +103,7 @@ KernelIoControl(IOCTL_HAL_REBOOT, NULL, 0, NULL, 0, NULL);
   
 下载我汉化修改过的仅适合 HTC Prophet（830等） QVGA 的 psShutXP（预计针对其它机型应该没有效果，这些都是私有的代码）：  
   
-[下载](/asserts/PSShutXP.rar)  
+[下载](/assets/PSShutXP.rar)  
   
 修改后的 psShutXP，硬起功能有效。且关机命令不再是关闭屏幕，而是直接关闭电源（但是RIL，即电话模块，没通知运营商正常关闭，也没有通知应用程序保存数据。所以请使用关机命令前保存好数据）  
   

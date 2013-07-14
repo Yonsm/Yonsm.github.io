@@ -62,10 +62,10 @@ modifyKeyView 的实现可以参看附件。我使用的是循环查找UIKBKeyVi
   
 更近一步地，我完善了一下 KBCustomTextField，通过这个类，非常方便地就可以做到自定义输入键盘：  
   
-[KBCustom.zip](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1283431378_9792baf4.zip)  
+[KBCustom.zip](/assets/1283431378_9792baf4.zip)  
   
 1. 使用小数点和数字键盘：非常简单，只要在 IB 中把 UITextField 的类改成KBCustomTextField，就OK了，不用一行代码，效果如下图：  
-[![](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1283431378_38117112.png)](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1283431378_38117112.png)  
+[![](/assets/1283431378_38117112.png)](/assets/1283431378_38117112.png)  
   
 2. 在键盘的按键上添加一个文字按钮（并指定处理动作）：设置KBCustomTextField.kbDelegate，实现这两个函数即可：  
   
@@ -86,10 +86,10 @@ modifyKeyView 的实现可以参看附件。我使用的是循环查找UIKBKeyVi
 
 
   
-[![](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1283431378_98952583.png)](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1283431378_98952583.png)  
+[![](/assets/1283431378_98952583.png)](/assets/1283431378_98952583.png)  
   
 3. 更近一步地，这两个 Delegate 函数中，你只要通过 name 来查找到想要修改的 UIKBKeyView，就可以随便修改它。name 可以通过 KBCustomTextField 的#define _LOG_KEY_VIEW来列出所有的按键名称。name 为 nil 则找任何的 UIKBKeyView（可以用他的 .superview 来找到整个键盘View，做更多的处理）。  
-[![](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1283431378_246664d4.png)](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1283431378_246664d4.png)  
+[![](/assets/1283431378_246664d4.png)](/assets/1283431378_246664d4.png)  
   
   
 下面是 iPhone 数字键盘的前面10个按键（后面忘了打出来了：）  

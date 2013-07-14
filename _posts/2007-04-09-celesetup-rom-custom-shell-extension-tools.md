@@ -49,7 +49,7 @@ tags:
    %F=PROGRAM FILES 可能是 \Program Files
    %C=在命令文件中使用，表示命令文件所在的目录；在命令行中使用，表示 CeleSetup 所在目录
 
-◎ 具体用法可以参考 Sample 中的 csx 文件，也可以参考我定制的最帅的 Prophet WM5 ROM：http://www.yonsm.net/read.php?302。
+◎ 具体用法可以参考 Sample 中的 csx 文件，也可以参考我定制的  Prophet WM5 ROM。
 
 ◎ 下面是一般性用法：
 

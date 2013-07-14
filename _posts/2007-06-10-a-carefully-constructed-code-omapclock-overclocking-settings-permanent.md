@@ -87,4 +87,4 @@ OMAPCLock 本身没有对这些行为作出相关操作，导致 OMAP Clock 用�
 以上要求很容易满足（几乎所有系统中默认就是这样，只要把我修改的OMAPClock.exe 放在\Windows中即可），所以这次修改可以看成“完美”了，哈哈……  
   
 下载（2007.06.09 20:00 之前下载的用户，请重新下载）：  
-[下载](/asserts/OMAPClock.rar) 
+[下载](/assets/OMAPClock.rar) 

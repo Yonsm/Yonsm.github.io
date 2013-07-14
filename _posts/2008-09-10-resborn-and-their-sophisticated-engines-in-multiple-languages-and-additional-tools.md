@@ -14,7 +14,7 @@ tags:
 
 又要马儿跑，又要马儿不吃草：）  
   
-[![](/asserts/ResBorn.png)](/asserts/ResBorn.png)  
+[![](/assets/ResBorn.png)](/assets/ResBorn.png)  
   
 程序多语言支持一般来说有以下两种方式：  
   
@@ -48,7 +48,7 @@ ResBorn 是一种高效方便的多语言引擎，它结合了上述两种方式
 更进一步地，你可以根本不用考虑多语言引擎，因为 ResBorn 本身提供了一个使用 ResBorn Engine 的工具（名字就叫 ResBorn），可以认为是一个专用资源汉化工具（或者英化？等）。使用 ResBorn 工具，可以INI格式的语言字符列表，修改后回写到EXE/DLL文件中，即可得到一个新语言版本的程序。（理论上针对任何PE有效，不需要在程序中做什么工作，即，对任何第三方程序可用）  
   
 2008.09.11 更新为 ResBorn 1.2.150（包含源代码）：  
-[ResBorn.1.2.150.rar](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1221104625_6755d934.rar)  
+[ResBorn.1.2.150.rar](/assets/1221104625_6755d934.rar)  
   
 注意：第4个版本，已经比较完善了，代码支持在PC/PPC/SP中编译运行。使用前请自行备份要操作的EXE文件。  
   

@@ -20,5 +20,5 @@ categories:
 通用拼音.txt  
 <!-- more -->  
 转载或使用请注明出处：  
-[CodeChar.rar](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1301047407_7597ce4b.rar)  
+[CodeChar.rar](/assets/1301047407_7597ce4b.rar)  
 

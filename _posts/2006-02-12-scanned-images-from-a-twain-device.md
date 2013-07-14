@@ -167,7 +167,7 @@ CTwainHelper 可以在 Visual C++ 6.x/7.x 工程中使用，支持 UNICODE 编�
   
 
 
-TWAIN 助手类: [CTwainHelper](/asserts/1099925198.rar) (包含示例代码 35K)  
+TWAIN 助手类: [CTwainHelper](/assets/1099925198.rar) (包含示例代码 35K)  
 TWAIN 官方网站: [http://www.twain.org](http://www.twain.org/)  
 TWAIN 头文件: [http://www.twain.org/devfiles/twain.h](http://www.twain.org/devfiles/twain.h)  
 TWAIN Specification: [http://www.twain.org/docs/Spec1_9_197.pdf](http://www.twain.org/docs/Spec1_9_197.pdf)  
@@ -178,4 +178,4 @@ TWAIN Developers Toolkit: [http://www.twain.org/devfiles/twainkit.exe](http://ww
   
   
 [2006.2.22] 下面是更简单的版本，其中的 GetImage 函数内部自动具有消息循环，直到TWAIN对话框完全关闭后才会返回，适合任何场合使用：  
-[下载](/asserts/TwainHelper.rar) 
+[下载](/assets/TwainHelper.rar) 

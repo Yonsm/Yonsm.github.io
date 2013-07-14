@@ -33,7 +33,7 @@ categories:
   
  2. 刷机硬启调整屏幕后，进入 ROM OS 可选设置屏幕，请稍等出现 CeleCmd 的设置界面，请自行选择需要的设置。  
   
- 3. 建议普通用户下载一键安装软件包，里面提供了我使用的各种软件和游戏，都是破解或注册版本。下载地址：http://www.yonsm.net/read.php?303  
+ 3. 建议普通用户下载一键安装软件包，里面提供了我使用的各种软件和游戏，都是破解或注册版本。  
   
   
 三、更改细节  
@@ -118,14 +118,14 @@ WWW.Yonsm.NET
   
   
 2009.08.13 ROM  
-[下载](/asserts/Diamond.Yonsm.2009.08.13.rar)  
+[下载](/assets/Diamond.Yonsm.2009.08.13.rar)  
   
   
 2009.08.13 模板  
-[下载](/asserts/Diamond.Kitchen.Yonsm.2009.08.13.zip)  
+[下载](/assets/Diamond.Kitchen.Yonsm.2009.08.13.zip)  
   
   
 PDAFANS 论坛讨论和反馈，感谢 scomper 开贴：  
 http://bbs.pdafans.com/viewthread.php?tid=652776  
   
-[![](/asserts/Diamond.Yonsm.png)](/asserts/Diamond.Yonsm.png)
+[![](/assets/Diamond.Yonsm.png)](/assets/Diamond.Yonsm.png)

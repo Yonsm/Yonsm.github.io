@@ -86,5 +86,5 @@ pause
   
 附件中的 CoXCo 是解码 InitFlashFiles.dat 的小工具，具体看这里：http://bbs.pdafans.com/viewthread.php?tid=342677&pid;=353144  
   
-[下载](/asserts/1174991588_0.rar)  
+[下载](/assets/1174991588_0.rar)  
 

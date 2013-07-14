@@ -11,8 +11,8 @@ categories:
 ---
 
 看图，仅用于某些特殊用户计算 ARM 汇编指令的目标代码值。  
-[![](/asserts/CeleASM.png)](/asserts/CeleASM.png)  
+[![](/assets/CeleASM.png)](/assets/CeleASM.png)  
 <!-- more -->  
-[下载](/asserts/CeleASM.rar)  
+[下载](/assets/CeleASM.rar)  
   
 盗用了 CNBeta 的一个漂亮图标，如有异议，请联系 Yonsm@msn.com。

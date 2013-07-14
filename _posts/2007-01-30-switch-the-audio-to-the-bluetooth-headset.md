@@ -30,6 +30,6 @@ tags:
    }  
   
   
-已整合到最新的 [CeleTask 2.2 RAR](http://www.yonsm.net/CeleTask/CeleTask.2.2.rar) 版本内，命令 ID 是 1055。要的话可以到 CeleTask 的日志中下载。  
+已整合到最新的 [CeleTask 2.2 RAR](/assets/CeleTask.2.2.rar) 版本内，命令 ID 是 1055。要的话可以到 CeleTask 的日志中下载。  
   
 :)

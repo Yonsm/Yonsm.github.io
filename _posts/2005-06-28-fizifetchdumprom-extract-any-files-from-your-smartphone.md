@@ -27,7 +27,7 @@ DumpROM -4 Fizi.bin -d Fizi
   
 用 eVC 编程的话可能就知道了，Project -> Setting -> Security -> 里面可以选择是否使用特权证书签名以及是否写入特权证书 Store 。  
   
-下载: [FiziFetch](/asserts/FiziFetch.rar) ( 包含源代码 eVC4/SP4/SP2003SDK Project，x86/ARM目标文件)  
+下载: [FiziFetch](/assets/FiziFetch.rar) ( 包含源代码 eVC4/SP4/SP2003SDK Project，x86/ARM目标文件)  
   
 下载: SP2003.CoreDll.X86   
-[下载](/asserts/SP2003.CoreDLL.X86.rar) 
+[下载](/assets/SP2003.CoreDLL.X86.rar) 

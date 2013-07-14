@@ -11,4 +11,4 @@ categories:
 ---
 
 一百年前的示例代码，贴出来算权当收藏  
-下载: [CaptureScreen](/asserts/1098273034.rar)
+下载: [CaptureScreen](/assets/1098273034.rar)

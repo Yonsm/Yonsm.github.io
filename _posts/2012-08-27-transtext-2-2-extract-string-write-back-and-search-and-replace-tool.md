@@ -26,9 +26,9 @@ tags:
 <!-- more -->
 6. 支持 Visual Studio 2005/2008 项目文件转换（小功能）：拖动.sln文件到“搜索”页面时，自动检测 Visual Studio 2005/2008 方案文件，并询问是否转换方案和工程文件的格式（2005/2008互转）。
 
-最新版本，2.2.264（包含源代码）：[TransText.2.2.264](http://www.yonsm.net/wp-content/uploads/2010/04/TransText.2.2.264.rar)
+最新版本，2.2.264（包含源代码）：[TransText.2.2.264](/assets/TransText.2.2.264.rar)
 
-[![](http://www.yonsm.net/wp-content/uploads/2010/04/TransText.gif)](http://www.yonsm.net/wp-content/uploads/2010/04/TransText.gif)
+[![](/assets/TransText.gif)](/assets/TransText.gif)
 
 <!-- more -->
 

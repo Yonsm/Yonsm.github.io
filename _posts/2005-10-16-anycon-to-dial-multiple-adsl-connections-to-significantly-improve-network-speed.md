@@ -47,7 +47,7 @@ categories:
   
 
 
-下载 [AnyCon 1.0.52.120](/asserts/AnyCon%201.0.52.120.rar) (使用方法：RegSvr32.dll AnyCon.lll，注销请使用/u参数)，注意，可能导致有些网络程序（如 CuteFTP PASV 模式）无法使用，此时，只要注销AnyCon.dll即可。
+下载 [AnyCon 1.0.52.120](/assets/AnyCon%201.0.52.120.rar) (使用方法：RegSvr32.dll AnyCon.lll，注销请使用/u参数)，注意，可能导致有些网络程序（如 CuteFTP PASV 模式）无法使用，此时，只要注销AnyCon.dll即可。
 
   
 

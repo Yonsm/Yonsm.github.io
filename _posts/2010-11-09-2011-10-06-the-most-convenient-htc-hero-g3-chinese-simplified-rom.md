@@ -18,7 +18,7 @@ categories:
  ◎ 基于官方 2.1 内核，完美定制，细致周到。  
  ◎ 自动 WIPE，刷机之前无需 WIPE。  
  ◎ 纯净稳定，一次刷机，长时间无需更新 ROM。  
- ◎ 配备各种精选工具（请到 http://www.yonsm.net/read.php?518 下载）。  
+ ◎ 配备各种精选工具（请到其它帖子中下载）。  
   
   
 <!-- more -->  
@@ -147,4 +147,4 @@ http://www.androidin.net/bbs/viewthread.php?tid=45162
   
   
 以下图片为截图，由于版本更新，实际可能有所出入：  
-[![](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1314406562_3819d866.png)](HTTP://WWW.Yonsm.NET/wp-content/bo/attachment/1314406562_3819d866.png)
+[![](/assets/1314406562_3819d866.png)](/assets/1314406562_3819d866.png)

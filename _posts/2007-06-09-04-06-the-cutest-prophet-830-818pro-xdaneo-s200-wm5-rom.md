@@ -41,7 +41,7 @@ tags:
   
  5. 刷机硬启调整屏幕后，进入 ROM OS 可选设置屏幕，请自行选择。  
   
- 6. 建议普通用户下载一键安装软件包，里面提供了我使用的各种软件和游戏，都是破解或注册版本。下载地址：http://www.yonsm.net/read.php?303<!-- more -->  
+ 6. 建议普通用户下载一键安装软件包，里面提供了我使用的各种软件和游戏，都是破解或注册版本。<!-- more -->  
   
   
 **三、ROM OS 细节**  
@@ -126,7 +126,7 @@ tags:
  2. 用 USB 数据线把 PPC 连接到电脑上（三色屏状态下不是通过 ActiveSync 连接的，所以不用看 ActiveSync 是否
 连接）。  
   
- 3. 用 Prophet AKU2.2 WWE RUU 刷机包（http://www.yonsm.net/attachment/Prophet.AKU22.WWE.OS.rar），把系统重刷一次为官方 ROM OS。  
+ 3. 用 [Prophet AKU2.2 WWE RUU 刷机包](/assets/Prophet.AKU22.WWE.OS.rar)，把系统重刷一次为官方 ROM OS。  
   
  4. 进入调整屏幕状态，重新刷这个最帅的 ROM OS。  
   
@@ -246,7 +246,7 @@ tags:
   
  ■ 2007.09.23  
   
-  ◎ 恢复内置的手写输入法，如需汉王输入法最新版，下载附加包（http://www.yonsm.net/attachment/HWPen.rar），释放到 \Windows 下，然后执行 设置->系统->初始设置 即可。  
+  ◎ 恢复内置的手写输入法，如需汉王输入法最新版，下载 [附加包](/assets/HWPen.rar)，释放到 \Windows 下，然后执行 设置->系统->初始设置 即可。  
   ◎ 把备份和恢复联系人的 CeleCommand 脚本移动到 设置->个人 中。  
   ◎ 升级 QuickMenu、Resco Explorer 和 A4 输入法。  
   ◎ 改进部分 CeleCommand 脚本。  
@@ -300,11 +300,10 @@ WWW.Yonsm.NET
   
   
   
-查看屏幕截图（可能与当前版本有些许出入）  
-![zan](wp-content/bo/emot/zan.gif)[attachment/Prophet.Yonsm.WM5.png](/asserts/Prophet.Yonsm.WM5.png)  
+查看[屏幕截图](/assets/Prophet.Yonsm.WM5.png)（可能与当前版本有些许出入）  
   
 下载 Prophet WM5 ROM 2008.04.06 版：  
-[下载](/asserts/Prophet.Yonsm.WM5.2008.04.06.exe)  
+[下载](/assets/Prophet.Yonsm.WM5.2008.04.06.exe)  
   
 感谢 ling830 网友的看图刷机指南：  
 http://bbs.pdafans.com/viewthread.php?tid=399263&page;=1#pid4120561  
@@ -313,17 +312,17 @@ http://bbs.pdafans.com/viewthread.php?tid=399263&page;=1#pid4120561
   
   
 下载 Prophet WM5 ROM 2007.12.28 版：  
-[下载](/asserts/Prophet.Yonsm.WM5.2007.12.28.exe)  
+[下载](/assets/Prophet.Yonsm.WM5.2007.12.28.exe)  
   
 下载 Prophet WM5 ROM 2007.09.24 版：  
-[下载](/asserts/Prophet.Yonsm.WM5.2007.09.24.exe)  
+[下载](/assets/Prophet.Yonsm.WM5.2007.09.24.exe)  
   
 下载 Prophet WM5 ROM 2007.10.28 版：  
-[下载](/asserts/Prophet.Yonsm.WM5.2007.10.28.exe)  
+[下载](/assets/Prophet.Yonsm.WM5.2007.10.28.exe)  
   
 下载 O2 启动画面（最漂亮的 Prophet 启动画面，确认G4可刷，G3未验证）：  
-[下载](/asserts/02_Logo_Prophet.exe)  
+[下载](/assets/02_Logo_Prophet.exe)  
   
 下载 Prophet 2.69.21 Radio ROM （GSM 模块，G3/G4 均可刷）：  
-[下载](/asserts/Prophet_G3_G4_RadioRom_v2.69.21.exe)  
+[下载](/assets/Prophet_G3_G4_RadioRom_v2.69.21.exe)  
 

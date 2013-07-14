@@ -3,9 +3,8 @@ author: Yonsm
 comments: true
 date: 2012-05-08 18:29:17+00:00
 layout: post
-published: false
 slug: after-you-install-the-go4gent-on-the-router-forwarding-automatically-exports-specific-sites-to-the-proxy-achieving-zero-client-configuration-to-access-outube-shipping-for-example
-title: 在路由器上安装Go4gent后，自动转发特定网站到代理出口，实现客户端零配置（以访问￥ouTube为例）
+title: 自动转发特定网站到路由器GoAgent，实现客户端零配置
 wordpress_id: 678
 categories:
 - 文档
@@ -13,7 +12,7 @@ categories:
 
 关于自动指定出口有完美方案了！在路由器上跑GoAgent，路由器的防火墙规则能自动把U2B的HTTP请求往Go~Agent上劫持转发，这样相当于是和“指定出口”功能差不多功能的智能路由了（不过不是VPN路由，是HTTP代理而已）
 
-以 ￥ouTube 为例：<!-- more -->
+以 YouTube 为例：<!-- more -->
 
 1. 先DNSMasQ防止域名解析的IP变换或被污染：
 
@@ -35,7 +34,7 @@ address=/c.youtube.com/bbc.co.uk/**111.111.111.111**
 
 我这个“指定出口”做的精妙吧，真正实现了客户端零配置，哈哈……
 
-在路由器上安装GoAgent的方法请看：[在 3.5MB 超小空闲空间的路由器上部署 Python + GoAgent（以Tomato DualWAN WR500V 为例）](http://www.yonsm.net/post/645)
+在路由器上安装GoAgent的方法请看：[在 3.5MB 空闲空间的路由器上部署 Python + GoAgent）](/2012/04/09/3-5mb-router-deployed-on-ultra-small-free-space-pythongoagent-the-case-of-tomato-dualwan-wr500v/)
 
 论坛帖子请看：[http://bbs.dualwan.cn/viewthread.php?tid=278761](http://bbs.dualwan.cn/viewthread.php?tid=278761)
 

@@ -10,7 +10,7 @@ categories:
 - 代码
 ---
 
-下载: [CTwainHelper](/asserts/1099925198.rar) (包含示例代码 35K)
+下载: [CTwainHelper](/assets/1099925198.rar) (包含示例代码 35K)
 
   
 

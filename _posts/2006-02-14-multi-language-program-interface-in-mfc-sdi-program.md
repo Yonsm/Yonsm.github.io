@@ -50,7 +50,7 @@ tags:
   
 
 
-下载: [SdiML](/asserts/1101305671.rar) (34K，Visual C++ 6 项目) 
+下载: [SdiML](/assets/1101305671.rar) (34K，Visual C++ 6 项目) 
 
   
 
