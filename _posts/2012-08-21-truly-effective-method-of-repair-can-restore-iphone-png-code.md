@@ -4,7 +4,7 @@ comments: true
 date: 2012-08-21 07:31:23+00:00
 layout: post
 slug: truly-effective-method-of-repair-can-restore-iphone-png-code
-title: 真正能还原/修复 iPhone PNG 的有效方法（代码）
+title: 真正能还原/修复 iPhone PNG 的有效方法
 wordpress_id: 734
 categories:
 - 文档
