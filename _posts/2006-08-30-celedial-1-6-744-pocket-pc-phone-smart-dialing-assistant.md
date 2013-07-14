@@ -1,7 +1,7 @@
 ---
 author: Yonsm
 comments: true
-date: 20106-08-30 23:43:11+00:00
+date: 2006-08-30 23:43:11+00:00
 layout: post
 slug: celedial-1-6-744-pocket-pc-phone-smart-dialing-assistant
 title: CeleDial 1.6.744 – Pocket PC 电话智能拨号助手
