@@ -16,7 +16,7 @@ Windows Mobile Pocket PC 中最好用的开始菜单和任务切换软件，完�
   
 完全超越 SmallMenu 的各种功能，并具有类似 HandySwitcher 和 X-Button 的长按“X”关闭当前窗口的功能。内存占用非常少，运行稳定，功能强大，方便易用。  
   
-[![](attachment/QuickMenu.png)](attachment/QuickMenu.png)  
+[![](/asserts/QuickMenu.png)](/asserts/QuickMenu.png)  
   
 <!-- more -->  
   

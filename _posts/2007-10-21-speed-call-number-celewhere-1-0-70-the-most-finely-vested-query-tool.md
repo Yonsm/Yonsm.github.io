@@ -66,7 +66,7 @@ WWW.Yonsm.NET
   
   
 上图：  
-[![](attachment/CeleWhere.png)](attachment/CeleWhere.png)  
+[![](/asserts/CeleWhere.png)](/asserts/CeleWhere.png)  
   
 下载 CeleWhere（1.0.70）  
 [下载](/asserts/CeleWhere.zip)  
@@ -77,7 +77,7 @@ WWW.Yonsm.NET
 
   
   
-[![](attachment/CodeArea.png)](attachment/CodeArea.png)  
+[![](/asserts/CodeArea.png)](/asserts/CodeArea.png)  
   
 下载 CodeArea（PC 上的来电归属查询工具）  
 [下载](/asserts/CodeArea.zip)  

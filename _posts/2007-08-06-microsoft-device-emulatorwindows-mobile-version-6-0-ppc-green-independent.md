@@ -14,7 +14,7 @@ tags:
 
 为某些需要的网友提供独立的 Windows Mobile 6.0 Professional QVGA CHS 模拟器绿色独立版本，解压缩到任意目录，执行 WM6.PPC.QVGA.CHS.BAT 即可运行（Card 目录映射到模拟器中的 Storage Card 中）。<!-- more -->  
   
-[![](attachment/DevEnum.png)](attachment/DevEnum.png)  
+[![](/asserts/DevEnum.png)](/asserts/DevEnum.png)  
   
 [下载](/asserts/DevEnum.7z)<!-- more -->  
   

@@ -152,7 +152,7 @@ MDX: http://www.rayfile.com/files/63daba63-d0cc-11dd-9dca-0014221b798a/
   
   
 屏幕截图（实际情况可能稍有出入）  
-[attachment/PPCPack.Yonsm.WM5.png](attachment/PPCPack.Yonsm.WM5.png)  
+[attachment/PPCPack.Yonsm.WM5.png](/asserts/PPCPack.Yonsm.WM5.png)  
   
 欢迎评测：）  
 

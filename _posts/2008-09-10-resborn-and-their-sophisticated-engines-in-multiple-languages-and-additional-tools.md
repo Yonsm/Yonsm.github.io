@@ -14,7 +14,7 @@ tags:
 
 又要马儿跑，又要马儿不吃草：）  
   
-[![](attachment/ResBorn.png)](attachment/ResBorn.png)  
+[![](/asserts/ResBorn.png)](/asserts/ResBorn.png)  
   
 程序多语言支持一般来说有以下两种方式：  
   

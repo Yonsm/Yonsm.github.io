@@ -14,7 +14,7 @@ tags:
 ---
 
 小东西，包含源代码，没有更多要说的。  
-[![](attachment/CeleSign.gif)](attachment/CeleSign.gif)   
+[![](/asserts/CeleSign.gif)](/asserts/CeleSign.gif)   
   
 2008.3.27 已经更新 1.2.56，支持完全移除签名数据，并添加了一个签署设备的功能（彩蛋，不容易找  
   

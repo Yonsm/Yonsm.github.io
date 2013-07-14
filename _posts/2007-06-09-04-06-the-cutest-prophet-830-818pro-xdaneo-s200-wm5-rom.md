@@ -301,7 +301,7 @@ WWW.Yonsm.NET
   
   
 查看屏幕截图（可能与当前版本有些许出入）  
-![zan](wp-content/bo/emot/zan.gif)[attachment/Prophet.Yonsm.WM5.png](attachment/Prophet.Yonsm.WM5.png)  
+![zan](wp-content/bo/emot/zan.gif)[attachment/Prophet.Yonsm.WM5.png](/asserts/Prophet.Yonsm.WM5.png)  
   
 下载 Prophet WM5 ROM 2008.04.06 版：  
 [下载](/asserts/Prophet.Yonsm.WM5.2008.04.06.exe)  
