@@ -4,7 +4,7 @@ comments: true
 date: 2011-05-12 19:52:49+00:00
 layout: post
 slug: reprint-import-contacts-to-iphone-simulator
-title: '[转帖]导入通讯录到 iPhone Simulator'
+title: '[转载]导入通讯录到 iPhone Simulator'
 wordpress_id: 541
 categories:
 - 文档

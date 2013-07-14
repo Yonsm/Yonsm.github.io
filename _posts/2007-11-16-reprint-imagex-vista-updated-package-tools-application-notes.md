@@ -4,7 +4,7 @@ comments: true
 date: 2007-11-16 19:15:18+00:00
 layout: post
 slug: reprint-imagex-vista-updated-package-tools-application-notes
-title: '[转帖]Vista最新封装工具 ImageX 应用说明'
+title: '[转载]Vista最新封装工具 ImageX 应用说明'
 wordpress_id: 386
 categories:
 - 文档

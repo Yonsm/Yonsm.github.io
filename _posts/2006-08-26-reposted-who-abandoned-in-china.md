@@ -4,7 +4,7 @@ comments: true
 date: 2006-08-26 13:43:24+00:00
 layout: post
 slug: reposted-who-abandoned-in-china
-title: '[转贴]到底谁在抛弃中国？'
+title: '[转载]到底谁在抛弃中国？'
 wordpress_id: 240
 categories:
 - 网文

@@ -4,7 +4,7 @@ comments: true
 date: 2006-05-04 12:09:52+00:00
 layout: post
 slug: reposted-the-guidelines-for-national-unification
-title: '[转贴]国家统一纲领'
+title: '[转载]国家统一纲领'
 wordpress_id: 206
 categories:
 - 网文

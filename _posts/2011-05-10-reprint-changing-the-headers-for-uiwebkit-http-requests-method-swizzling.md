@@ -4,7 +4,7 @@ comments: true
 date: 2011-05-10 22:12:03+00:00
 layout: post
 slug: reprint-changing-the-headers-for-uiwebkit-http-requests-method-swizzling
-title: '[转帖]Changing the headers for UIWebKit HTTP requests - Method Swizzling'
+title: '[转载]Changing the headers for UIWebKit HTTP requests - Method Swizzling'
 wordpress_id: 539
 categories:
 - 文档

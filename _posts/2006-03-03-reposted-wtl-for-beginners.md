@@ -4,7 +4,7 @@ comments: true
 date: 2006-03-03 07:17:01+00:00
 layout: post
 slug: reposted-wtl-for-beginners
-title: '[转贴]WTL初学者'
+title: '[转载]WTL初学者'
 wordpress_id: 188
 categories:
 - 文档

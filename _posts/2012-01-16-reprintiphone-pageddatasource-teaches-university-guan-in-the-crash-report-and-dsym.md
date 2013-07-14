@@ -4,7 +4,7 @@ comments: true
 date: 2012-01-16 05:31:42+00:00
 layout: post
 slug: reprintiphone-pageddatasource-teaches-university-guan-in-the-crash-report-and-dsym
-title: '[转帖]iPhone 開發教學 - 關於 Crash Report 和 dSYM 的使用'
+title: '[转载]iPhone 開發教學 - 關於 Crash Report 和 dSYM 的使用'
 wordpress_id: 551
 categories:
 - 网文

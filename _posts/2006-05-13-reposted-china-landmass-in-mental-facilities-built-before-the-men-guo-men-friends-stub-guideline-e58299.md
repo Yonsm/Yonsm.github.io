@@ -4,13 +4,13 @@ comments: true
 date: 2006-05-13 12:16:57+00:00
 layout: post
 slug: reposted-china-landmass-in-mental-facilities-built-before-the-men-guo-men-friends-stub-guideline-%e5%82%99
-title: '[转贴]中國大陸悶友看悶鍋前的心理建設與準備'
+title: '[转载]中國大陸悶友看悶鍋前的心理建設與準備'
 wordpress_id: 208
 categories:
 - 网文
 tags:
 - 台湾
-- 转贴
+- 转载
 ---
 
 中國大陸悶友看悶鍋前的心理建設與準備  
@@ -87,4 +87,4 @@ after all,生活提昇真是硬道理
   
   
 作者：yamaichi   
-转贴自：http://www.qmdmg.com/viewthread.php?tid=51
+转载自：http://www.qmdmg.com/viewthread.php?tid=51

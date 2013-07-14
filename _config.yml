@@ -5,5 +5,5 @@ name: Yonsm.NET
 author: Yonsm
 pygments: true
 safe: true
-paginate: 16
+paginate: 20
 auto: true

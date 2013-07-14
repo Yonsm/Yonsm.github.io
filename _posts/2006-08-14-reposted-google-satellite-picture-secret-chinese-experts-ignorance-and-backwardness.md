@@ -4,7 +4,7 @@ comments: true
 date: 2006-08-14 18:15:48+00:00
 layout: post
 slug: reposted-google-satellite-picture-secret-chinese-experts-ignorance-and-backwardness
-title: '[转贴]Google卫星图“泄密”看中国专家愚昧与落后'
+title: '[转载]Google卫星图“泄密”看中国专家愚昧与落后'
 wordpress_id: 233
 categories:
 - 网文
@@ -42,4 +42,4 @@ Google卫星地图，泄了中国的“国家机密”吗？
   
 作者：至察则无徒  
 转自：http://talk.163.com/06/0813/17/2OE0SJA800301IJI_2.html  
-说明：Yonsm.NET 是一个非盈利目的的个人博客网站。转贴此网文仅用于阅读收藏目的，并未征得原作者或媒体授权同意，如有异议请联系 Yonsm@163.com。
+说明：Yonsm.NET 是一个非盈利目的的个人博客网站。转载此网文仅用于阅读收藏目的，并未征得原作者或媒体授权同意，如有异议请联系 Yonsm@163.com。

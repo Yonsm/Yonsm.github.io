@@ -4,13 +4,13 @@ comments: true
 date: 2004-12-01 03:13:04+00:00
 layout: post
 slug: reposted-only-through-crash-error-row-address-to-find-the-source-code
-title: '[转贴]仅通过崩溃地址找出源代码的出错行'
+title: '[转载]仅通过崩溃地址找出源代码的出错行'
 wordpress_id: 97
 categories:
 - 文档
 ---
 
-_好友_[_老罗_](http://www.luocong.com/)_文章，有时候特别有用，转贴于此:_
+_好友_[_老罗_](http://www.luocong.com/)_文章，有时候特别有用，转载于此:_
 
 作为程序员，我们平时最担心见到的事情是什么？是内存泄漏？是界面不好看？……错啦！我相信我的看法是不会有人反对的——那就是，程序发生了崩溃！  
   

@@ -4,7 +4,7 @@ comments: true
 date: 2006-04-05 16:43:21+00:00
 layout: post
 slug: reposted-panda-mix-of-shi-lang-of-course-no-one-would-dare-to
-title: '[转贴]熊猫搭配施琅，当然没人敢要'
+title: '[转载]熊猫搭配施琅，当然没人敢要'
 wordpress_id: 200
 categories:
 - 网文
@@ -34,6 +34,6 @@ tags:
   
 转自：http://www.zaobao.com/special/forum/pages3/forum_tw060404e.html  
 作者：卡兰索  
-说明：Yonsm.NET 是一个非盈利目的的个人博客网站。转贴此网文仅用于阅读收藏目的，并未征得原作者或媒体授权同意，如有异议请联系 Yonsm@163.com。  
+说明：Yonsm.NET 是一个非盈利目的的个人博客网站。转载此网文仅用于阅读收藏目的，并未征得原作者或媒体授权同意，如有异议请联系 Yonsm@163.com。  
   
 Yonsm 点评：由着现在那些操作统一的人（比如国台办）的思维，只有统战没有尊重，台湾永远也统一不了；由着另外一些没头没脑的愤青所谓“武统”（或者所谓的“核平统一”）的思维，即使“统一”，也是历史的倒退！倒退！！相当的倒退！！！

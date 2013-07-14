@@ -4,7 +4,7 @@ comments: true
 date: 2012-08-27 04:19:05+00:00
 layout: post
 slug: aria-goagt-for-tomato
-title: ARIA2 + Go4g??t +Lighttpd for Tomato
+title: ARIA2 + GoAgentt +Lighttpd for Tomato
 wordpress_id: 751
 categories:
 - 资源

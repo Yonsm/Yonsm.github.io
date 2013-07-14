@@ -12,7 +12,7 @@ tags:
 - 分享
 ---
 
-发现一个比较详细的 CuteFoto 批量扫描一寸照片的应用教程，转贴在此。  
+发现一个比较详细的 CuteFoto 批量扫描一寸照片的应用教程，转载在此。  
   
 原文地址：http://amd-am2.blog.sohu.com/61106454.html  
 文中提到的 CuteFoto 在此下载：http://www.yonsm.net/read.php?57  

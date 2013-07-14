@@ -4,7 +4,7 @@ comments: true
 date: 2010-12-14 19:49:30+00:00
 layout: post
 slug: reposted-is-not-fit-to-be-a-developer-of-10-kinds-of-signs
-title: '[转贴]不适合当一名开发人员的10种迹'
+title: '[转载]不适合当一名开发人员的10种迹'
 wordpress_id: 526
 categories:
 - 网文

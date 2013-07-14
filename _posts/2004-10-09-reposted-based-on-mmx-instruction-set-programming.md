@@ -4,7 +4,7 @@ comments: true
 date: 2004-10-09 04:40:42+00:00
 layout: post
 slug: reposted-based-on-mmx-instruction-set-programming
-title: '[转贴]基于MMX指令集的程序设计'
+title: '[转载]基于MMX指令集的程序设计'
 wordpress_id: 156
 categories:
 - 文档

@@ -4,7 +4,7 @@ comments: true
 date: 2006-04-02 11:59:34+00:00
 layout: post
 slug: reposted-who-is-a-national-hero
-title: '[转贴]谁是民族英雄？'
+title: '[转载]谁是民族英雄？'
 wordpress_id: 197
 categories:
 - 网文
@@ -35,7 +35,7 @@ tags:
   
 转自：http://www.zaobao.com/gj/zg060402_50..html  
 作者：张从兴  
-说明：Yonsm.NET 是一个非盈利目的的个人博客网站。转贴此网文仅用于阅读收藏目的，并未征得原作者或媒体授权同意，如有异议请联系 Yonsm@163.com。  
+说明：Yonsm.NET 是一个非盈利目的的个人博客网站。转载此网文仅用于阅读收藏目的，并未征得原作者或媒体授权同意，如有异议请联系 Yonsm@163.com。  
   
 
 

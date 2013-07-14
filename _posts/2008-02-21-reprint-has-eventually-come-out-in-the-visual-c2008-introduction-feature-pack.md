@@ -4,7 +4,7 @@ comments: true
 date: 2008-02-21 19:03:41+00:00
 layout: post
 slug: reprint-has-eventually-come-out-in-the-visual-c2008-introduction-feature-pack
-title: '[转帖]千呼万唤始出来的 Visual C++ 2008 Feature Pack 介绍'
+title: '[转载]千呼万唤始出来的 Visual C++ 2008 Feature Pack 介绍'
 wordpress_id: 403
 categories:
 - 文档

@@ -4,7 +4,7 @@ comments: true
 date: 2012-04-02 14:13:20+00:00
 layout: post
 slug: reposted-reverse-a-md5-32-about-how-much-computing-power-you-need
-title: '[转贴]逆向一条 MD5-32 大概需要多少运算能力？'
+title: '[转载]逆向一条 MD5-32 大概需要多少运算能力？'
 wordpress_id: 640
 categories:
 - 文档

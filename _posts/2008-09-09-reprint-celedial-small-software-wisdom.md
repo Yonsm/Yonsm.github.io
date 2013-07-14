@@ -4,7 +4,7 @@ comments: true
 date: 2008-09-09 03:42:22+00:00
 layout: post
 slug: reprint-celedial-small-software-wisdom
-title: '[转帖]CeleDial：小软件大智慧'
+title: '[转载]CeleDial：小软件大智慧'
 wordpress_id: 431
 categories:
 - 文档

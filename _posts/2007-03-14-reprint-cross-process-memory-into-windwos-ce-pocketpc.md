@@ -4,7 +4,7 @@ comments: true
 date: 2007-03-14 05:43:31+00:00
 layout: post
 slug: reprint-cross-process-memory-into-windwos-ce-pocketpc
-title: 【转帖】Windwos CE 跨进程内存注入（PocketPC）
+title: 【转载】Windwos CE 跨进程内存注入（PocketPC）
 wordpress_id: 296
 categories:
 - 文档

@@ -4,7 +4,7 @@ comments: true
 date: 2012-07-24 09:00:41+00:00
 layout: post
 slug: 07-24-hd-player-firmware-haimeidi-hd600-series-plate
-title: '[07.24]海美迪 HD600 系列高清播放机固件定制版'
+title: '海美迪 HD600 系列高清播放机固件定制版'
 wordpress_id: 557
 categories:
 - 资源

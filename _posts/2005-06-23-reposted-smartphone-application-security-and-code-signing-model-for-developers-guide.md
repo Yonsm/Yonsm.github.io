@@ -4,7 +4,7 @@ comments: true
 date: 2005-06-23 23:05:26+00:00
 layout: post
 slug: reposted-smartphone-application-security-and-code-signing-model-for-developers-guide
-title: '[转贴]Smartphone 应用程序安全与代码签名模型开发人员实用指南'
+title: '[转载]Smartphone 应用程序安全与代码签名模型开发人员实用指南'
 wordpress_id: 36
 categories:
 - 文档

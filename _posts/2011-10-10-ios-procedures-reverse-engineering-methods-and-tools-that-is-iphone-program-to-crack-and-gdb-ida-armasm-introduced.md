@@ -4,7 +4,7 @@ comments: true
 date: 2011-10-10 01:56:47+00:00
 layout: post
 slug: ios-procedures-reverse-engineering-methods-and-tools-that-is-iphone-program-to-crack-and-gdb-ida-armasm-introduced
-title: iOS 程序逆向工程分析方法和工具介绍（就是iPhone程序破解和GDB、IDA、ARMASM等介绍）
+title: iOS 程序逆向工程分析方法和工具介绍（GDB、IDA、ARMASM）
 wordpress_id: 549
 categories:
 - 文档

@@ -4,7 +4,7 @@ comments: true
 date: 2007-11-18 18:51:30+00:00
 layout: post
 slug: reprint-incoming-server-and-outgoing-server-are-passed-as-two-null-pointers-from-outlook-to-transport
-title: '[转帖]Incoming server and outgoing server are passed as two NULL pointers from
+title: '[转载]Incoming server and outgoing server are passed as two NULL pointers from
   Outlook to Transport'
 wordpress_id: 387
 categories:

@@ -4,7 +4,7 @@ comments: true
 date: 2007-06-02 02:00:23+00:00
 layout: post
 slug: reposted-journey-to-the-matrix-edition
-title: '[转贴]西游记之黑客帝国版'
+title: '[转载]西游记之黑客帝国版'
 wordpress_id: 333
 categories:
 - 网文

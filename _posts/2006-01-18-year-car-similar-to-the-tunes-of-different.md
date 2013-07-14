@@ -7,7 +7,7 @@ slug: year-car-similar-to-the-tunes-of-different
 title: 年年岁岁车相似，岁岁年年票不同
 wordpress_id: 168
 categories:
-- 网文
+- 日志
 tags:
 - 郁闷
 ---

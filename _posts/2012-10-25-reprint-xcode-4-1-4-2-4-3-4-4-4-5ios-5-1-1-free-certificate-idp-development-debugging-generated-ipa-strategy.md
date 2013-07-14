@@ -5,7 +5,7 @@ date: 2012-10-25 05:44:36+00:00
 layout: post
 published: false
 slug: reprint-xcode-4-1-4-2-4-3-4-4-4-5ios-5-1-1-free-certificate-idp-development-debugging-generated-ipa-strategy
-title: '[转帖]Xcode 4.1/4.2/4.3/4.4/4.5 + iOS 5.1.1免证书(iDP)开发+真机调试+生成IPA全攻略'
+title: '[转载]Xcode 4.1/4.2/4.3/4.4/4.5 + iOS 5.1.1免证书(iDP)开发+真机调试+生成IPA全攻略'
 wordpress_id: 786
 categories:
 - 文档

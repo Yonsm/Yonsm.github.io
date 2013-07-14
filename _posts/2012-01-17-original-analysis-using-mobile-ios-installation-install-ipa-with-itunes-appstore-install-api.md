@@ -4,7 +4,7 @@ comments: true
 date: 2012-01-17 04:36:25+00:00
 layout: post
 slug: original-analysis-using-mobile-ios-installation-install-ipa-with-itunes-appstore-install-api
-title: 原创分析：iOS 中使用 Mobile Installation 安装 IPA（使用iTunes/AppStore一样的安装API）
+title: 分析 iOS 中使用 Mobile Installation 安装 IPA
 wordpress_id: 553
 categories:
 - 文档
