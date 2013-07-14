@@ -52,7 +52,7 @@ categories:
 
  
 
-源代码在次：[http://hdweb.googlecode.com/svn/ATV/](http://hdweb.googlecode.com/svn/ATV/)
+源代码在此：[https://github.com/Yonsm/ATVME](https://github.com/Yonsm/ATVME)
 持续更新中，详细步骤和说明请移步看2楼的详细帖子。：[http://bbs.weiphone.com/read-htm-tid-5460032.html](http://bbs.weiphone.com/read-htm-tid-5460032.html)
 
 MKV方案请看TT的论坛：[http://www.ottnt.com/forum.php](http://www.ottnt.com/forum.php)

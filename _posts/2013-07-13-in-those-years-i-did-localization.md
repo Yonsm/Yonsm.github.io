@@ -4,7 +4,7 @@ comments: true
 date: 2013-07-13 19:43:57+00:00
 layout: post
 slug: in-those-years-i-did-localization
-title: 那些年，我曾经做过的汉化
+title: 那些年，曾经做过的汉化
 wordpress_id: 2034
 categories:
 - 资源
