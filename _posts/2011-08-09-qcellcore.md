@@ -78,15 +78,15 @@ v0.9
 4. 更新数据库
   
 
-![](attachment/qc_code_0.9.0.png)
-本地下载 (Download)：[PhoneArea_0.9.0.apk](attachment/PhoneArea_0.9.0.apk)
+![](/assets/qc_code_0.9.0.png)
+本地下载 (Download)：[PhoneArea_0.9.0.apk](/assets/PhoneArea_0.9.0.apk)
   
 
 <!-- more -->
-![](images/qcarea/phonearea.png)
-![](images/qcarea/setting_ip_dial.png)
-![](images/qcarea/setting_show_calling.png)
-![](images/qcarea/incoming_call.png)
+![](/assets/qcarea/phonearea.png)
+![](/assets/qcarea/setting_ip_dial.png)
+![](/assets/qcarea/setting_show_calling.png)
+![](/assets/qcarea/incoming_call.png)
 
 
 更新记录：
