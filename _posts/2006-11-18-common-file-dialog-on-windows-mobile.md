@@ -1,12 +1,10 @@
 ---
 date: 2006-11-18 11:23:29+00:00
 layout: post
-title: Windows Mobile 下面最通用的浏览文件对话框代码
+title: Windows Mobile 下面最通用的浏览文件对话框
 thread: 276
 categories: 文档
-tags:
-- 分享
-- 编程
+tags: 编程
 ---
 
 M$ Windows Mobile 一大不爽的东西就是 GetOpenFileName 和 GetSaveFileName 函数非常的乱：WM5 上提供了一个 GetOpenFileNameEx 来浏览图片；PPC2003/WM5 下极其简单，只能使用非常浅的文件夹（虽然设计上的考虑，但也太滥了）；SP2003 下压根就没有这些函数。于是只好自己写可以个函数非常通用的函数，Windows Mobile 2003/5.0 SP/PPC 下均可正常运行并获得最佳体验。  

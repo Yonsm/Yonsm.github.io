@@ -4,6 +4,7 @@ layout: post
 title: Windows Mobile SP/PPC 中 Menu Bar 使用完美方案
 thread: 456
 categories: 文档
+tags: WM 编程
 ---
 
 在SP/PPC写过MenuBar代码的人可能都知道，AygShell 中 Menu Bar 的设计真是无话说，各种系统（SP、PPC、2003、5.0）功能差异不一致，导致编程特别不方便。比如 SP2003 中不能使用 SHCMBF_HMENU 标记，PPC 5.0/6.0 终不能使用 SHCMBM_GETMENU，SP/PPC 2003中不能使用 TBIF_BYINDEX 来操作按钮，等等。  

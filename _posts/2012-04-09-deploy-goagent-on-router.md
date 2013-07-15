@@ -4,6 +4,7 @@ layout: post
 title: 在 3.5MB 空闲空间的路由器上部署 Python + GoAgent
 thread: 645
 categories: 文档
+tags: 折腾 路由器
 ---
 
 在 3.5MB 超小空闲空间的路由器上部署 Python + GoAgent（以Tomato DualWAN WR500V 为例）

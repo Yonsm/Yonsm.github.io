@@ -4,6 +4,7 @@ layout: post
 title: Windows Mobile 中开关 WIFI 的“通用”代码
 thread: 412
 categories: 文档
+tags: WM 编程
 ---
 
 从网上看到用SetDevicePower可以开关WIFI，但郁闷的是不同的OEM厂商，甚至不同型号的手机，WIFI设备名称都可能不一样。  

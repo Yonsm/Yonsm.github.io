@@ -4,6 +4,7 @@ layout: post
 title: 自动转发特定网站到路由器GoAgent，实现客户端零配置
 thread: 678
 categories: 文档
+tags: 折腾 路由器
 ---
 
 关于自动指定出口有完美方案了！在路由器上跑GoAgent，路由器的防火墙规则能自动把U2B的HTTP请求往Go~Agent上劫持转发，这样相当于是和“指定出口”功能差不多功能的智能路由了（不过不是VPN路由，是HTTP代理而已）

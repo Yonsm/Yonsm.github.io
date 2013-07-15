@@ -4,6 +4,7 @@ layout: post
 title: 10 月之行
 thread: 483
 categories: 游集
+tags: 旅行
 ---
 
 先随便记录一下，有空再详细攻略。  

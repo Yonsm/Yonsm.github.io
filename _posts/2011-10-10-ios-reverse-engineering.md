@@ -4,6 +4,7 @@ layout: post
 title: iOS 程序逆向工程分析方法和工具介绍（GDB、IDA、ARMASM）
 thread: 549
 categories: 文档
+tags: iOS 逆向工程
 ---
 
 一、简述  

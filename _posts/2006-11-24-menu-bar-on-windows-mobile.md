@@ -4,8 +4,7 @@ layout: post
 title: Menu Bar on Windows Mobile
 thread: 280
 categories: 文档
-tags:
-- 编程
+tags: WM 编程
 ---
 
 总结一下 MS WM 上莫名其妙的、非常不爽的 Menu Bar API：  

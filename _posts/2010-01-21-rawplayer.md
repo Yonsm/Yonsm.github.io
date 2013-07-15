@@ -4,6 +4,7 @@ layout: post
 title: RawPlayer 2.2 - YUV Player/RGB Player 原始视频播放器/分析器
 thread: 493
 categories: 软件
+tags: 分享
 ---
 
 RawPlayer 是一个解码后的原始视频数据的分析工具。它支持多种未压缩纯视频数据 (Uncompressed Raw Video Data，包括 YV12、IYUV、YUY2、YVYU、UYVY、VYUY、RGB24) 文件的显示播放，以及任意两种格式之间的相互转换。  

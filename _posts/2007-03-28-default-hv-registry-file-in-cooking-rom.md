@@ -4,9 +4,7 @@ layout: post
 title: 定制 Windows Mobile ROM 中的 Default.hv 注册表文件
 thread: 299
 categories: 文档
-tags:
-- 分享
-- 手机
+tags: WM 折腾 固件
 ---
 
 定制ROM相信很多人多做过了，编辑其中的注册表是一件很麻烦的事。经过一番摸索，终于找到了一条比较舒服的捷径，简述如下：  

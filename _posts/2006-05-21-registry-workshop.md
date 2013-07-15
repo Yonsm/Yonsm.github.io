@@ -4,9 +4,7 @@ layout: post
 title: Registry Workshop - 支持 Windows Mobile 的注册表编辑器
 thread: 210
 categories: 资源
-tags:
-- 分享
-- 手机
+tags: Win WM
 ---
 
 一个功能强大的注册表编辑器，但我今天在这里介绍她不是因为它强大，而是因为它支持 Windows Mobile 的注册表编辑，用起来太好用了，快扔掉那个蹩脚的 CERegedit （貌似是 Microsoft 写的该死的东西）吧……  

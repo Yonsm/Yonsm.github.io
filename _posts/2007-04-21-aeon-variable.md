@@ -1,12 +1,10 @@
 ---
 date: 2007-04-21 06:00:45+00:00
 layout: post
-title: '[妙想]Aeon Variable/永生变量 - 保存程序设置到EXE本身'
+title: 'Aeon Variable/永生变量 - 保存程序设置到EXE本身'
 thread: 317
 categories: 文档
-tags:
-- 分享
-- 编程
+tags: Win WM 编程
 ---
 
 全宇宙人中的编程人员都知道代码中有 局部变量/Local Variable、Global Variable/全局变量（还有Heap/Const，全局变量可细分 .data .bss等），各司其职，各有用处。  

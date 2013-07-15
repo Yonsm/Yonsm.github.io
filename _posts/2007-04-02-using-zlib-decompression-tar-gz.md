@@ -4,16 +4,12 @@ layout: post
 title: 用 ZLib 解压缩 TAR GZ 的最简单的过程和代码
 thread: 301
 categories: 代码
-tags:
-- 编程
+tags: 编程
 ---
 
 看代码，不多说，应该很简单，由于 ZLib 的可移植性，所以在 PC 和 Windows Mobile 下不加修改即可便已通过。<!-- more -->详细代码下载可以参考 CeleSetup 的帖子。  
   
-  
-
-
-  
+`
 #include "UniBase.h"  
 #include "ZLib/ZLib.h"  
 #pragma comment(lib, "ZLib/ZLib.lib")  
@@ -228,3 +224,4 @@ INT XTar(PTSTR ptzCmd)
  gzclose(gz);  
  return 0;  
 }
+`

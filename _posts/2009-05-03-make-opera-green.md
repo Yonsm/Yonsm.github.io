@@ -4,6 +4,7 @@ layout: post
 title: 把 Opera 做成完全绿色免安装版
 thread: 460
 categories: 文档
+tags: 逆向工程
 ---
 
 发现 Opera 在网页浏览方面还是很有优势的，一直以来都因为这个鸟软件不能绿色安装（特指放在任意目录那种）一直没用。趁着前两天改 Google Maps 的精神，今天又操刀了一下：  

@@ -4,8 +4,7 @@ layout: post
 title: 在 MFC SDI 程序中实现多语言程序界面
 thread: 178
 categories: 文档
-tags:
-- 编程
+tags: Win 编程
 ---
 
 今天举个例子，说说怎样使用 [CLanguage](read.php?177) 类，在 MFC SDI 程序中实现多语言程序界面。 

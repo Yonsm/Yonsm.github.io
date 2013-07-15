@@ -4,6 +4,7 @@ layout: post
 title: Go Go Go & A Tutorial for the Go Programming Language
 thread: 540
 categories: 文档
+tags: 编程
 ---
 
 Go Go Go，http://golang.org/doc/go_tutorial.html，看了一下貌似好酷⋯⋯  

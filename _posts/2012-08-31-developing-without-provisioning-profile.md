@@ -4,6 +4,7 @@ layout: post
 title: '[转载]Developing without Provisioning Profile'
 thread: 763
 categories: 文档
+tags: iOS 编程
 ---
 
 To develop for the devices one should first obtain a provisioning profile by joining the iPhone Developer Program (which costs $99). However, some simple tricks can be used to make Xcode compile and debug on jailbroken devices without provisioning profiles.

@@ -4,6 +4,7 @@ layout: post
 title: 服务器惊魂……
 thread: 452
 categories: 日志
+tags: 博客
 ---
 
 好久没写过日志或做点东西了，最近忙了很多事情，按下不表……  

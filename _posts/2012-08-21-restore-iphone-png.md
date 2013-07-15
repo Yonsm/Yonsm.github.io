@@ -4,6 +4,7 @@ layout: post
 title: 真正能还原/修复 iPhone PNG 的有效方法
 thread: 734
 categories: 文档
+tags: iOS 编程
 ---
 
 iPhone/iPad 的 IPA 包中的  PNG 文件在编译时默认会做特殊处理（应该是以便硬件加速解码？），有时候需要“参考”下第三方的 PNG 图片的时候带来了巨大的麻烦：一直流传着各种方法和工具，分别是 Windows 下的 FixPng、Mac下的iPhone PNG Fix、Python脚本修复、PNG Nomalizer（[http://www.beyondcow.com/pngnormalizer/](http://www.beyondcow.com/pngnormalizer/)），在线修复（[http://www.raisedtech.com/iphone-ipa-png/](http://www.raisedtech.com/iphone-ipa-png/)）等等这种各样。实际用下来基本上对于现在的 IPA 文件中的 PNG 多半有很多图片无法还原。

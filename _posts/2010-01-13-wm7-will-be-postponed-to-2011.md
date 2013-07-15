@@ -4,6 +4,7 @@ layout: post
 title: '传闻WM7将延期至2011年'
 thread: 491
 categories: 日志
+tags: WM
 ---
 
 请参考：http://www.pdafans.com/article-5648-1.html  

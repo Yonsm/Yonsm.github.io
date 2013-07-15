@@ -4,6 +4,7 @@ layout: post
 title: 折腾了两天，对 iPad 好熟悉了
 thread: 504
 categories: 日志
+tags: iOS
 ---
 
 非常不错的东西，流畅、省电……<!-- more -->  

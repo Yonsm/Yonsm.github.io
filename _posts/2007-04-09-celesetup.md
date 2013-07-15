@@ -4,10 +4,7 @@ layout: post
 title: CeleSetup - ROM 定制扩展命令解释工具
 thread: 300
 categories: 代码
-tags:
-- 分享
-- 手机
-- 编程
+tags: 分享 WM 固件
 ---
 
 欢迎使用 CeleSetup，它将使你能够轻松愉快地定制 Windows Mobile ROM，使您的 ROM 具备最好的扩充性和伸缩性！

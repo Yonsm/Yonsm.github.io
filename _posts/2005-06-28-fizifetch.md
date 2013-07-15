@@ -4,8 +4,7 @@ layout: post
 title: FiziFetch & DumpROM - 从 Smartphone 中提取任何文件
 thread: 33
 categories: 文档
-tags:
-- 手机
+tags: WM
 ---
 
 首先，用我写的 FiziFetch 在 SP 中运行，提取物理内存数据文件（ROM，假设为 Fizi.bin）。  

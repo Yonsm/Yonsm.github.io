@@ -4,8 +4,7 @@ layout: post
 title: 在 Visual C++ 中使用内联汇编
 thread: 176
 categories: 文档
-tags:
-- 编程
+tags: 编程
 ---
 
 一、 优点

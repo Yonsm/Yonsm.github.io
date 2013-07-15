@@ -4,8 +4,7 @@ layout: post
 title: Smartphone 程序汉化——文件数字签名问题的解决方法
 thread: 46
 categories: 文档
-tags:
-- 手机
+tags: WM 汉化
 ---
 
     完美的本地化系统里面看到不谐调 E 文，真不完美的感觉……

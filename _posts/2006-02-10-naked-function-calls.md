@@ -4,8 +4,7 @@ layout: post
 title: naked 函数调用
 thread: 175
 categories: 文档
-tags:
-- 技巧
+tags: Win 编程
 ---
 
 正常的情况下，我们写一个 C/C++ 函数，即使是一个空函数，编译器也为我们做了不少的工作，生成了一些"必要"的代码。请看下面的函数 (为了说明问题随便写的):   

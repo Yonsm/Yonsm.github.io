@@ -4,8 +4,7 @@ layout: post
 title: 用 INI 文件实现程序多语言界面
 thread: 177
 categories: 文档
-tags:
-- 编程
+tags: Win 编程
 ---
 
 **一、优点**

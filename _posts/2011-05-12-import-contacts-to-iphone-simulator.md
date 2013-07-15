@@ -4,6 +4,7 @@ layout: post
 title: '[转载]导入通讯录到 iPhone Simulator'
 thread: 541
 categories: 文档
+tags: iOS 编程
 ---
 
 Using your own address book in the iPhone Simulator  

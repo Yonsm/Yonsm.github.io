@@ -1,9 +1,10 @@
 ---
 date: 2006-07-25 06:17:13+00:00
 layout: post
-title: 关于 CeleTask 的使用和评测文章
+title: '[转载]关于 CeleTask 的使用和评测文章'
 thread: 229
-categories: 日志
+categories: 
+tags: WM
 ---
 
 最强大的任务进程管理器CeleTask简介  

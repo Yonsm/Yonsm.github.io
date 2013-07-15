@@ -4,10 +4,7 @@ layout: post
 title: TransText 2.2 - 字符串提取、回写以及搜索替换工具
 thread: 316
 categories: 软件
-tags:
-- 分享
-- 汉化
-- 编程
+tags: 汉化 分享 Win
 ---
 
 更新了TransText，加入了最新  Android 4.0 风格的 UTF-8 前导个数的字符串格式支持，修改了程序UI，更直观的地设置字符串格式。

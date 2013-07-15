@@ -4,6 +4,7 @@ layout: post
 title: Another way to hook/modify API
 thread: 284
 categories: 代码
+tags: Win 逆向工程
 ---
 
 <!-- more -->[codes=cpp]  

@@ -4,8 +4,6 @@ layout: post
 title: '[转载]到底谁在抛弃中国？'
 thread: 240
 categories: 网文
-tags:
-- 无题
 ---
 
 作者：王晋晟   

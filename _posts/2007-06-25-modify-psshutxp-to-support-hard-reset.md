@@ -4,6 +4,7 @@ layout: post
 title: 修改 psShutXP 使他的硬起功能生效
 thread: 342
 categories: 代码
+tags: 逆向工程 WM
 ---
 
 经验征得之，SetCleanRebootFlag 对于 HTC 系列的 PPC 无效。但一般的软件硬起，往往就用这个函数，psShutXP 也不例外。  

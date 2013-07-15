@@ -4,6 +4,7 @@ layout: post
 title: 安装 Windows Phone Developer Tool 的步骤
 thread: 536
 categories: 文档
+tags: WP 编程
 ---
 
 如果本机没有安装 Visual Studio 2010，则很简单，不用担心冲突等问题（直接下载Windows Phone 7 Developer Tool，然后安装一个 Update 即可（支持复制粘贴等功能）——看下面2、3两步即可）。如果有 VS2010要仔细了：<!-- more -->  

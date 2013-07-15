@@ -4,6 +4,7 @@ layout: post
 title: '[转载]多普达Touch Diamond评测! 钻石机王 智能巅峰'
 thread: 420
 categories: 网文
+tags: WM
 ---
 
 [![](http://comm.ccidnet.com/col/attachment/2008/5/1485493.jpg)](http://comm.ccidnet.com/col/attachment/2008/5/1485493.jpg)

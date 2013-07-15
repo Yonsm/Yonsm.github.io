@@ -4,8 +4,6 @@ layout: post
 title: '[转载]西游记之黑客帝国版'
 thread: 333
 categories: 网文
-tags:
-- 无题
 ---
 
 事情起源是这样的  

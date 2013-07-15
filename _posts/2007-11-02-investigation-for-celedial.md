@@ -4,8 +4,7 @@ layout: post
 title: '[调查]你的手机是什么系统，在 CeleDial 吗?'
 thread: 382
 categories: 日志
-tags:
-- 调查
+tags: WM
 ---
 
 调查已结束，下面是结果：  

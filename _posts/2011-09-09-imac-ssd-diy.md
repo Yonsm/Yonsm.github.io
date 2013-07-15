@@ -4,6 +4,7 @@ layout: post
 title: iMac+SSD 发烧的历程——终于烧成功啦
 thread: 547
 categories: 文档
+tags: Mac 折腾
 ---
 
 一、缘由   

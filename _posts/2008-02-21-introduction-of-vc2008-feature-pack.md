@@ -4,6 +4,7 @@ layout: post
 title: '[转载]千呼万唤始出来的 Visual C++ 2008 Feature Pack 介绍'
 thread: 403
 categories: 文档
+tags: 编程
 ---
 
   

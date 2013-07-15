@@ -4,6 +4,7 @@ layout: post
 title: IME Support for RichInk
 thread: 430
 categories: 文档
+tags: WM 编程
 ---
 
 一般来说，PPC 下有两种输入法，一种是 SIP （如梅花输入法） 一种是 IME（如A4的数字硬键盘输入法）。  

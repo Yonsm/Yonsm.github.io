@@ -4,6 +4,7 @@ layout: post
 title: '[转载]Changing the headers for UIWebKit HTTP requests - Method Swizzling'
 thread: 539
 categories: 文档
+tags: iOS 编程
 ---
 
 I was asked several times, in which way the “User-Agent” header can be modified for the HTTP requests that are initiated from within the UIWebView object. iCabMobile is doing this, and also some other iPhone Apps, but the UIWebView API doesn’t provide anything which allows to modify the “User-Agent” information or any other HTTP header.  

@@ -4,6 +4,7 @@ layout: post
 title: 使用 WMF SDK 实现视频网络广播
 thread: 18
 categories: 文档
+tags: Win 编程
 ---
 
 大致步骤：

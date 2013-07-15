@@ -4,8 +4,6 @@ layout: post
 title: Orca - 修改 MSI 文件的好工具 - 终于搞定在 Win2003 上安装 WinCE5 PB
 thread: 266
 categories: 资源
-tags:
-- 分享
 ---
 
 很久以前就辛辛苦苦从电驴上下载来 Microsoft Windows CE 5.0 （开发包，特指 Platform Builder for Microsoft Windows CE 5.0），一安装提示只能在 WinXP SP1 以上或 Win2000 SP4 以上安装，我一直用 Win2003，真郁闷，每次要提取文件，只好用其他方法来找，找到后解除来看。  

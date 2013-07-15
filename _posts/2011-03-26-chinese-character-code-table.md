@@ -4,6 +4,7 @@ layout: post
 title: 汉字码表
 thread: 533
 categories: 资源
+tags: 分享
 ---
 
 刚整理的汉字码表，包括以下编码：  

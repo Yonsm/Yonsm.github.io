@@ -4,6 +4,7 @@ layout: post
 title: 关于 Yonsm.NET 的统计概况
 thread: 426
 categories: 日志
+tags: 博客
 ---
 
 网站名称 Yonsm.NET 

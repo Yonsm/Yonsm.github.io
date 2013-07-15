@@ -3,7 +3,8 @@ date: 2012-01-16 05:31:42+00:00
 layout: post
 title: '[转载]iPhone 開發教學 - 關於 Crash Report 和 dSYM 的使用'
 thread: 551
-categories: 网文
+categories: 文档
+tags: iOS 编程
 ---
 
 前幾天玩遊戲時，看到開發者請大家把 Crash Log / Crash Report / Bug Report 寄回給他，如此一來就可以偵錯，滿好奇的便也隨意在網路上找找該怎樣使用，在此便稍作筆記，並且寫一個簡單會 crash 的程式(很少人會這樣做吧 XD)。  

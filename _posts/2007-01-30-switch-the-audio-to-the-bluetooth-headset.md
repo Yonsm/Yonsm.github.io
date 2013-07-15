@@ -4,10 +4,7 @@ layout: post
 title: 切换音频到蓝牙耳机
 thread: 290
 categories: 代码
-tags:
-- 分享
-- 手机
-- 编程
+tags: 编程 WM
 ---
 
 买了个蓝牙耳机，竟然不能把除了电话之外的普通音频切换到蓝牙而机上。分析了一个 BTAudoToggle.exe 的代码，很快搞定。代码如下：  

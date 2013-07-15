@@ -1,12 +1,10 @@
 ---
 date: 2007-06-09 07:19:27+00:00
 layout: post
-title: '[04.06]最帅的 Prophet (830/818Pro/XDANeo/S200) WM5 ROM'
+title: '最帅的 Prophet (830/818Pro/XDANeo/S200) WM5 ROM'
 thread: 302
 categories: 资源
-tags:
-- 分享
-- 手机
+tags: 固件 WM
 ---
 
 欢迎使用最帅的 Prophet (830/818Pro/XDANeo/S200) 简体中文 WM5 ROM OS！它将一站式地帮您解决 Prophet PPC 中的所有困扰问题，带给您一个全新的完美体验。  

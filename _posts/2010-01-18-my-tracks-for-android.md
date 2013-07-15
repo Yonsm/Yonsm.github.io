@@ -4,6 +4,7 @@ layout: post
 title: 试用了一下 My Tracks，记录从六和塔到五云寺的爬山轨迹
 thread: 492
 categories: 游集
+tags: Android 旅行
 ---
 
 这两天感冒，朋友邀约下午去爬山，想想好久没动了，就去了。顺便试用了一下Android的My Tracks记录轨迹，一直开着，耗电量还行，撑到了五云寺就没电了（满电的话，感觉能走5个小时？）。  

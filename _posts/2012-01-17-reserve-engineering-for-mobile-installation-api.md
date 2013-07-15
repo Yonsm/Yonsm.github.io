@@ -4,6 +4,7 @@ layout: post
 title: 分析 iOS 中使用 Mobile Installation 安装 IPA
 thread: 553
 categories: 文档
+tags: iOS 逆向工程
 ---
 
 iOS 中要安装一个程序，从用户角度看有几种三：

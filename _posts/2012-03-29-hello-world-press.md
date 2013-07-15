@@ -4,6 +4,7 @@ layout: post
 title: '终于用上主流社会的主流博客程序了 '
 thread: 622
 categories: 日志
+tags: 博客
 ---
 
 实在受不了Bo-Blog的垃圾信息了，本来N年前就想转到WordPress，只是内容太多（500多个帖子了），转换有无数问题，一直没下定决心来。今天几经折腾，今天终于转到 Word Press 了。

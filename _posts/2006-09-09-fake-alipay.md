@@ -4,8 +4,6 @@ layout: post
 title: 遭遇支付宝“李鬼”？
 thread: 251
 categories: 日志
-tags:
-- 无题
 ---
 
 www.alipay.com.cn 从表象上看非常像“李鬼”域名，输入用户名密码验证马后说验证吗不对，典型的！  

@@ -4,8 +4,6 @@ layout: post
 title: 逢考必补
 thread: 245
 categories: 日志
-tags:
-- 流水账
 ---
 
 驾照考试 桩考 没过，真TMD猪头……

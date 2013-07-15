@@ -4,6 +4,7 @@ layout: post
 title: 杭州数字电视 CAM 卡接收方案小结
 thread: 528
 categories: 文档
+tags: 折腾
 ---
 
 买了个机卡分离的 LG42LE5300，支持CAM卡替换机顶盒的有线电视接收方案。实际整下来，非常完美，有杭州的朋友可以参考一下，小结如下：  

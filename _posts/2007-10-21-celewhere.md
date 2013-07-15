@@ -4,9 +4,7 @@ layout: post
 title: CeleWhere 1.0.70 - 最精巧快速的来电号码归属查询工具
 thread: 376
 categories: 软件
-tags:
-- 分享
-- 手机
+tags: WM 分享
 ---
 
 CeleWare 1.0.70  

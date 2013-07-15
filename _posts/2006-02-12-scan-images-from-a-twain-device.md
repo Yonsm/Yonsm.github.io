@@ -4,9 +4,7 @@ layout: post
 title: 从 TWAIN 设备中扫描图像
 thread: 174
 categories: 文档
-tags:
-- 扫描
-- 编程
+tags: Win 编程
 ---
 
 ### 一、简介

@@ -4,10 +4,7 @@ layout: post
 title: CeleFusion - 具有数据中继/变换功能的 HTTP 代理
 thread: 237
 categories: 代码
-tags:
-- 分享
-- 技巧
-- 编程
+tags: Win 编程
 ---
 
 一个短小的 HTTP Proxy，算是比较精妙的实用程序了，附件是源代码，非常简明清晰。

@@ -4,6 +4,7 @@ layout: post
 title: 计划骑自行车环游青海湖
 thread: 514
 categories: 游集
+tags: 旅行
 ---
 
 ……  

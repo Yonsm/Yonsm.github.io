@@ -1,12 +1,10 @@
 ---
 date: 2007-04-15 01:28:34+00:00
 layout: post
-title: 绿色淡雅模板更新至 2.0.3 适用，修正 IE7 下面的显示问题
+title: 绿色淡雅模板更新至 2.0.3 适用
 thread: 312
-categories: 日志
-tags:
-- 分享
-- 博客
+categories: 资源
+tags: 分享 博客
 ---
 
 我的 BLOG 是基于 BO-BLOG 2.0.3 SP1 的，界面风格是我自己做的，如果碰巧你也用 BO-BLOG，且我的 BLOG 风格还看的过去，可以在这里下载我的模板。  

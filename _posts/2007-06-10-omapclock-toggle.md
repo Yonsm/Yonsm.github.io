@@ -4,10 +4,7 @@ layout: post
 title: 精心构造代码，使 OMAPClock 超频设置永久有效
 thread: 335
 categories: 文档
-tags:
-- 分享
-- 手机
-- 破解
+tags: WM 逆向工程
 ---
 
 用 OMAP CPU 的用户可能知道 OMAP Clock 可以超频。但由于 OMAP CPU 本身的特性，在超频之后如果设备关闭（设备不使用，一般是两分钟后），再次开启时，频率又恢复成默认的了。  

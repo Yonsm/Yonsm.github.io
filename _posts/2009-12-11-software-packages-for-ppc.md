@@ -4,9 +4,7 @@ layout: post
 title: WM5/6 PPC 一键安装软件包、词典包、游戏包和 GPS 包
 thread: 303
 categories: 资源
-tags:
-- 分享
-- 手机
+tags: 分享 WM
 ---
 
 欢迎评估 Yonsm 收集的一键安装 PPC 软件包，只要轻轻敲击一下，就能安装所有的软件！  

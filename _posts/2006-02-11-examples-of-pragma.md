@@ -4,8 +4,7 @@ layout: post
 title: '#pragma 指示符应用举例'
 thread: 173
 categories: 文档
-tags:
-- 技巧
+tags: Win 编程
 ---
 
 _[Bo-Blog 1.x 到 2.0 的升级程序竟然出现数据丢失现象，导致丢失了好几篇文档，故手动贴上] _  

@@ -4,6 +4,7 @@ layout: post
 title: 如何获取指定内存所在的模块、当前模块、当前函数的返回模块
 thread: 15
 categories: 文档
+tags: Win 编程
 ---
 
 利用一个函数VirtualQuery可以获取指定内存所在的模块：

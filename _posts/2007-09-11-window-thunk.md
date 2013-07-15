@@ -4,8 +4,7 @@ layout: post
 title: Thunk  Window Class Demo
 thread: 366
 categories: 代码
-tags:
-- 编程
+tags: WM Win 编程
 ---
 
 Generates __thiscall thunk to convert static funtion to member function.  

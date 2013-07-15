@@ -4,8 +4,7 @@ layout: post
 title: 战战兢兢刷机，平平稳稳测试
 thread: 230
 categories: 日志
-tags:
-- 手机
+tags: WM 固件
 ---
 
 上次刷繁体后在刷简体，死了机器，害了500银才修好。以至都有刷机恐惧症了。  

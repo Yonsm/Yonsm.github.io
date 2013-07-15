@@ -4,8 +4,7 @@ layout: post
 title: '修改 CorePlayer 配置保存路径'
 thread: 362
 categories: 文档
-tags:
-- 破解
+tags: WM 逆向工程
 ---
 
 1. 首先 UPX Unpack Coplayer 的主程序。  

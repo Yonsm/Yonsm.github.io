@@ -4,9 +4,7 @@ layout: post
 title: MS Windows CE 输入法切换方案和代码分析
 thread: 265
 categories: 文档
-tags:
-- 破解
-- 郁闷
+tags: 逆向工程
 ---
 
 Pocket PC 中切换输入法要等N长时间（4秒左右），稍加分析，感觉可能是CE在枚举登记过的输入法的过程中可能进行了大量的无用操作，；再仔细分析，输入法登记在 HKEY_CLASSS_ROOT\CLSID下，看情形似乎使用IsSIPInput=1的Value标志，表示这是输入法——MD这都想得出来！这下面是登记所有COM组件的地方，当然非常多条目，枚举起来肯定非常慢。  

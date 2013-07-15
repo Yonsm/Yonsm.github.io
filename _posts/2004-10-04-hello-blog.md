@@ -4,6 +4,7 @@ layout: post
 title: 我的 Blog 今天开通了……
 thread: 166
 categories: 日志
+tags: 博客
 ---
 
 今天，2004 年国庆假期第三天，我的 Blog 终于开通了……

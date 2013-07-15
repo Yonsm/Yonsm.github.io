@@ -4,8 +4,7 @@ layout: post
 title: 告一段落，轻松了……
 thread: 187
 categories: 日志
-tags:
-- 快乐
+tags: 职业
 ---
 
 前段时间一直很忙，写BLOG感觉像是在灌水——把论坛上的毛病带到这里来了：）  

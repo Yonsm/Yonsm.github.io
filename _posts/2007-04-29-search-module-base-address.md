@@ -4,8 +4,7 @@ layout: post
 title: Search module base  & function address
 thread: 322
 categories: 代码
-tags:
-- 编程
+tags: Win 编程
 ---
 
 Search module base (e.g.KERNEL32) & function address (e.g. GetProcAddress) (C++, NOT ASM).<!-- more -->  

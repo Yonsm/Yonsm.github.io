@@ -4,6 +4,7 @@ layout: post
 title: 在 Mac OS X 中使用 GPT vs. MBR   | 启用BCM4331的Linux支持
 thread: 556
 categories: 文档
+tags: Mac 折腾
 ---
 
 昨天差点把MacBook Pro的分区全部干掉了，折腾了一整天终于完整无损地修复了。同时搞明白了Mac系列的GPT、MBR、BootCamp分区表的林林种种。  

@@ -4,6 +4,7 @@ layout: post
 title: '[转载]逆向一条 MD5-32 大概需要多少运算能力'
 thread: 640
 categories: 文档
+tags: 逆向工程
 ---
 
 起因大家都懂得，这里只是做个简单的计算，判断什么的我不会写的。

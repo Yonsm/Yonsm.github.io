@@ -4,8 +4,6 @@ layout: post
 title: 原来老外也有人在做“英化”，CeleDial Translation?
 thread: 289
 categories: 日志
-tags:
-- 分享
 ---
 
 今天搜索Himalaya，一不小心看到一个帖子：[http://buzzdev.net/index.php?option=com_phorum&Itemid;=125&phorum;_query=read,26,28684](http://buzzdev.net/index.php?option=com_phorum&Itemid=125&phorum_query=read,26,28684)，仔细一看竟然在讨论“英化”CeleDial。只不过跟中文用户的“汉化”相比，老外似乎作的也太累、太神了——不会中文，竟然也能从中文翻译成英文，下面是部分文字（大致意思是不懂中文，查找资源Unicode，根据 Unicode 算出中文字符，在到翻译网站把中文翻译成英文……我看了一下很多词句翻译甚至比我翻译的还准确，汗！忒神了吧）：  

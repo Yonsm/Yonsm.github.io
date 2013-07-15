@@ -4,6 +4,7 @@ layout: post
 title: 启用顶级域名 Yonsm.NET
 thread: 169
 categories: 日志
+tags: 博客
 ---
 
 启用顶级域名 Yonsm.NET，这下是真正 Yonsm.NET 了。当然，也可以用 [www.Yonsm.net](/) 访问我的BLOG。  
