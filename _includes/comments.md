@@ -1,7 +1,7 @@
 <!-- Duoshuo Comment BEGIN -->
 	<div class="ds-thread" data-thread-key="{{ page.wordpress_id }}"></div>
 	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"yonsm"};
+	var duoshuoQuery = {short_name:"{{ site.duoshuo }}"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;

@@ -12,19 +12,13 @@ comments: no
 
 ###联系方式：        
 
-联系信息：
+网站：[{{ site.name }}]({{ site.url }})
 
-ＱＱ：123018
+邮箱：[{{ site.email }}](mailto:{{ site.email }})
 
-邮箱：[Yonsm@msn.com](mailto:Yonsm@msn.com)
-
-网站：[WWW.Yonsm.NET](http://WWW.Yonsm.NET)
-
-微博：[http://weibo.com/yonsm](http://weibo.com/yonsm)
-
-GitHub : [http://github.com/yonsm](http://github.com/yonsm)
+GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
 
 ----
 
 
-[![新浪微博](http://service.t.sina.com.cn/widget/qmd/1885061391/f78fbcd2/1.png)](http://weibo.com/u/1885061391)
+[![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})

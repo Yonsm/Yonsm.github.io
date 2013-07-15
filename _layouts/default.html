@@ -31,13 +31,13 @@
       </div>
 
     <footer>
-        <p align="center"><small>Powered by <a href="https://github.com/mojombo/jekyll" target="_blank">Jekyll</a> @ <a href="http://pages.github.com" target="_blank">GitHub</a> | <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank">©</a> 2004 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a> | <a href="http://www.miibeian.gov.cn" target="_blank">浙ICP备12026616号</a></small></p>
+        <p align="center"><small><a href="http://github.com/{{ site.github }}/NET/new/gh-pages/_posts" target="_blank">Powered</a> by <a href="https://github.com/mojombo/jekyll" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/NET" target="_blank">GitHub</a> | <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank">©</a> 2004 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a> | <a href="http://www.miibeian.gov.cn" target="_blank">{{ site.beian }}</a></small></p>
     </footer>
 
     </div>
 
     <!-- Baidu Button BEGIN -->
-    <script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=1&amp;pos=right&amp;uid=3234957" ></script>
+    <script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=1&amp;pos=right&amp;uid={{ site.baidu }}" ></script>
     <script type="text/javascript" id="bdshell_js"></script>
     <script type="text/javascript">
     document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);

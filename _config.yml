@@ -1,9 +1,14 @@
 markdown: rdiscount
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 url: http://yonsm.net
 name: Yonsm.NET
 author: Yonsm
+email: Yonsm@msn.com
+duoshuo: yonsm
+beian: 浙ICP备12026616号
+baidu: 3234957
+weibo: 1885061391
+github: Yonsm
 pygments: true
 safe: true
 paginate: 20
-auto: true
