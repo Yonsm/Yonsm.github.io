@@ -1,3 +1,4 @@
+markdown: rdiscount
 permalink: /:title/
 url: http://alensw.tk
 name: Alen Software
@@ -8,7 +9,6 @@ beian: 沪ICP000000号
 baidu: 3234957
 weibo: 1489508705
 github: neithern
-markdown: rdiscount
 pygments: true
 safe: true
 paginate: 20
