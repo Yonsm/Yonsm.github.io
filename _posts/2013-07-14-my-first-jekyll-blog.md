@@ -13,4 +13,11 @@ GitHub上找了个[模板](http://webfrogs.me/2012/12/20/use-jekyll/)，花了�
 
 回看一下博客建立到现在快 9 年了，从刚开始的把博客当微博用，到中期的勤奋“耕耘”，再对比一下今年的7个月快过去了才 3 篇不像样的文章，今昔非比。这次迁移重新整理了博客，文章数目从 530 篇缩减到 250 篇。希望这次变换博客空间和引擎是个契机（好吧，是借口），接下来的时间里能多产出点东西。Idea 有很多，能不能出来就不知道了。
 
-刚开始使用 MarkDown 写东西，很不错。
+刚开始使用 MarkDown 写东西，很不错。语法高亮可以使用 [Pygments](http://pygments.org/) ，[使用介绍在此](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)。例子效果如下：
+{% highlight java linenos %}
+public class HelloWorld {
+    public static void main(String args[]) {
+      System.out.println("Hello World!");
+    }
+}
+{% endhighlight %}

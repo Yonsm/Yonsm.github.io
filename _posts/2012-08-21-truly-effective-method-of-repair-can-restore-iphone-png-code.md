@@ -20,7 +20,7 @@ iPhone/iPad 的 IPA 包中的  PNG 文件在编译时默认会做特殊处理�
 
 3.在程序中枚举所有的 PNG，装载，重新保存为 PNG——此时生成的 PNG 就是通用格式的 PNG 啦，真正解决了问题：
 
-`
+{% highlight objc linenos %}
 
 //
 BOOL UIUtil::NormalizePngFile(NSString *dst, NSString *src)
@@ -52,7 +52,8 @@ void UIUtil::NormalizePngFolder(NSString *dst, NSString *src)
         }
     }
 }
-`
+{% endhighlight %}
+
 
 4.拷贝出这些 PNG 来即可。
 
