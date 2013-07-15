@@ -7,7 +7,7 @@ slug: mx2-smartbar-vs-google-navigationbar
 title: MX2 SmartBar vs 谷歌 NavigationBar
 wordpress_id: 171
 categories:
-- 未分类
+- 日志
 post_format:
 - 日志
 ---
@@ -23,10 +23,10 @@ MX2 SmartBar vs 谷歌 NavigationBar
 
 
 
-![](mx2/sms-p.png)
+![](/assets/mx2/sms-p.png)
 
 
-![](mx2/sms-p2.png)
+![](/assets/mx2/sms-p2.png)
 
 
 
@@ -40,10 +40,10 @@ Case 1: 用4.x的SDK编译的程序，上下两条ActionBar，SmartBar表现最�
 
 
 
-![](mx2/cal-p.png)
+![](/assets/mx2/cal-p.png)
 
 
-![](mx2/cal-p2.png)
+![](/assets/mx2/cal-p2.png)
 
 
 
@@ -57,10 +57,10 @@ Case 2: 用4.x的SDK编译的程序，只有上面一条ActionBar，SmartBar与�
 
 
 
-![](mx2/gps-p.png)
+![](/assets/mx2/gps-p.png)
 
 
-![](mx2/gps-p2.png)
+![](/assets/mx2/gps-p2.png)
 
 
 
@@ -78,10 +78,10 @@ Case 3: 用2.x的SDK编译的程序（为了保证在老手机上能运行，国
 
 
 
-![](mx2/sms-l.png)
+![](/assets/mx2/sms-l.png)
 
 
-![](mx2/sms-l2.png)
+![](/assets/mx2/sms-l2.png)
 
 
 
@@ -95,10 +95,10 @@ Case 4: 用4.x的SDK编译的程序，上下两条ActionBar合并到上面一条
 
 
 
-![](mx2/cal-l.png)
+![](/assets/mx2/cal-l.png)
 
 
-![](mx2/cal-l2.png)
+![](/assets/mx2/cal-l2.png)
 
 
 
@@ -112,10 +112,10 @@ Case 5: 用4.x的SDK编译的程序，只有上面一条ActionBar，但谷歌的
 
 
 
-![](mx2/gps-l.png)
+![](/assets/mx2/gps-l.png)
 
 
-![](mx2/gps-l2.png)
+![](/assets/mx2/gps-l2.png)
 
 
 
