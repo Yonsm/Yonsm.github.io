@@ -4,7 +4,7 @@ comments: true
 date: 2010-01-13 01:16:48+00:00
 layout: post
 slug: rumor-wm7-will-be-postponed-to-2011
-title: '[传闻]WM7将延期至2011年'
+title: '传闻WM7将延期至2011年'
 wordpress_id: 491
 categories:
 - 日志
@@ -48,5 +48,3 @@ MWC前夕，国外网站PPCGeeks泄露了有关于Windows Mobile 7的最新信�
 * OEM界面将不再被支持运行，包括Sense UI / SPB Mobile Shell / Point UI / Infinity等界面。  
 * 全面支持XBOX Gaming。  
 * 全面支持各大社交网络  
-  
-强烈支持上面红色的条目！

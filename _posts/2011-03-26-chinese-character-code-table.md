@@ -3,8 +3,7 @@ author: Yonsm
 comments: true
 date: 2011-03-26 02:04:41+00:00
 layout: post
-slug: just-finishing-the-character-code-table
-title: 刚整理的汉字码表
+title: 汉字码表
 wordpress_id: 533
 categories:
 - 资源

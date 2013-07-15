@@ -19,4 +19,4 @@ categories:
   5. pWriter->WriteSample()。
   6. ……
 
-暂无心情写文章，具体代码请参看： [Nedekko - Fly2000TV 电视广播插件](index.php?job=art&articleid=a_20051014_132733)
+暂无心情写文章，具体代码请参看： [Nedekko - Fly2000TV 电视广播插件](/nedekko)

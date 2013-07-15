@@ -1,6 +1,5 @@
 ---
 author: Yonsm
-comments: true
 date: 2006-04-08 00:17:28+00:00
 layout: post
 slug: arm-platform-may-crash-on-normal-code

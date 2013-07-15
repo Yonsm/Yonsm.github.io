@@ -4,7 +4,7 @@ comments: true
 date: 2006-07-28 08:13:08+00:00
 layout: post
 slug: each-brush-pingpingwenwen-test-conclusion-is-a-wifi-module-completely-dead
-title: 战战兢兢刷机，平平稳稳测试——结论是WiFi模块彻底死掉
+title: 战战兢兢刷机，平平稳稳测试
 wordpress_id: 230
 categories:
 - 日志

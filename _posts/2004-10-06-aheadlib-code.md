@@ -10,7 +10,7 @@ categories:
 - 代码
 ---
 
-详细信息请参考 [软件] -> [[AheadLib 2.2.150.650](read.php?170)]
+详细信息请参考 [软件] -> [[AheadLib](/aheadlib]
 
   
 
