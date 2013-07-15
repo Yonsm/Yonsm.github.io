@@ -31,7 +31,16 @@
       </div>
 
     <footer>
-        <p align="center"><small><a href="http://github.com/{{ site.github }}/NET/new/gh-pages/_posts" target="_blank">Powered</a> by <a href="https://github.com/mojombo/jekyll" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/NET" target="_blank">GitHub</a> | <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank">©</a> 2004 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a> | <a href="http://www.miibeian.gov.cn" target="_blank">{{ site.beian }}</a> | <script src="http://s85.cnzz.com/stat.php?id={{ site.cnzz }}&web_id={{ site.cnzz }}" language="JavaScript"></script></small></p>
+        <p align="center"><small>
+            <a href="http://github.com/{{ site.github }}/NET/new/gh-pages/_posts" target="_blank">Powered</a> by <a href="https://github.com/mojombo/jekyll" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/NET" target="_blank">GitHub</a>
+             | <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank">©</a> 2004 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
+{% if site.beian %}
+             | <a href="http://www.miibeian.gov.cn" target="_blank">{{ site.beian }}</a>
+{% endif %}
+{% if site.cnzz %}
+             | <script src="http://s85.cnzz.com/stat.php?id={{ site.cnzz }}&web_id={{ site.cnzz }}" language="JavaScript"></script>
+{% endif %}
+         </small></p>
     </footer>
 
     </div>

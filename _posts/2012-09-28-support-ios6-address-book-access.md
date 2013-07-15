@@ -13,33 +13,31 @@ tags: iOS 编程
 
 <!-- more -->
 
-`
-//
-ABAddressBookRef ContactCenter::MyAddressBookCreate()
-{
-	if (UIUtil::SystemVersion() < 6)
-	{
-		return ABAddressBookCreate();
-	}
-	
-	ABAddressBookRef book = ABAddressBookCreateWithOptions(NULL, NULL);
-	if (ABAddressBookGetAuthorizationStatus() != kABAuthorizationStatusAuthorized)
-	{
-		static NSCondition *_waiting;
-		_waiting = [[NSCondition alloc] init];
+			//
+			ABAddressBookRef ContactCenter::MyAddressBookCreate()
+			{
+				if (UIUtil::SystemVersion() < 6)
+				{
+					return ABAddressBookCreate();
+				}
+				
+				ABAddressBookRef book = ABAddressBookCreateWithOptions(NULL, NULL);
+				if (ABAddressBookGetAuthorizationStatus() != kABAuthorizationStatusAuthorized)
+				{
+					static NSCondition *_waiting;
+					_waiting = [[NSCondition alloc] init];
 
-		ABAddressBookRequestAccessWithCompletion(book, ^(bool granted, CFErrorRef error) {
-			//[_waiting lock];
-			[_waiting signal];
-			//[_waiting unlock];
-		});
-		
-		//[_waiting lock];
-		[_waiting wait];
-		//[_waiting unlock];
-		[_waiting release];
-		_waiting = nil;
-	}
-	return book;
-}
-`
+					ABAddressBookRequestAccessWithCompletion(book, ^(bool granted, CFErrorRef error) {
+						//[_waiting lock];
+						[_waiting signal];
+						//[_waiting unlock];
+					});
+					
+					//[_waiting lock];
+					[_waiting wait];
+					//[_waiting unlock];
+					[_waiting release];
+					_waiting = nil;
+				}
+				return book;
+			}
