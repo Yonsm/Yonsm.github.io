@@ -1,8 +1,14 @@
-markdown: rdiscount
 permalink: /:year/:month/:day/:title/
 url: http://alensw.tk
 name: Alen Software
 author: Alen
+email: neithern@outlook.com
+duoshuo: alensw
+beian: 沪ICP000000号
+baidu: 3234957
+weibo: 1885061391
+github: neithern
+markdown: rdiscount
 pygments: true
 safe: true
 paginate: 20

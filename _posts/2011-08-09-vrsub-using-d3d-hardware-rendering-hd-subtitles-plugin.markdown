@@ -1,0 +1,64 @@
+---
+author: nanling
+comments: true
+date: 2011-08-09 13:27:24+00:00
+layout: post
+slug: vrsub-using-d3d-hardware-rendering-hd-subtitles-plugin
+title: 'VRSub: 使用D3D硬件渲染的高清字幕插件'
+wordpress_id: 8
+categories:
+- 原创作品
+---
+
+    一个直接在 EVR/VMR 渲染滤镜上使用 Direct3D 混合字幕的 DShow 插件，可以和 DXVA 硬件解码器同时使用，是 Windows Media Center / Windows Media Player 的绝佳搭配！
+
+
+
+
+特性：
+
+
+
+
+1. 支持 srt,ssa,ass 外挂字幕文件，以及 MKV 内置字幕
+
+
+
+
+2. 采用 GdiPlus 生成字幕，无锯齿
+
+
+
+
+3. Direct3D 混合，不影响硬件解码器，超低 CPU 占用
+
+
+
+
+4. 轮廓和阴影效果
+
+
+
+
+5. 自定义半透明化，淡入淡出效果
+
+
+
+
+6. 自定义字体大小，颜色和显示位置
+
+
+
+
+7. 托盘区快捷菜单，可轻松选择字幕流
+
+
+
+
+
+
+Enjoy it ！
+
+[下载](attachment/vrsub.zip)
+
+
