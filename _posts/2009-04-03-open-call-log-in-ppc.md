@@ -3,8 +3,7 @@ date: 2009-04-03 05:41:28+00:00
 layout: post
 title: PPC 中打开通话记录
 thread: 454
-categories:
-- 文档
+categories: 文档
 ---
 
 SP 中有一个exe用来打开通话记录，万恶的WM竟然弄得PPC上不一样。经分析找到一个简洁的方法，可以在PPC中打开通话记录界面，代码如下：  

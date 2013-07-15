@@ -3,8 +3,7 @@ date: 2004-10-16 02:25:22+00:00
 layout: post
 title: 关于 GMail 的一点随想
 thread: 143
-categories:
-- 日志
+categories: 日志
 ---
 
 名气好大，早就想弄一个看看，无奈找不到庙门。最近受同事邀请，终于弄了一个……结果……

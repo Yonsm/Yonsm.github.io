@@ -3,8 +3,7 @@ date: 2006-01-18 03:27:57+00:00
 layout: post
 title: 年年岁岁车相似，岁岁年年票不同
 thread: 168
-categories:
-- 日志
+categories: 日志
 tags:
 - 郁闷
 ---

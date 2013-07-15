@@ -3,8 +3,7 @@ date: 2006-05-21 08:42:46+00:00
 layout: post
 title: Registry Workshop - 支持 Windows Mobile 的注册表编辑器
 thread: 210
-categories:
-- 资源
+categories: 资源
 tags:
 - 分享
 - 手机

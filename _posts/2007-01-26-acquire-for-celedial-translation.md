@@ -3,8 +3,7 @@ date: 2007-01-26 08:52:09+00:00
 layout: post
 title: 原来老外也有人在做“英化”，CeleDial Translation?
 thread: 289
-categories:
-- 日志
+categories: 日志
 tags:
 - 分享
 ---

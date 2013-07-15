@@ -3,8 +3,7 @@ date: 2006-08-26 13:43:24+00:00
 layout: post
 title: '[转载]到底谁在抛弃中国？'
 thread: 240
-categories:
-- 网文
+categories: 网文
 tags:
 - 无题
 ---

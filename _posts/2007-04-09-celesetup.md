@@ -3,8 +3,7 @@ date: 2007-04-09 08:20:28+00:00
 layout: post
 title: CeleSetup - ROM 定制扩展命令解释工具
 thread: 300
-categories:
-- 代码
+categories: 代码
 tags:
 - 分享
 - 手机

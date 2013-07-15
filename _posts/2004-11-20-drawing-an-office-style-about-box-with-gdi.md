@@ -3,8 +3,7 @@ date: 2004-11-20 04:33:52+00:00
 layout: post
 title: 完全使用 GDI 绘制的 Office XP 启动画面风格信息框
 thread: 106
-categories:
-- 代码
+categories: 代码
 ---
 
 下载: [CAboutDlg 静态类](/assets/1100867377.rar) (17.5 KB)

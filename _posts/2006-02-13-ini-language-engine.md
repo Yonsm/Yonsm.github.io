@@ -3,8 +3,7 @@ date: 2006-02-13 08:43:59+00:00
 layout: post
 title: 用 INI 文件实现程序多语言界面
 thread: 177
-categories:
-- 文档
+categories: 文档
 tags:
 - 编程
 ---

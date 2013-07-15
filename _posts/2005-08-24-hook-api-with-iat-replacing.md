@@ -3,8 +3,7 @@ date: 2005-08-24 19:23:39+00:00
 layout: post
 title: 替换 IAT 中的导入函数地址实现 Hook API
 thread: 25
-categories:
-- 代码
+categories: 代码
 ---
 
 详细说明《Windows 核心编程》中有。贴段代码，我写得比他写得简洁多了。自己会查找 Image Import descriptor 的地址，而不像书中所用的调用 ImageHlp.dll 或者 DbgHelp.dll 中的函数 ImageDirectoryToData 来实现。为了使用一些 PE 结构类型，请 #include （不会导入他的函数）。

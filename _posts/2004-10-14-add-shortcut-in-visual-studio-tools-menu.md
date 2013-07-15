@@ -3,8 +3,7 @@ date: 2004-10-14 03:48:10+00:00
 layout: post
 title: 在 Visual Studio 工具菜单中添加“快捷方式”
 thread: 145
-categories:
-- 代码
+categories: 代码
 ---
 
 下载附件: [VSTool](/assets/1097667721.rar)

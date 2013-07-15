@@ -3,8 +3,7 @@ date: 2007-06-10 02:03:28+00:00
 layout: post
 title: 精心构造代码，使 OMAPClock 超频设置永久有效
 thread: 335
-categories:
-- 文档
+categories: 文档
 tags:
 - 分享
 - 手机

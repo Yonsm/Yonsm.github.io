@@ -3,8 +3,7 @@ date: 2007-04-02 05:47:53+00:00
 layout: post
 title: 用 ZLib 解压缩 TAR GZ 的最简单的过程和代码
 thread: 301
-categories:
-- 代码
+categories: 代码
 tags:
 - 编程
 ---

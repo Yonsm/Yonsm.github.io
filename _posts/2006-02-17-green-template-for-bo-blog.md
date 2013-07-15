@@ -3,8 +3,7 @@ date: 2006-02-17 09:23:05+00:00
 layout: post
 title: 随便弄了个“绿色淡雅”模版雏形
 thread: 181
-categories:
-- 日志
+categories: 日志
 ---
 
 在BlueGrey的基础上修改了一下，沿用我以前的BLOG风格，暂时做了个“绿色淡雅”风格的模版，先用着，还需要改进。  

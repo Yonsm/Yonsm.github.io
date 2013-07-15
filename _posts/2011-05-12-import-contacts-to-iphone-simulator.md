@@ -3,8 +3,7 @@ date: 2011-05-12 19:52:49+00:00
 layout: post
 title: '[转载]导入通讯录到 iPhone Simulator'
 thread: 541
-categories:
-- 文档
+categories: 文档
 ---
 
 Using your own address book in the iPhone Simulator  

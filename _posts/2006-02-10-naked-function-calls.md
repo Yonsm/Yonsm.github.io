@@ -3,8 +3,7 @@ date: 2006-02-10 08:35:38+00:00
 layout: post
 title: naked 函数调用
 thread: 175
-categories:
-- 文档
+categories: 文档
 tags:
 - 技巧
 ---

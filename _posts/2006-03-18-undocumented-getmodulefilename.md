@@ -3,8 +3,7 @@ date: 2006-03-18 08:56:43+00:00
 layout: post
 title: '[惊喜]发现GetModuleFileName未公开的功能'
 thread: 194
-categories:
-- 文档
+categories: 文档
 ---
 
 PC 版本的 Windows 中提供了一个 GetModuleFileNameEx 来获取其它进程的可执行文件路径。但是在 Smartphone 中，并没有这个函数。翻遍了所有的文档，也没能发现简单或许其它进程完整路径的方法（ToolHelp API 等等，均不行，当然，复杂的方法，我还是能想出来，不过太得不偿失了）。  

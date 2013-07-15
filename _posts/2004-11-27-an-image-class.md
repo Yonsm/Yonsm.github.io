@@ -3,8 +3,7 @@ date: 2004-11-27 07:43:01+00:00
 layout: post
 title: 一个图像类
 thread: 101
-categories:
-- 代码
+categories: 代码
 ---
 
 下载: [CImage](/assets/1101483036.rar) (6 KB)

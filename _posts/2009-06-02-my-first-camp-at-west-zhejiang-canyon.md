@@ -4,8 +4,7 @@ date: 2009-06-02 18:58:56+00:00
 layout: post
 title: '浙西大峡谷，第一次露营'
 thread: 465
-categories:
-- 游集
+categories: 游集
 ---
 
 　　一大早就在半睡的状态下被LG强行拉起，就这样迷迷糊糊的准备出发了......  

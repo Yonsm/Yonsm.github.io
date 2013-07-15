@@ -3,8 +3,7 @@ date: 2006-03-17 07:59:09+00:00
 layout: post
 title: CeleTask 1.7.360 代码
 thread: 193
-categories:
-- 代码
+categories: 代码
 tags:
 - 编程
 ---

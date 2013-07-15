@@ -3,8 +3,7 @@ date: 2005-10-15 21:28:10+00:00
 layout: post
 title: 使用 WMF SDK 实现视频网络广播
 thread: 18
-categories:
-- 文档
+categories: 文档
 ---
 
 大致步骤：

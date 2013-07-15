@@ -3,8 +3,7 @@ date: 2008-12-10 22:02:51+00:00
 layout: post
 title: 刷新PPC今日使插件更改生效
 thread: 444
-categories:
-- 日志
+categories: 日志
 ---
 
 更改PPC今日插件项目后，并没有公开的文档说明如何使更改生效，经过分析 cplmain.cpl，找到一个未公开的方法（后来发现网上已经人说过了）：  

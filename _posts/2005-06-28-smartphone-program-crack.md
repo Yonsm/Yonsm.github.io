@@ -3,8 +3,7 @@ date: 2005-06-28 01:34:28+00:00
 layout: post
 title: Smartphone 程序的 Crack
 thread: 34
-categories:
-- 文档
+categories: 文档
 ---
 
 今天成功地上演了我的第一次 SP 破解秀——把一个好久前就想 PJ 的 SP 软件给搞定了。总结一下，步骤如下：

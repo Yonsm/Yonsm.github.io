@@ -3,8 +3,7 @@ date: 2011-09-15 17:20:59+00:00
 layout: post
 title: 终于学会 gdb 调试 iPhone 程序了
 thread: 548
-categories:
-- 文档
+categories: 文档
 ---
 
 乱摸索尝试，终于搞定了如何查看变量，分析函数调用，哈哈，分析了一下“第一个能安装IPA的IPA”，我也大概知道MobileInstallationInstall的参数了。<!-- more -->  

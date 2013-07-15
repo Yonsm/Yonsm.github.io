@@ -3,8 +3,7 @@ date: 2005-06-28 21:00:57+00:00
 layout: post
 title: FiziFetch & DumpROM - 从 Smartphone 中提取任何文件
 thread: 33
-categories:
-- 文档
+categories: 文档
 tags:
 - 手机
 ---

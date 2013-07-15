@@ -3,8 +3,7 @@ date: 2004-10-04 02:19:09+00:00
 layout: post
 title: 使用 SBE 实现 Time Shifting
 thread: 165
-categories:
-- 文档
+categories: 文档
 ---
 
 一、概述

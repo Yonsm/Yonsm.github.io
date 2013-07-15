@@ -3,8 +3,7 @@ date: 2007-06-02 02:00:23+00:00
 layout: post
 title: '[转载]西游记之黑客帝国版'
 thread: 333
-categories:
-- 网文
+categories: 网文
 tags:
 - 无题
 ---

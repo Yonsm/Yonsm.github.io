@@ -3,8 +3,7 @@ date: 2006-11-18 11:23:29+00:00
 layout: post
 title: Windows Mobile 下面最通用的浏览文件对话框代码
 thread: 276
-categories:
-- 文档
+categories: 文档
 tags:
 - 分享
 - 编程

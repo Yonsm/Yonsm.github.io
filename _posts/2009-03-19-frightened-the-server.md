@@ -3,8 +3,7 @@ date: 2009-03-19 04:30:39+00:00
 layout: post
 title: 服务器惊魂……
 thread: 452
-categories:
-- 日志
+categories: 日志
 ---
 
 好久没写过日志或做点东西了，最近忙了很多事情，按下不表……  

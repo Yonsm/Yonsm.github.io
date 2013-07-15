@@ -3,8 +3,7 @@ date: 2007-04-29 05:08:06+00:00
 layout: post
 title: Search module base  & function address
 thread: 322
-categories:
-- 代码
+categories: 代码
 tags:
 - 编程
 ---

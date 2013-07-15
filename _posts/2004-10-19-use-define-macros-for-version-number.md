@@ -3,8 +3,7 @@ date: 2004-10-19 03:52:17+00:00
 layout: post
 title: 使用#定义方便控制版本号的宏
 thread: 141
-categories:
-- 文档
+categories: 文档
 ---
 
     一个 VC Project 中，可能有很多地方需要用到版本号，比如 About 对话框、版本资源等。如果每次版本更改都一一去改变这些值，不但非常麻烦，而且有悖唯一原则。

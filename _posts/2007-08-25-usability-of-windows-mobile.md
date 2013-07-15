@@ -3,8 +3,7 @@ date: 2007-08-25 19:15:05+00:00
 layout: post
 title: 你认为Windows Mobile手机的易用性如何？
 thread: 359
-categories:
-- 日志
+categories: 日志
 tags:
 - 调查
 ---

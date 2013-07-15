@@ -3,8 +3,7 @@ date: 2007-04-21 06:00:45+00:00
 layout: post
 title: '[妙想]Aeon Variable/永生变量 - 保存程序设置到EXE本身'
 thread: 317
-categories:
-- 文档
+categories: 文档
 tags:
 - 分享
 - 编程

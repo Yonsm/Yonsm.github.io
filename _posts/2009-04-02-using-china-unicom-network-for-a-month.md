@@ -3,8 +3,7 @@ date: 2009-04-02 05:58:15+00:00
 layout: post
 title: 换用杭州联通宽带快一个月了
 thread: 455
-categories:
-- 日志
+categories: 日志
 ---
 
 以前用电信ADSL将近7年了，一直听说“网通”没电信的ADSL好。今年过了年来了之后，本想继续包2年ADSL，到要确认的时候竟然又出霸王条款，无语的细节就不说了<!-- more -->（TIA! 有些事情想不通的时候，想想这时天朝 ，就想通了——This Is China!）  

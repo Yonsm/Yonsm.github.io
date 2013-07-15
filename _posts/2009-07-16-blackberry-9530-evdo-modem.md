@@ -3,8 +3,7 @@ date: 2009-07-16 21:24:02+00:00
 layout: post
 title: 终于搞定了 BlackBerry 9530 EVDO 上网（手机+电脑Modem）
 thread: 472
-categories:
-- 文档
+categories: 文档
 ---
 
 朋友弄了张430多块钱的电信CDMA上网账号，想在黑莓 9530 中上网，并用作电脑的Modem上网，几经折腾，终于搞定了。<!-- more -->  

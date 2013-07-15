@@ -3,8 +3,7 @@ date: 2006-09-09 19:05:14+00:00
 layout: post
 title: 遭遇支付宝“李鬼”？
 thread: 251
-categories:
-- 日志
+categories: 日志
 tags:
 - 无题
 ---

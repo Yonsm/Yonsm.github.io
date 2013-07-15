@@ -3,8 +3,7 @@ date: 2004-10-28 02:41:16+00:00
 layout: post
 title: TeleControl 2.6.600
 thread: 131
-categories:
-- 软件
+categories: 软件
 ---
 
   

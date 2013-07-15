@@ -3,8 +3,7 @@ date: 2011-04-23 02:42:13+00:00
 layout: post
 title: WeBe++ 1.1-6汉化破解版——直接把iPhone做成蓝牙键鼠（触摸板）
 thread: 535
-categories:
-- 资源
+categories: 资源
 ---
 
 以前WM的时候有类似的软件，直接把手机做成蓝牙HID设备（蓝牙键盘鼠标之类的）。直接支持蓝牙 HID 设备的协议，不是模拟，是真正的蓝牙  HID。PC或者Mac（或者PSP等其他支持蓝牙HID的其他设备）不需要装任何服务端（当然，必须支持蓝牙HID协议）。  

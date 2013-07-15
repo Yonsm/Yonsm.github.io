@@ -18,17 +18,19 @@ layout: default
 <span class="time">
   <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
 </span>
-{% if page.categories %}
- | <span class="categories">
+{% if page.categories.size != 0 %}
+ | 
+<span class="categories">
   分类
   {% for cat in page.categories %}
   <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
 </span>
 {% endif %}
-{% if page.tags %}
- | <span class="tags">
-  标签 
+{% if page.tags.size != 0 %}
+ | 
+<span class="tags">
+  标签
   {% for tag in page.tags %}
   <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
   {% endfor %}

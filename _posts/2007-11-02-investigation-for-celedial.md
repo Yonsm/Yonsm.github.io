@@ -3,8 +3,7 @@ date: 2007-11-02 09:10:52+00:00
 layout: post
 title: '[调查]你的手机是什么系统，在 CeleDial 吗?'
 thread: 382
-categories:
-- 日志
+categories: 日志
 tags:
 - 调查
 ---

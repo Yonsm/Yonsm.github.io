@@ -3,8 +3,7 @@ date: 2007-08-02 07:09:32+00:00
 layout: post
 title: Microsoft Visual C++ 6.0 with SP5+PP5 绿色独立版
 thread: 355
-categories:
-- 资源
+categories: 资源
 tags:
 - 分享
 - 编程

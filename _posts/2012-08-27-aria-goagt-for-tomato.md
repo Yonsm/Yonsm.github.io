@@ -3,8 +3,7 @@ date: 2012-08-27 04:19:05+00:00
 layout: post
 title: ARIA2 + GoAgentt +Lighttpd for Tomato
 thread: 751
-categories:
-- 资源
+categories: 资源
 ---
 
 说是“For Tomato”只是因为autorun的支持，只要是 MIPSR2/MIPSEL架构的Linux应该都能跑，包括OpenWRT和1185系列的高清播放机都行。仅供知道是什么东西的用户使用。

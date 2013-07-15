@@ -3,8 +3,7 @@ date: 2008-07-08 23:58:38+00:00
 layout: post
 title: '[转载]多普达Touch Diamond评测! 钻石机王 智能巅峰'
 thread: 420
-categories:
-- 网文
+categories: 网文
 ---
 
 [![](http://comm.ccidnet.com/col/attachment/2008/5/1485493.jpg)](http://comm.ccidnet.com/col/attachment/2008/5/1485493.jpg)

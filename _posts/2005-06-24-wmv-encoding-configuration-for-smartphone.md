@@ -3,8 +3,7 @@ date: 2005-06-24 05:03:52+00:00
 layout: post
 title: 用于 Smartphone 上播放的 WMV 编码配置文件
 thread: 35
-categories:
-- 文档
+categories: 文档
 ---
 
 用 Windows Media Encoder 编码，速度不错，不过没有 ProCoder 快。

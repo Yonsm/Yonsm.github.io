@@ -3,8 +3,7 @@ date: 2009-03-24 03:43:29+00:00
 layout: post
 title: PPC 中向其它进程中插入DLL的方法及通用代码
 thread: 453
-categories:
-- 文档
+categories: 文档
 ---
 
 大家都知道 PC 中写破解补丁的其中一个方法是 Loader，通常的做法是CreateProcess后用CreateRemoteThread来Load我们的DLL。但这个方法在WM中显然不可行（压根没这个API）。  

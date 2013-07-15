@@ -3,8 +3,7 @@ date: 2004-11-19 04:20:33+00:00
 layout: post
 title: 整理制作了几个 CHM 和 PDF 文档
 thread: 108
-categories:
-- 资源
+categories: 资源
 ---
 
 Yonsm 制作，必属精品。目录书签大纲什么的样样俱全，浏览查看方便。且均为中文文档，可以一目十行得看，不用像看“阴文”那样一行一行地啃。

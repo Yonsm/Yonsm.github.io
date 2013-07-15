@@ -3,8 +3,7 @@ date: 2004-11-02 03:49:02+00:00
 layout: post
 title: 构造一个方便高效 INI 类
 thread: 125
-categories:
-- 文档
+categories: 文档
 ---
 
    Windows API 本身已经为我们写好了操作 INI 的函数，但是有时候用起来可能不是很方便。把这些 API 简单封装一下，将会大大方便我们读写 INI 文件。

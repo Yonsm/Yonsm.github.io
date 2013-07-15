@@ -3,8 +3,7 @@ date: 2009-07-08 20:23:42+00:00
 layout: post
 title: iPhone 开发秘籍试读样章 CHM 版
 thread: 469
-categories:
-- 资源
+categories: 资源
 ---
 
 网上看到《iPhone 开发秘籍》即将要发行，看了一下出来的三个试读样章，都是比较有用的章节，赞一个。费了不少功夫去掉广告之类的，制作成CHM，需要的可以下载。<!-- more -->  

@@ -3,8 +3,7 @@ date: 2006-03-02 04:07:03+00:00
 layout: post
 title: 关于我的MPX200手机
 thread: 186
-categories:
-- 日志
+categories: 日志
 tags:
 - 手机
 - 郁闷

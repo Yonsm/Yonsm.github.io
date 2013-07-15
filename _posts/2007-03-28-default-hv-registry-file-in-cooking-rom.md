@@ -3,8 +3,7 @@ date: 2007-03-28 00:39:02+00:00
 layout: post
 title: 定制 Windows Mobile ROM 中的 Default.hv 注册表文件
 thread: 299
-categories:
-- 文档
+categories: 文档
 tags:
 - 分享
 - 手机

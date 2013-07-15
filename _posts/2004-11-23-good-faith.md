@@ -3,8 +3,7 @@ date: 2004-11-23 07:59:59+00:00
 layout: post
 title: 诚信乃立身之本
 thread: 103
-categories:
-- 日志
+categories: 日志
 ---
 
 诚信是正常社会关系最基本的保障，可惜这个社会太缺乏了……

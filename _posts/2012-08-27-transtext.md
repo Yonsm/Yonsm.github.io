@@ -3,8 +3,7 @@ date: 2012-08-27 11:13:17+00:00
 layout: post
 title: TransText 2.2 - 字符串提取、回写以及搜索替换工具
 thread: 316
-categories:
-- 软件
+categories: 软件
 tags:
 - 分享
 - 汉化

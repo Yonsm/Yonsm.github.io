@@ -3,8 +3,7 @@ date: 2011-06-02 09:46:46+00:00
 layout: post
 title: Windows Phone Emulator Unlocked ROM 完整版用于开发调试的方法
 thread: 542
-categories:
-- 文档
+categories: 文档
 ---
 
 Windows Phone Emulator 提供的是一个阉割版的 ROM Image（MS 就是不想 Developer好？），网上很多地方说有 unlocked 的完整版 ROM 下载。Google 一下，果然能找到<!-- more -->”http://forum.xda-developers.com/showthread.php?t=784523“（需翻墙下载）。  

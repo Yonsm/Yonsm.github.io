@@ -3,8 +3,7 @@ date: 2004-10-08 19:46:08+00:00
 layout: post
 title: DirectSpy - DShow Graph 监视工具
 thread: 157
-categories:
-- 资源
+categories: 资源
 ---
 
 注册后，可以在 MS GraphEdit 中查看所有 DirectShow 程序的 Filter Graph，即使该 Graph未加入到 Running Table----除非该程序作了特殊保护处理。  

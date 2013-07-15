@@ -3,8 +3,7 @@ date: 2008-09-04 19:23:30+00:00
 layout: post
 title: IME Support for RichInk
 thread: 430
-categories:
-- 文档
+categories: 文档
 ---
 
 一般来说，PPC 下有两种输入法，一种是 SIP （如梅花输入法） 一种是 IME（如A4的数字硬键盘输入法）。  

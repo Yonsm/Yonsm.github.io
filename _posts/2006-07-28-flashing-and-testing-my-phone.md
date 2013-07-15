@@ -3,8 +3,7 @@ date: 2006-07-28 08:13:08+00:00
 layout: post
 title: 战战兢兢刷机，平平稳稳测试
 thread: 230
-categories:
-- 日志
+categories: 日志
 tags:
 - 手机
 ---

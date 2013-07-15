@@ -3,8 +3,7 @@ date: 2004-10-09 04:56:47+00:00
 layout: post
 title: WIA 学习笔记
 thread: 155
-categories:
-- 文档
+categories: 文档
 ---
 
 **一、 WIA 简介**  

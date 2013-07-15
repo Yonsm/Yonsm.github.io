@@ -3,8 +3,7 @@ date: 2008-04-27 06:24:44+00:00
 layout: post
 title: CeleScript - 方便实用、居家旅行、莫名其妙的批处理脚本解释引擎
 thread: 413
-categories:
-- 软件
+categories: 软件
 ---
 
 CeleScript 是一个从 PE 的 XCMD 和为 Windows Mobile 上的 CeleCmd 演变而来的一个东西，我自己用了很久了，语法比较莫名其妙，但用起来比较方便实用。主要用来做一些安装软件、系统设置等自动化操作。基本上的代码都是以前为 Windows Mobile 写的 CeleCmd 转换而来，没有花太多精力，基本上属副产品：）  

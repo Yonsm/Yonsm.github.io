@@ -3,8 +3,7 @@ date: 2004-10-09 05:34:21+00:00
 layout: post
 title: WiaHelper - WIA 助手函数库
 thread: 154
-categories:
-- 代码
+categories: 代码
 ---
 
 下载: [WiaHelper](/assets/1097237213.rar)

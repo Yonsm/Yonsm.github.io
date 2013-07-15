@@ -3,8 +3,7 @@ date: 2006-12-30 07:46:24+00:00
 layout: post
 title: Another way to hook/modify API
 thread: 284
-categories:
-- 代码
+categories: 代码
 ---
 
 <!-- more -->[codes=cpp]  

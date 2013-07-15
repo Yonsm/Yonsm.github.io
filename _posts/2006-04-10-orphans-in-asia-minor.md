@@ -3,8 +3,7 @@ date: 2006-04-10 20:17:21+00:00
 layout: post
 title: 亚细亚的孤儿
 thread: 203
-categories:
-- 日志
+categories: 日志
 tags:
 - 无题
 ---

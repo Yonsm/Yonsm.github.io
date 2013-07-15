@@ -3,8 +3,7 @@ date: 2004-10-23 09:03:15+00:00
 layout: post
 title: 捕捉 OutputDebugString 输出的字符串
 thread: 135
-categories:
-- 文档
+categories: 文档
 ---
 
 在调试状态下，VC 等调试器可以捕捉程序中的 OutputDebugString 输出的信息。其实 OutputDebugString 就是往一片共享影射的内存中写入了一段数据，并创建了两个 Enevt，指明数据写入事件被触发。在非调试状态下，我们也可以通过编程实现捕捉 OutputDebugString 的输出。下面的代码演示了如何获取这些信息:<!-- more -->

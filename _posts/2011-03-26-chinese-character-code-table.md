@@ -3,8 +3,7 @@ date: 2011-03-26 02:04:41+00:00
 layout: post
 title: 汉字码表
 thread: 533
-categories:
-- 资源
+categories: 资源
 ---
 
 刚整理的汉字码表，包括以下编码：  

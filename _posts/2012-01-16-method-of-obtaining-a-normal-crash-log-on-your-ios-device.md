@@ -3,8 +3,7 @@ date: 2012-01-16 05:49:52+00:00
 layout: post
 title: 获取普通用户 iOS 设备上的 Crash Log 的方法
 thread: 552
-categories:
-- 文档
+categories: 文档
 ---
 
 方法1：用工具直接获取 iPhone 设备上 /var/mobile/Library/Logs/CrashReporter  中的 Crash 报告文件。（Mac 下用 PhoneView/iTools/iExplorer，Windows下用、iFunBox、iTools、91助手等）。  

@@ -3,8 +3,7 @@ date: 2007-10-24 04:05:28+00:00
 layout: post
 title: 关于枚举（任务）窗口假死和枚举进程失败的通用问题解决方案
 thread: 379
-categories:
-- 文档
+categories: 文档
 tags:
 - 分享
 - 编程

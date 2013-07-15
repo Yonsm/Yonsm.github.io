@@ -3,8 +3,7 @@ date: 2007-04-15 01:28:34+00:00
 layout: post
 title: 绿色淡雅模板更新至 2.0.3 适用，修正 IE7 下面的显示问题
 thread: 312
-categories:
-- 日志
+categories: 日志
 tags:
 - 分享
 - 博客

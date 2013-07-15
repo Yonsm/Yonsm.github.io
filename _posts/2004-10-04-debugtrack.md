@@ -3,8 +3,7 @@ date: 2004-10-04 02:44:30+00:00
 layout: post
 title: DebugTrack 2.4.530
 thread: 164
-categories:
-- 软件
+categories: 软件
 ---
 
 ![ ](/assets/1096800239.gif)

@@ -3,8 +3,7 @@ date: 2006-01-14 11:47:05+00:00
 layout: post
 title: 转移网站空间，升级 BO-BLOG
 thread: 167
-categories:
-- 日志
+categories: 日志
 tags:
 - 博客
 ---

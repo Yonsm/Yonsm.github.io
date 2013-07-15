@@ -3,8 +3,7 @@ date: 2010-08-30 07:37:21+00:00
 layout: post
 title: 计划骑自行车环游青海湖
 thread: 514
-categories:
-- 游集
+categories: 游集
 ---
 
 ……  

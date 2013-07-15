@@ -3,8 +3,7 @@ date: 2008-09-09 03:42:22+00:00
 layout: post
 title: '[转载]CeleDial：小软件大智慧'
 thread: 431
-categories:
-- 文档
+categories: 文档
 ---
 
 介绍如何使用 CeleDial 的文章，介绍挺详细的。<!-- more -->   

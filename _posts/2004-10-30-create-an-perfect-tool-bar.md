@@ -3,8 +3,7 @@ date: 2004-10-30 04:51:38+00:00
 layout: post
 title: 创建最完美的工具栏
 thread: 129
-categories:
-- 代码
+categories: 代码
 ---
 
 下载: [TBDemo](/assets/1099054171.rar) (25K/VC6 Project)

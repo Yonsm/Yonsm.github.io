@@ -3,8 +3,7 @@ date: 2007-09-11 07:41:23+00:00
 layout: post
 title: Thunk  Window Class Demo
 thread: 366
-categories:
-- 代码
+categories: 代码
 tags:
 - 编程
 ---

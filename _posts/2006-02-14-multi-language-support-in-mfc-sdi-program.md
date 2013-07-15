@@ -3,8 +3,7 @@ date: 2006-02-14 08:48:31+00:00
 layout: post
 title: 在 MFC SDI 程序中实现多语言程序界面
 thread: 178
-categories:
-- 文档
+categories: 文档
 tags:
 - 编程
 ---

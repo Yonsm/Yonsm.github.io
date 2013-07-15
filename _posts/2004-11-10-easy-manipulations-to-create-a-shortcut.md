@@ -3,8 +3,7 @@ date: 2004-11-10 03:53:53+00:00
 layout: post
 title: CShortcut 类 - 简单方便地操纵创建快捷方式
 thread: 118
-categories:
-- 代码
+categories: 代码
 ---
 
 下载: [CShortcut](/assets/1100001180.rar) (13 KB，包含示例代码)

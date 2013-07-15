@@ -3,8 +3,7 @@ date: 2006-04-02 11:59:34+00:00
 layout: post
 title: '[转载]谁是民族英雄？'
 thread: 197
-categories:
-- 网文
+categories: 网文
 tags:
 - 网评
 ---

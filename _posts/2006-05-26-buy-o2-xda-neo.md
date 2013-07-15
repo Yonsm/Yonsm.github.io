@@ -3,8 +3,7 @@ date: 2006-05-26 01:04:47+00:00
 layout: post
 title: 买了O2 XDA Neo
 thread: 213
-categories:
-- 日志
+categories: 日志
 tags:
 - 快乐
 - 手机

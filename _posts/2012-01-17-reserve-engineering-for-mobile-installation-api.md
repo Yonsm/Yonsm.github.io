@@ -3,8 +3,7 @@ date: 2012-01-17 04:36:25+00:00
 layout: post
 title: 分析 iOS 中使用 Mobile Installation 安装 IPA
 thread: 553
-categories:
-- 文档
+categories: 文档
 ---
 
 iOS 中要安装一个程序，从用户角度看有几种三：

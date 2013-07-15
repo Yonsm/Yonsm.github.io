@@ -3,8 +3,7 @@ date: 2004-11-09 06:57:32+00:00
 layout: post
 title: CTwainHelper 助手类
 thread: 119
-categories:
-- 代码
+categories: 代码
 ---
 
 下载: [CTwainHelper](/assets/1099925198.rar) (包含示例代码 35K)

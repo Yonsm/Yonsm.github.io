@@ -3,8 +3,7 @@ date: 2006-02-16 03:25:39+00:00
 layout: post
 title: '[转载]提高效率，图象扫描也要批量'
 thread: 180
-categories:
-- 文档
+categories: 文档
 tags:
 - 技巧
 ---

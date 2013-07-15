@@ -3,8 +3,7 @@ date: 2006-08-22 07:09:18+00:00
 layout: post
 title: CeleFusion - 具有数据中继/变换功能的 HTTP 代理
 thread: 237
-categories:
-- 代码
+categories: 代码
 tags:
 - 分享
 - 技巧

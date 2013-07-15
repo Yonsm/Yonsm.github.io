@@ -3,8 +3,7 @@ date: 2006-04-08 00:17:28+00:00
 layout: post
 title: ARM平台上可能Crash的“正常代码”
 thread: 201
-categories:
-- 文档
+categories: 文档
 tags:
 - 编程
 ---

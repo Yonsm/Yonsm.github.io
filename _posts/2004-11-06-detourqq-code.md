@@ -3,8 +3,7 @@ date: 2004-11-06 12:36:04+00:00
 layout: post
 title: DetourQQ 2.4.18 源代码
 thread: 122
-categories:
-- 代码
+categories: 代码
 ---
 
 下载: [DetourQQ 2.4.18.68](/assets/1099686627.rar) (63K)

@@ -3,8 +3,7 @@ date: 2005-05-21 01:03:58+00:00
 layout: post
 title: Smartphone 程序汉化——文件数字签名问题的解决方法
 thread: 46
-categories:
-- 文档
+categories: 文档
 tags:
 - 手机
 ---

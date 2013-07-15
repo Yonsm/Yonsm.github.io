@@ -3,8 +3,7 @@ date: 2008-12-17 23:43:14+00:00
 layout: post
 title: MSVC 中的几个非标准特殊关键字
 thread: 445
-categories:
-- 文档
+categories: 文档
 ---
 
 MSVC 中的有些非标准的关键字，有些时候特别有用。  

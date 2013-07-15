@@ -3,8 +3,7 @@ date: 2004-11-04 02:56:01+00:00
 layout: post
 title: 选举！又见选举！！
 thread: 124
-categories:
-- 日志
+categories: 日志
 ---
 
 杨过说羊祜说过一句话——“天下不如意事，十常居七八”，每次希望赢得大选的人总是选不上。![](http://yonsm.reg365.com/img/emot/cry.gif)

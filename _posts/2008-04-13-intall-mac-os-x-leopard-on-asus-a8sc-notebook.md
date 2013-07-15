@@ -3,8 +3,7 @@ date: 2008-04-13 18:31:07+00:00
 layout: post
 title: 在 ASUS A8Sc 中安装 Mac OSX Leopard 10.5.2
 thread: 411
-categories:
-- 文档
+categories: 文档
 ---
 
 突发奇想想在我的 A8Sc 笔记本上装个 Mac OSX Leopard 玩玩。本来以为是很简单的事情，在MM面前夸口说没有做不到滴，还叫她一起看安装进度，结果竟然装不上，RP差点崩溃了：)  

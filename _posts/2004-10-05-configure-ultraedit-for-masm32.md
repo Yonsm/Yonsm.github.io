@@ -3,8 +3,7 @@ date: 2004-10-05 16:29:54+00:00
 layout: post
 title: 配置 UltraEdit 为 MASM32 的IDE
 thread: 163
-categories:
-- 文档
+categories: 文档
 ---
 
 　　一段老文字，存此，权当存档。（主要是为 UE 的语法高亮文件 WordFile.txt 存档：）   

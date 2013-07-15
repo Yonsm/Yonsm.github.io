@@ -3,8 +3,7 @@ date: 2006-08-30 23:43:11+00:00
 layout: post
 title: CeleDial 1.6.744 – Pocket PC 电话智能拨号助手
 thread: 247
-categories:
-- 软件
+categories: 软件
 ---
 
 CeleDial 是 Windows Mobile Pocket PC Phone 上必备的智能拨号助手，它可以帮助您简单、方便、快速地定位联系人，让您随心所欲，想拨就拨。

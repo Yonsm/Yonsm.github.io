@@ -3,8 +3,7 @@ date: 2007-06-09 07:19:27+00:00
 layout: post
 title: '[04.06]最帅的 Prophet (830/818Pro/XDANeo/S200) WM5 ROM'
 thread: 302
-categories:
-- 资源
+categories: 资源
 tags:
 - 分享
 - 手机

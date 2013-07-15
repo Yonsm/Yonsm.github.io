@@ -3,8 +3,7 @@ date: 2011-09-09 17:03:19+00:00
 layout: post
 title: iMac+SSD 发烧的历程——终于烧成功啦
 thread: 547
-categories:
-- 文档
+categories: 文档
 ---
 
 一、缘由   

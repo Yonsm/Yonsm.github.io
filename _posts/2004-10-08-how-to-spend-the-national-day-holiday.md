@@ -3,8 +3,7 @@ date: 2004-10-08 05:33:22+00:00
 layout: post
 title: 国庆假期是怎样过去的
 thread: 160
-categories:
-- 日志
+categories: 日志
 ---
 
 七天国庆假期就这样过去了，4、5天都花在 Blog 和 PHP 上。先从 Bo-Blog 1.5 换成 ExBlog 1.2，再从 ExBlog 1.2 换成 现在的 Bo-Blog 1.6，PHP 也从开始的一无所知到有所了解了。

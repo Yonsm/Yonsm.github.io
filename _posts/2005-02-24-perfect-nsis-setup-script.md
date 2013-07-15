@@ -3,8 +3,7 @@ date: 2005-02-24 01:19:53+00:00
 layout: post
 title: 完美的 NSIS 安装脚本
 thread: 58
-categories:
-- 文档
+categories: 文档
 ---
 
 这几天稍稍深入地使用了一下 NSIS，功能太强大了。回首看看不比学习一门高级语言容易，不过一般也能信手拈来……

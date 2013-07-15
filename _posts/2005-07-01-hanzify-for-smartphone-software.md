@@ -3,8 +3,7 @@ date: 2005-07-01 08:24:31+00:00
 layout: post
 title: 在汉化新世纪上发布了一堆汉化作品
 thread: 31
-categories:
-- 日志
+categories: 日志
 ---
 
 累积下来的 Smartphone 汉化结果，没权威网站可发布，汉化新世纪刚开通手机汉化栏目。整理交验了一番之后都上传了，要的可以访问这里：[http://www.hanzify.org/?Go=Class::List&SortID=101](http://www.hanzify.org/?Go=Class::List&SortID=101) 

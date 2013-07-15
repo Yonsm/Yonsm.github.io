@@ -3,8 +3,7 @@ date: 2008-08-28 17:21:11+00:00
 layout: post
 title: 关于 Yonsm.NET 的统计概况
 thread: 426
-categories:
-- 日志
+categories: 日志
 ---
 
 网站名称 Yonsm.NET 

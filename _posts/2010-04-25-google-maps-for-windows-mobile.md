@@ -3,8 +3,7 @@ date: 2010-04-25 02:13:33+00:00
 layout: post
 title: Google Maps 4.1 绿色版 - 非常实用的地图软件
 thread: 459
-categories:
-- 资源
+categories: 资源
 ---
 
 Google Maps Mobile 是目前为止我发现的最实用的手机软件，在手机上查看 Google 地图、卫星图、生活信息（餐馆等）、交通状况（仅北京上海等城市）、GPS定位、公交驾车导航、纵横（好友定位）、Buzz（墙外开花墙内没香，暂时不能用）、语音搜索等……  

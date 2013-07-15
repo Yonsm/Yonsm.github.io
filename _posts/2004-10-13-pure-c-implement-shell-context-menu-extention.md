@@ -3,8 +3,7 @@ date: 2004-10-13 03:23:41+00:00
 layout: post
 title: Pure C++ 实现 Shell Context Menu Extention
 thread: 147
-categories:
-- 代码
+categories: 代码
 ---
 
 纯 C++ 实现的 Shell 上下文菜单扩展，既是一个小例子。也是一个很好的模板。

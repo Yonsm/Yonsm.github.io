@@ -3,8 +3,7 @@ date: 2004-10-15 03:07:04+00:00
 layout: post
 title: 一个 Windows 服务例子
 thread: 144
-categories:
-- 代码
+categories: 代码
 ---
 
 一个 Windows 服务小例子，也是一个很好的模板。支持远程安装和删除，支持自动选择线程语言（中文或英文）。

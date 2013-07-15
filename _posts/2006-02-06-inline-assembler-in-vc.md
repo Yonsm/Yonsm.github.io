@@ -3,8 +3,7 @@ date: 2006-02-06 08:37:43+00:00
 layout: post
 title: 在 Visual C++ 中使用内联汇编
 thread: 176
-categories:
-- 文档
+categories: 文档
 tags:
 - 编程
 ---

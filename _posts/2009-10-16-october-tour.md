@@ -3,8 +3,7 @@ date: 2009-10-16 05:50:28+00:00
 layout: post
 title: 10 月之行
 thread: 483
-categories:
-- 游集
+categories: 游集
 ---
 
 先随便记录一下，有空再详细攻略。  

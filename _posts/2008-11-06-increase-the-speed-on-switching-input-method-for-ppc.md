@@ -3,8 +3,7 @@ date: 2008-11-06 05:17:36+00:00
 layout: post
 title: 提高PPC输入法切换速度
 thread: 436
-categories:
-- 日志
+categories: 日志
 ---
 
 关于 PPC 输入法切换速度慢的问题分析，很久以前我写过一篇日志（http://www.yonsm.net/read.php?265），从CE源代码中找出了原因，但一直没有解决方案。  

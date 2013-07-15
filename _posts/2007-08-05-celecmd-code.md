@@ -3,8 +3,7 @@ date: 2007-08-05 07:31:35+00:00
 layout: post
 title: CeleCmd 1.2.360 代码
 thread: 351
-categories:
-- 代码
+categories: 代码
 tags:
 - 分享
 - 编程

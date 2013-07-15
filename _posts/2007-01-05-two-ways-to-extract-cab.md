@@ -3,8 +3,7 @@ date: 2007-01-05 05:00:51+00:00
 layout: post
 title: 解压缩 CAB 文件的两种方法
 thread: 285
-categories:
-- 文档
+categories: 文档
 tags:
 - 编程
 ---

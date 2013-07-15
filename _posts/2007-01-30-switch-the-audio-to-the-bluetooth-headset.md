@@ -3,8 +3,7 @@ date: 2007-01-30 22:07:41+00:00
 layout: post
 title: 切换音频到蓝牙耳机
 thread: 290
-categories:
-- 代码
+categories: 代码
 tags:
 - 分享
 - 手机

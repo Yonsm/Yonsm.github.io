@@ -3,8 +3,7 @@ date: 2006-10-18 11:38:18+00:00
 layout: post
 title: MS Windows CE 输入法切换方案和代码分析
 thread: 265
-categories:
-- 文档
+categories: 文档
 tags:
 - 破解
 - 郁闷

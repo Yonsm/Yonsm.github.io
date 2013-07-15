@@ -3,8 +3,7 @@ date: 2006-02-11 08:27:20+00:00
 layout: post
 title: '#pragma 指示符应用举例'
 thread: 173
-categories:
-- 文档
+categories: 文档
 tags:
 - 技巧
 ---

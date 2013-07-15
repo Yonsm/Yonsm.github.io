@@ -3,8 +3,7 @@ date: 2011-05-12 09:21:40+00:00
 layout: post
 title: Go Go Go & A Tutorial for the Go Programming Language
 thread: 540
-categories:
-- 文档
+categories: 文档
 ---
 
 Go Go Go，http://golang.org/doc/go_tutorial.html，看了一下貌似好酷⋯⋯  

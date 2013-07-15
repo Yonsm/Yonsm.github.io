@@ -3,8 +3,7 @@ date: 2004-11-08 06:45:40+00:00
 layout: post
 title: 终于换显示器了
 thread: 121
-categories:
-- 日志
+categories: 日志
 ---
 
 [三星 710N](http://www.samsungmonitor.com.cn/Products/ProductInfo.asp?GeneralType=LCD&ProductID=118)，看起来真舒服。2720 大洋拿下……<!-- more -->

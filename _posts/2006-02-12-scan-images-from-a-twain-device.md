@@ -3,8 +3,7 @@ date: 2006-02-12 08:27:24+00:00
 layout: post
 title: 从 TWAIN 设备中扫描图像
 thread: 174
-categories:
-- 文档
+categories: 文档
 tags:
 - 扫描
 - 编程

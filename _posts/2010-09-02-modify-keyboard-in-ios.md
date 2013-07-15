@@ -3,8 +3,7 @@ date: 2010-09-02 11:00:55+00:00
 layout: post
 title: 在 iPhone/iPad 中随意修改数字键盘按钮
 thread: 516
-categories:
-- 文档
+categories: 文档
 ---
 
 一、起因  

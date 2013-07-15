@@ -3,8 +3,7 @@ date: 2006-11-24 03:20:55+00:00
 layout: post
 title: Menu Bar on Windows Mobile
 thread: 280
-categories:
-- 文档
+categories: 文档
 tags:
 - 编程
 ---

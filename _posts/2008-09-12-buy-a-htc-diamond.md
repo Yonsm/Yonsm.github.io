@@ -3,8 +3,7 @@ date: 2008-09-12 16:47:08+00:00
 layout: post
 title: 买了 HTC DIAMOND
 thread: 432
-categories:
-- 日志
+categories: 日志
 ---
 
 快一周了，HTC 3G 版，感觉尚可<!-- more -->  

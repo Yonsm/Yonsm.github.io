@@ -3,8 +3,7 @@ date: 2004-11-14 06:39:56+00:00
 layout: post
 title: DirectCMOS
 thread: 113
-categories:
-- 代码
+categories: 代码
 ---
 
 下载: [DirectCMOS](/assets/1100356483.rar) (895 字节)

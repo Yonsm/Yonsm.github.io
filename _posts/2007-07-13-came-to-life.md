@@ -3,8 +3,7 @@ date: 2007-07-13 07:54:53+00:00
 layout: post
 title: 活过来了……
 thread: 345
-categories:
-- 日志
+categories: 日志
 tags:
 - 生涯
 ---

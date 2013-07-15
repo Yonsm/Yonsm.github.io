@@ -3,8 +3,7 @@ date: 2011-01-14 09:27:07+00:00
 layout: post
 title: MacBook/iMac BootCamp 分两个Windows分区的简单快速完美方案
 thread: 529
-categories:
-- 文档
+categories: 文档
 ---
 
 一个 Windows 分区的文件管理方式非常别扭，主要是长久以来习惯了数据和程序分开的使用方式。这也要怪 Windows 这种不稳定的系统──在Windows下用不了多久就感觉系统程序和数据放在一起有点心虚，在 Mac 下一个分区使用到现在从没想过要重装系统之类的……  

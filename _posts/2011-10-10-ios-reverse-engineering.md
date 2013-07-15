@@ -3,8 +3,7 @@ date: 2011-10-10 01:56:47+00:00
 layout: post
 title: iOS 程序逆向工程分析方法和工具介绍（GDB、IDA、ARMASM）
 thread: 549
-categories:
-- 文档
+categories: 文档
 ---
 
 一、简述  

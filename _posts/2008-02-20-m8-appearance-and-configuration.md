@@ -3,8 +3,7 @@ date: 2008-02-20 10:46:39+00:00
 layout: post
 title: '[转载]M8最新消息：外观/配置/功能'
 thread: 401
-categories:
-- 网文
+categories: 网文
 ---
 
 以前是用不锈钢边

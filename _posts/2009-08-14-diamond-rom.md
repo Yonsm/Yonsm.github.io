@@ -3,8 +3,7 @@ date: 2009-08-14 07:59:59+00:00
 layout: post
 title: '[08.13]HTC Touch Diamond 一站式 ROM OS'
 thread: 439
-categories:
-- 资源
+categories: 资源
 ---
 
 欢迎使用 Yonsm.NET 定制的 HTC Touch Diamond 简体中文 ROM OS！它将一站式地帮您解决 PPC 中各种繁琐的初始化设置，带给您一个全新的完美体验。  
