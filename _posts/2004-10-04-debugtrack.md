@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-04 02:44:30+00:00
 layout: post
-slug: debugtrack24530
 title: DebugTrack 2.4.530
-wordpress_id: 164
+thread: 164
 categories:
 - 软件
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-09 06:57:32+00:00
 layout: post
-slug: ctwainhelper-helper-class
 title: CTwainHelper 助手类
-wordpress_id: 119
+thread: 119
 categories:
 - 代码
 ---

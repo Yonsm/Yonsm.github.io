@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-10 03:53:53+00:00
 layout: post
-slug: cshortcut-easy-manipulations-to-create-a-shortcut
 title: CShortcut 类 - 简单方便地操纵创建快捷方式
-wordpress_id: 118
+thread: 118
 categories:
 - 代码
 ---

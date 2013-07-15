@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2013-01-14 13:19:01+00:00
 layout: post
-slug: reprint-on-how-to-make-your-own-fusion-drive-hard-drive
 title: '[转载]如何制作自己的 Fusion Drive 硬盘'
-wordpress_id: 813
+thread: 813
 categories:
 - 网文
 ---

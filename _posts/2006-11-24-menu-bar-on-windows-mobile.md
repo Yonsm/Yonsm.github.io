@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-11-24 03:20:55+00:00
 layout: post
-slug: menubaronwindowsmobile
 title: Menu Bar on Windows Mobile
-wordpress_id: 280
+thread: 280
 categories:
 - 文档
 tags:

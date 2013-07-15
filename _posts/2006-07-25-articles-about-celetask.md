@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-07-25 06:17:13+00:00
 layout: post
-slug: using-and-evaluating-articles-about-celetask
 title: 关于 CeleTask 的使用和评测文章
-wordpress_id: 229
+thread: 229
 categories:
 - 日志
 ---

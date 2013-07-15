@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-03-16 19:39:35+00:00
 layout: post
-slug: finally-use-xcode-4-great
 title: 终于用上 Xcode 4 了，太棒了
-wordpress_id: 532
+thread: 532
 categories:
 - 资源
 ---

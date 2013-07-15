@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-08-25 00:23:42+00:00
 layout: post
-slug: leave-the-gf-of-the-day
 title: 离开GF的日子……
-wordpress_id: 423
+thread: 423
 categories:
 - 日志
 ---

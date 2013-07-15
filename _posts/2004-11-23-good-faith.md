@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-23 07:59:59+00:00
 layout: post
-slug: good-faith-is-the-foundation-of-this
 title: 诚信乃立身之本
-wordpress_id: 103
+thread: 103
 categories:
 - 日志
 ---

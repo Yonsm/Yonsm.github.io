@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-10-16 05:50:28+00:00
 layout: post
-slug: october-tour
 title: 10 月之行
-wordpress_id: 483
+thread: 483
 categories:
 - 游集
 ---

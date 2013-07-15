@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-05-04 17:57:31+00:00
 layout: post
-slug: resolve-windows-7-start-menu-and-taskbar-icon-error
 title: 解决 Windows 7 开始菜单和任务栏图标错误地方法
-wordpress_id: 461
+thread: 461
 categories:
 - 文档
 ---

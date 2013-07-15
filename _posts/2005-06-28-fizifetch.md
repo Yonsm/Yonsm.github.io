@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2005-06-28 21:00:57+00:00
 layout: post
-slug: fizifetchdumprom-extract-any-files-from-your-smartphone
 title: FiziFetch & DumpROM - 从 Smartphone 中提取任何文件
-wordpress_id: 33
+thread: 33
 categories:
 - 文档
 tags:

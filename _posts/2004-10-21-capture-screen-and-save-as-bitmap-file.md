@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-21 03:53:51+00:00
 layout: post
-slug: capture-screen-and-save-the-bitmap-file
 title: 捕捉屏幕并保存位图文件
-wordpress_id: 139
+thread: 139
 categories:
 - 代码
 ---

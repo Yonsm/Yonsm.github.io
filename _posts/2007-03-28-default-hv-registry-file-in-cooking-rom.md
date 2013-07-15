@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-03-28 00:39:02+00:00
 layout: post
-slug: default-hv-registry-file-in-a-custom-windows-mobile-rom
 title: 定制 Windows Mobile ROM 中的 Default.hv 注册表文件
-wordpress_id: 299
+thread: 299
 categories:
 - 文档
 tags:

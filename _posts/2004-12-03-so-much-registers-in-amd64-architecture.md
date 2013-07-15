@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-12-03 21:39:54+00:00
 layout: post
-slug: amd64-architecture-register-so-much
 title: AMD64 架构，寄存器可真多啊
-wordpress_id: 94
+thread: 94
 categories:
 - 日志
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-05-26 01:04:47+00:00
 layout: post
-slug: buy-o2-xda-neo
 title: 买了O2 XDA Neo
-wordpress_id: 213
+thread: 213
 categories:
 - 日志
 tags:

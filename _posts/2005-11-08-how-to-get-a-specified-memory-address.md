@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2005-11-08 06:28:57+00:00
 layout: post
-slug: how-to-get-a-specified-memory-modules-in-which-the-current-module-returns-from-the-current-function-modules
 title: 如何获取指定内存所在的模块、当前模块、当前函数的返回模块
-wordpress_id: 15
+thread: 15
 categories:
 - 文档
 ---

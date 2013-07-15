@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-10-21 05:16:35+00:00
 layout: post
-slug: finally-free
 title: 终于闲下来了……
-wordpress_id: 434
+thread: 434
 categories:
 - 日志
 ---

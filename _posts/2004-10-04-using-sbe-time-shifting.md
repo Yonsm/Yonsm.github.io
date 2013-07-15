@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-04 02:19:09+00:00
 layout: post
-slug: using-sbe-time-shifting
 title: 使用 SBE 实现 Time Shifting
-wordpress_id: 165
+thread: 165
 categories:
 - 文档
 ---

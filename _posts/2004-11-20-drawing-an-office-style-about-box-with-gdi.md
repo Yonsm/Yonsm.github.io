@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-20 04:33:52+00:00
 layout: post
-slug: complete-office-xp-startup-screen-is-drawn-using-gdi-style-information-box
 title: 完全使用 GDI 绘制的 Office XP 启动画面风格信息框
-wordpress_id: 106
+thread: 106
 categories:
 - 代码
 ---

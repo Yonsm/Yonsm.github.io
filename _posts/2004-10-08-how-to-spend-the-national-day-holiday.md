@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-08 05:33:22+00:00
 layout: post
-slug: how-to-past-the-national-day-holiday
 title: 国庆假期是怎样过去的
-wordpress_id: 160
+thread: 160
 categories:
 - 日志
 ---

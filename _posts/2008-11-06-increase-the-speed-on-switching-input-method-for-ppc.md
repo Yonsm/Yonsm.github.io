@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-11-06 05:17:36+00:00
 layout: post
-slug: increase-the-speed-ppc-switch-input-method
 title: 提高PPC输入法切换速度
-wordpress_id: 436
+thread: 436
 categories:
 - 日志
 ---

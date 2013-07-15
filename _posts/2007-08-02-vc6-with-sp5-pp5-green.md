@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-08-02 07:09:32+00:00
 layout: post
-slug: microsoft-visual-c6-0-with-sp5pp5-green-independent
 title: Microsoft Visual C++ 6.0 with SP5+PP5 绿色独立版
-wordpress_id: 355
+thread: 355
 categories:
 - 资源
 tags:

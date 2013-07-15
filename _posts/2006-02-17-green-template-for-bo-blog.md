@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-02-17 09:23:05+00:00
 layout: post
-slug: just-got-a-green-medium-template-prototypes
 title: 随便弄了个“绿色淡雅”模版雏形
-wordpress_id: 181
+thread: 181
 categories:
 - 日志
 ---

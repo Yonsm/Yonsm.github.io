@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-02-14 08:48:31+00:00
 layout: post
-slug: multi-language-program-interface-in-mfc-sdi-program
 title: 在 MFC SDI 程序中实现多语言程序界面
-wordpress_id: 178
+thread: 178
 categories:
 - 文档
 tags:

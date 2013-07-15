@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-23 09:03:15+00:00
 layout: post
-slug: capture-outputdebugstring-output-string
 title: 捕捉 OutputDebugString 输出的字符串
-wordpress_id: 135
+thread: 135
 categories:
 - 文档
 ---

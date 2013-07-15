@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-08-25 19:15:05+00:00
 layout: post
-slug: how-do-you-think-usability-of-windows-mobile-phone
 title: 你认为Windows Mobile手机的易用性如何？
-wordpress_id: 359
+thread: 359
 categories:
 - 日志
 tags:

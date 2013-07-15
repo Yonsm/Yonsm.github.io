@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-09-15 17:20:59+00:00
 layout: post
-slug: finally-learn-to-gdb-debugging-iphone-programs
 title: 终于学会 gdb 调试 iPhone 程序了
-wordpress_id: 548
+thread: 548
 categories:
 - 文档
 ---

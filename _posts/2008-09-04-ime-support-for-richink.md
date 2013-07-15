@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-09-04 19:23:30+00:00
 layout: post
-slug: imesupportforrichink
 title: IME Support for RichInk
-wordpress_id: 430
+thread: 430
 categories:
 - 文档
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-04-25 19:15:22+00:00
 layout: post
-slug: use-menu-bar-windows-mobile-sp-ppc-perfect-solution
 title: Windows Mobile SP/PPC 中 Menu Bar 使用完美方案
-wordpress_id: 456
+thread: 456
 categories:
 - 文档
 ---

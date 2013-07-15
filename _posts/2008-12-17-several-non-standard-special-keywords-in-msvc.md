@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-12-17 23:43:14+00:00
 layout: post
-slug: several-non-standard-special-keywords-in-msvc
 title: MSVC 中的几个非标准特殊关键字
-wordpress_id: 445
+thread: 445
 categories:
 - 文档
 ---

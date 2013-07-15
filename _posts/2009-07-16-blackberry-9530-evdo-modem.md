@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-07-16 21:24:02+00:00
 layout: post
-slug: finally-got-the-blackberry-9530-evdo-internet-access-phone-computer-modem
 title: 终于搞定了 BlackBerry 9530 EVDO 上网（手机+电脑Modem）
-wordpress_id: 472
+thread: 472
 categories:
 - 文档
 ---

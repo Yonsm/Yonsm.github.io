@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-07-08 23:58:38+00:00
 layout: post
-slug: reprint-using-touch-diamond-evaluation-diamond-king-intelligent-peak
 title: '[转载]多普达Touch Diamond评测! 钻石机王 智能巅峰'
-wordpress_id: 420
+thread: 420
 categories:
 - 网文
 ---

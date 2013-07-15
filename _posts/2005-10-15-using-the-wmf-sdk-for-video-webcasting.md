@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2005-10-15 21:28:10+00:00
 layout: post
-slug: using-the-wmf-sdk-video-webcast
 title: 使用 WMF SDK 实现视频网络广播
-wordpress_id: 18
+thread: 18
 categories:
 - 文档
 ---

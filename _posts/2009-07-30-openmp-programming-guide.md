@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-07-30 00:25:10+00:00
 layout: post
-slug: reprint-openmp-programming-guide
 title: '[转载]OpenMP 编程指南'
-wordpress_id: 473
+thread: 473
 categories:
 - 文档
 ---

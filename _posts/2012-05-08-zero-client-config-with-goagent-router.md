@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2012-05-08 18:29:17+00:00
 layout: post
-slug: after-you-install-the-go4gent-on-the-router-forwarding-automatically-exports-specific-sites-to-the-proxy-achieving-zero-client-configuration-to-access-outube-shipping-for-example
 title: 自动转发特定网站到路由器GoAgent，实现客户端零配置
-wordpress_id: 678
+thread: 678
 categories:
 - 文档
 ---

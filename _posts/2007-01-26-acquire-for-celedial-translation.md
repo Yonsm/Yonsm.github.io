@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-01-26 08:52:09+00:00
 layout: post
-slug: foreigners-are-people-in-the-british-celedial-translation
 title: 原来老外也有人在做“英化”，CeleDial Translation?
-wordpress_id: 289
+thread: 289
 categories:
 - 日志
 tags:

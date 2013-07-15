@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2012-09-28 11:40:25+00:00
 layout: post
-slug: was-supported-by-ios-iphone-5
 title: 让iOS程序支持iPhone 5
-wordpress_id: 773
+thread: 773
 categories:
 - 文档
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-08 19:31:51+00:00
 layout: post
-slug: is-a-natural-wake-up
 title: 又是一个自然醒
-wordpress_id: 158
+thread: 158
 categories:
 - 日志
 ---

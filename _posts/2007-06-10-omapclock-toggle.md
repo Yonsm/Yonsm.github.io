@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-06-10 02:03:28+00:00
 layout: post
-slug: a-carefully-constructed-code-omapclock-overclocking-settings-permanent
 title: 精心构造代码，使 OMAPClock 超频设置永久有效
-wordpress_id: 335
+thread: 335
 categories:
 - 文档
 tags:

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-04-03 05:41:28+00:00
 layout: post
-slug: ppc-opens-call-log
 title: PPC 中打开通话记录
-wordpress_id: 454
+thread: 454
 categories:
 - 文档
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-09 04:56:47+00:00
 layout: post
-slug: wia-learning-notes
 title: WIA 学习笔记
-wordpress_id: 155
+thread: 155
 categories:
 - 文档
 ---

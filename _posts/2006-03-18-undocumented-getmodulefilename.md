@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-03-18 08:56:43+00:00
 layout: post
-slug: surprise-find-getmodulefilename-did-not-expose-functionality
 title: '[惊喜]发现GetModuleFileName未公开的功能'
-wordpress_id: 194
+thread: 194
 categories:
 - 文档
 ---

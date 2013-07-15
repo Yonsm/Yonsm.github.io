@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-01-11 00:41:29+00:00
 layout: post
-slug: hangzhou-cam-digital-tv-card-receiver-scheme-summary
 title: 杭州数字电视 CAM 卡接收方案小结
-wordpress_id: 528
+thread: 528
 categories:
 - 文档
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-02-16 03:25:39+00:00
 layout: post
-slug: reprint-efficiency-image-scanning-you-want-to-bulk
 title: '[转载]提高效率，图象扫描也要批量'
-wordpress_id: 180
+thread: 180
 categories:
 - 文档
 tags:

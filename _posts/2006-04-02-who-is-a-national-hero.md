@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-04-02 11:59:34+00:00
 layout: post
-slug: reposted-who-is-a-national-hero
 title: '[转载]谁是民族英雄？'
-wordpress_id: 197
+thread: 197
 categories:
 - 网文
 tags:

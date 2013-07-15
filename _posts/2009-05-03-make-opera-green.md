@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-05-03 11:48:31+00:00
 layout: post
-slug: green-free-installation-opera-made-completely
 title: 把 Opera 做成完全绿色免安装版
-wordpress_id: 460
+thread: 460
 categories:
 - 文档
 ---

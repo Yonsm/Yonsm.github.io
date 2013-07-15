@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-06-02 09:46:46+00:00
 layout: post
-slug: windows-phone-emulator-unlocked-rom-full-version-for-development-and-debugging-methods
 title: Windows Phone Emulator Unlocked ROM 完整版用于开发调试的方法
-wordpress_id: 542
+thread: 542
 categories:
 - 文档
 ---

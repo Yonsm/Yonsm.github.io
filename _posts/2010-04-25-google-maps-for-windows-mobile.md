@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2010-04-25 02:13:33+00:00
 layout: post
-slug: google-maps-version-4-1-green-very-useful-map-software
 title: Google Maps 4.1 绿色版 - 非常实用的地图软件
-wordpress_id: 459
+thread: 459
 categories:
 - 资源
 ---

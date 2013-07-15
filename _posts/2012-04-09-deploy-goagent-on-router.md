@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2012-04-09 12:24:25+00:00
 layout: post
-slug: 3-5mb-router-deployed-on-ultra-small-free-space-pythongoagent-the-case-of-tomato-dualwan-wr500v
 title: 在 3.5MB 空闲空间的路由器上部署 Python + GoAgent
-wordpress_id: 645
+thread: 645
 categories:
 - 文档
 ---

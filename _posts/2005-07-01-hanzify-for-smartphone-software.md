@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2005-07-01 08:24:31+00:00
 layout: post
-slug: in-speaking-of-the-new-century-was-published-on-a-pile-of-finished-works
 title: 在汉化新世纪上发布了一堆汉化作品
-wordpress_id: 31
+thread: 31
 categories:
 - 日志
 ---

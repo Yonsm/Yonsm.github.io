@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-04-02 05:58:15+00:00
 layout: post
-slug: swapping-hangzhou-china-unicom-broadband-for-a-month
 title: 换用杭州联通宽带快一个月了
-wordpress_id: 455
+thread: 455
 categories:
 - 日志
 ---

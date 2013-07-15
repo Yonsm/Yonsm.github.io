@@ -1,11 +1,9 @@
 ---
 author: Jane
-comments: true
 date: 2009-06-02 18:58:56+00:00
 layout: post
-slug: 09-05-28-west-zhejiang-canyon-the-first-camp
 title: '浙西大峡谷，第一次露营'
-wordpress_id: 465
+thread: 465
 categories:
 - 游集
 ---

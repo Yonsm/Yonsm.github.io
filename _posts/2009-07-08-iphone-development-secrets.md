@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-07-08 20:23:42+00:00
 layout: post
-slug: iphone-development-secrets-trial-sample-chapter-chm-version
 title: iPhone 开发秘籍试读样章 CHM 版
-wordpress_id: 469
+thread: 469
 categories:
 - 资源
 ---

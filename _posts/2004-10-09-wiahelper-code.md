@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-09 05:34:21+00:00
 layout: post
-slug: wiahelper-wia-helper-library
 title: WiaHelper - WIA 助手函数库
-wordpress_id: 154
+thread: 154
 categories:
 - 代码
 ---

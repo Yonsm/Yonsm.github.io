@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-05-21 08:42:46+00:00
 layout: post
-slug: registry-workshop-support-windows-mobile-registry-editor
 title: Registry Workshop - 支持 Windows Mobile 的注册表编辑器
-wordpress_id: 210
+thread: 210
 categories:
 - 资源
 tags:

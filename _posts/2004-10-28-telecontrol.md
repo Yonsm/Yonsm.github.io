@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-28 02:41:16+00:00
 layout: post
-slug: telecontrol26600
 title: TeleControl 2.6.600
-wordpress_id: 131
+thread: 131
 categories:
 - 软件
 ---

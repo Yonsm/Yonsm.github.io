@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-04 02:56:01+00:00
 layout: post
-slug: the-election-see-also-the-election
 title: 选举！又见选举！！
-wordpress_id: 124
+thread: 124
 categories:
 - 日志
 ---

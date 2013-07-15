@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-01-18 03:27:57+00:00
 layout: post
-slug: year-car-similar-to-the-tunes-of-different
 title: 年年岁岁车相似，岁岁年年票不同
-wordpress_id: 168
+thread: 168
 categories:
 - 日志
 tags:

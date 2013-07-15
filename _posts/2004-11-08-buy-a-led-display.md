@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-08 06:45:40+00:00
 layout: post
-slug: finally-for-the-monitor
 title: 终于换显示器了
-wordpress_id: 121
+thread: 121
 categories:
 - 日志
 ---

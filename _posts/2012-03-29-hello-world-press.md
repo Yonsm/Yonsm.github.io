@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2012-03-29 10:16:59+00:00
 layout: post
-slug: finally-used-in-mainstream-society-on-the-mainstream-blog-program
 title: '终于用上主流社会的主流博客程序了 '
-wordpress_id: 622
+thread: 622
 categories:
 - 日志
 ---

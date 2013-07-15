@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-19 03:52:17+00:00
 layout: post
-slug: use-define-macros-that-control-version-number
 title: 使用#定义方便控制版本号的宏
-wordpress_id: 141
+thread: 141
 categories:
 - 文档
 ---

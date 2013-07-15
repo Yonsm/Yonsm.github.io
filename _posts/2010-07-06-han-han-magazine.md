@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2010-07-06 20:09:19+00:00
 layout: post
-slug: net-han-han-editor-of-the-magazine-of-the-party-today-listed-on-the-national
 title: '[网文]韩寒主编杂志《独唱团》今日全国上市'
-wordpress_id: 511
+thread: 511
 categories:
 - 网文
 ---

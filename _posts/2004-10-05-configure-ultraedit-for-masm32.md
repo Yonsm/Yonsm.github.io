@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-05 16:29:54+00:00
 layout: post
-slug: configure-ultraedit-to-the-masm32-ide
 title: 配置 UltraEdit 为 MASM32 的IDE
-wordpress_id: 163
+thread: 163
 categories:
 - 文档
 ---

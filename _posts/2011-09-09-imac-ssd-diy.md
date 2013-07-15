@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-09-09 17:03:19+00:00
 layout: post
-slug: imacssd-history-is-finally-burning-success-of-fever
 title: iMac+SSD 发烧的历程——终于烧成功啦
-wordpress_id: 547
+thread: 547
 categories:
 - 文档
 ---

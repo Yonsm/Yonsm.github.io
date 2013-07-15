@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-07-13 07:54:53+00:00
 layout: post
-slug: came-to-life
 title: 活过来了……
-wordpress_id: 345
+thread: 345
 categories:
 - 日志
 tags:

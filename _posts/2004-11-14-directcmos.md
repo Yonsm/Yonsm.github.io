@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-14 06:39:56+00:00
 layout: post
-slug: directcmos
 title: DirectCMOS
-wordpress_id: 113
+thread: 113
 categories:
 - 代码
 ---

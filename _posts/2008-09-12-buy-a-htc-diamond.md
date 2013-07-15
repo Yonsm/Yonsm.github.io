@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-09-12 16:47:08+00:00
 layout: post
-slug: buy-the-htc-diamond
 title: 买了 HTC DIAMOND
-wordpress_id: 432
+thread: 432
 categories:
 - 日志
 ---

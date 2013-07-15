@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-19 04:20:33+00:00
 layout: post
-slug: organize-produced-several-chm-and-pdf-documents
 title: 整理制作了几个 CHM 和 PDF 文档
-wordpress_id: 108
+thread: 108
 categories:
 - 资源
 ---

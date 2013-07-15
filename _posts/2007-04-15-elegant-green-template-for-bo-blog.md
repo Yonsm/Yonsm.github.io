@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-04-15 01:28:34+00:00
 layout: post
-slug: elegant-green-template-updated-to-2-3-application-fixed-below-ie7-display-problem
 title: 绿色淡雅模板更新至 2.0.3 适用，修正 IE7 下面的显示问题
-wordpress_id: 312
+thread: 312
 categories:
 - 日志
 tags:

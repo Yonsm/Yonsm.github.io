@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-03-24 03:43:29+00:00
 layout: post
-slug: method-to-insert-a-dll-into-another-process-in-ppc-and-universal-code
 title: PPC 中向其它进程中插入DLL的方法及通用代码
-wordpress_id: 453
+thread: 453
 categories:
 - 文档
 ---

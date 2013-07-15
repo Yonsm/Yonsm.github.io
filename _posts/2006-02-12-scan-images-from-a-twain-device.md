@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-02-12 08:27:24+00:00
 layout: post
-slug: scanned-images-from-a-twain-device
 title: 从 TWAIN 设备中扫描图像
-wordpress_id: 174
+thread: 174
 categories:
 - 文档
 tags:

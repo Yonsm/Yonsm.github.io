@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-22 04:10:19+00:00
 layout: post
-slug: sendarp-querying-mac-address
 title: 使用 SendARP 查询 MAC 地址
-wordpress_id: 138
+thread: 138
 categories:
 - 代码
 ---

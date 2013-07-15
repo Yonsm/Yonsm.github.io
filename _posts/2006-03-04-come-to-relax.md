@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-03-04 06:49:07+00:00
 layout: post
-slug: come-to-relax
 title: 告一段落，轻松了……
-wordpress_id: 187
+thread: 187
 categories:
 - 日志
 tags:

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-12-11 05:00:00+00:00
 layout: post
-slug: wm5-6-ppc-install-packages-dictionary-games-and-gps-packages
 title: WM5/6 PPC 一键安装软件包、词典包、游戏包和 GPS 包
-wordpress_id: 303
+thread: 303
 categories:
 - 资源
 tags:

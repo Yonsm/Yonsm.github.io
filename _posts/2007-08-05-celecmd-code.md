@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-08-05 07:31:35+00:00
 layout: post
-slug: celecmd-1-2-360-code
 title: CeleCmd 1.2.360 代码
-wordpress_id: 351
+thread: 351
 categories:
 - 代码
 tags:

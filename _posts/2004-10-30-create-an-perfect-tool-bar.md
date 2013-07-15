@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-30 04:51:38+00:00
 layout: post
-slug: create-the-perfect-tool-bar
 title: 创建最完美的工具栏
-wordpress_id: 129
+thread: 129
 categories:
 - 代码
 ---

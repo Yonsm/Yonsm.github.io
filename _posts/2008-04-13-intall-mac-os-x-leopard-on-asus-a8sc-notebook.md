@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-04-13 18:31:07+00:00
 layout: post
-slug: asus-a8sc-detailed-steps-to-install-mac-osx-leopard-10-5-2-and-resource-links-can-be-applied-to-other-notebooks
 title: 在 ASUS A8Sc 中安装 Mac OSX Leopard 10.5.2
-wordpress_id: 411
+thread: 411
 categories:
 - 文档
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-09-09 19:05:14+00:00
 layout: post
-slug: experienced-paypal-ghosts
 title: 遭遇支付宝“李鬼”？
-wordpress_id: 251
+thread: 251
 categories:
 - 日志
 tags:

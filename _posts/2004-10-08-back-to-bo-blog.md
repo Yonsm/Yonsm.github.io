@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-08 02:57:57+00:00
 layout: post
-slug: blog-program-to-switch-back-to-bo-blog
 title: Blog程序切换回Bo-Blog
-wordpress_id: 161
+thread: 161
 categories:
 - 日志
 ---

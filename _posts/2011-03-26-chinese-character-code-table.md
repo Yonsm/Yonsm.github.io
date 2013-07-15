@@ -1,10 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-03-26 02:04:41+00:00
 layout: post
 title: 汉字码表
-wordpress_id: 533
+thread: 533
 categories:
 - 资源
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-05-06 08:20:46+00:00
 layout: post
-slug: reprint-why-developers-cant-estimate-time
 title: '[转载]为什么开发人员不能估算时间？'
-wordpress_id: 537
+thread: 537
 categories:
 - 网文
 ---

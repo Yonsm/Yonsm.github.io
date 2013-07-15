@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-01-30 22:07:41+00:00
 layout: post
-slug: switch-the-audio-to-the-bluetooth-headset
 title: 切换音频到蓝牙耳机
-wordpress_id: 290
+thread: 290
 categories:
 - 代码
 tags:

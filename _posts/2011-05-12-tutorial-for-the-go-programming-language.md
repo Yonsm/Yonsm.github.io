@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-05-12 09:21:40+00:00
 layout: post
-slug: go-go-go-a-tutorial-for-the-go-programming-language
 title: Go Go Go & A Tutorial for the Go Programming Language
-wordpress_id: 540
+thread: 540
 categories:
 - 文档
 ---

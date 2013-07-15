@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-01-02 06:38:16+00:00
 layout: post
-slug: long-distance-sunlight-trinidad-home
 title: 长途奔袭，千里归家
-wordpress_id: 394
+thread: 394
 categories:
 - 日志
 tags:

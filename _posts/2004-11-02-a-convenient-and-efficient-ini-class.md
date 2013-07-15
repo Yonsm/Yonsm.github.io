@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-02 03:49:02+00:00
 layout: post
-slug: constructs-a-convenient-efficient-ini-class
 title: 构造一个方便高效 INI 类
-wordpress_id: 125
+thread: 125
 categories:
 - 文档
 ---

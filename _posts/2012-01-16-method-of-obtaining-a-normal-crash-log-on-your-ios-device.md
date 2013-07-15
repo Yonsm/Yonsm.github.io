@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2012-01-16 05:49:52+00:00
 layout: post
-slug: method-of-obtaining-a-normal-crash-log-on-your-ios-device
 title: 获取普通用户 iOS 设备上的 Crash Log 的方法
-wordpress_id: 552
+thread: 552
 categories:
 - 文档
 ---

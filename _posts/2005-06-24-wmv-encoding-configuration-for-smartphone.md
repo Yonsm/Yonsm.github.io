@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2005-06-24 05:03:52+00:00
 layout: post
-slug: wmv-encoding-configuration-files-for-playback-on-a-smartphone
 title: 用于 Smartphone 上播放的 WMV 编码配置文件
-wordpress_id: 35
+thread: 35
 categories:
 - 文档
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-02-06 08:37:43+00:00
 layout: post
-slug: in-visual-c-using-inline-assembler
 title: 在 Visual C++ 中使用内联汇编
-wordpress_id: 176
+thread: 176
 categories:
 - 文档
 tags:

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-04-27 06:24:44+00:00
 layout: post
-slug: celescript-convenient-and-practical-home-travel-weird-batch-script-interpretation-engine
 title: CeleScript - 方便实用、居家旅行、莫名其妙的批处理脚本解释引擎
-wordpress_id: 413
+thread: 413
 categories:
 - 软件
 ---

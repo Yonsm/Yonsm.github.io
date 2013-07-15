@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-14 03:48:10+00:00
 layout: post
-slug: in-the-visual-studio-tools-menu-add-shortcuts
 title: 在 Visual Studio 工具菜单中添加“快捷方式”
-wordpress_id: 145
+thread: 145
 categories:
 - 代码
 ---

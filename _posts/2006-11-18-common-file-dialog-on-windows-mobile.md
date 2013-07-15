@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-11-18 11:23:29+00:00
 layout: post
-slug: windows-mobile-the-following-the-common-file-dialog-box-to-browse-the-code
 title: Windows Mobile 下面最通用的浏览文件对话框代码
-wordpress_id: 276
+thread: 276
 categories:
 - 文档
 tags:

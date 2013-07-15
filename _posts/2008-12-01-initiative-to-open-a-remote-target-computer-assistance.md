@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-12-01 02:13:30+00:00
 layout: post
-slug: initiative-to-open-a-remote-target-computer-assistance
 title: 主动打开目标计算机的远程协助
-wordpress_id: 441
+thread: 441
 categories:
 - 文档
 ---

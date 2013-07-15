@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-13 05:35:05+00:00
 layout: post
-slug: completed-a-satisfactory-open-dialog
 title: 完成了一个比较满意的 Open Dialog
-wordpress_id: 146
+thread: 146
 categories:
 - 日志
 ---

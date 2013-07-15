@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2005-06-28 01:34:28+00:00
 layout: post
-slug: smartphone-program-crack
 title: Smartphone 程序的 Crack
-wordpress_id: 34
+thread: 34
 categories:
 - 文档
 ---

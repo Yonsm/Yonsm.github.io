@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2005-02-24 01:19:53+00:00
 layout: post
-slug: perfect-nsis-setup-script
 title: 完美的 NSIS 安装脚本
-wordpress_id: 58
+thread: 58
 categories:
 - 文档
 ---

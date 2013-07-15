@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2010-08-30 07:37:21+00:00
 layout: post
-slug: plans-to-ride-a-bicycle-around-the-qinghai-lake
 title: 计划骑自行车环游青海湖
-wordpress_id: 514
+thread: 514
 categories:
 - 游集
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2010-01-18 04:33:38+00:00
 layout: post
-slug: tried-a-little-my-tracks-records-from-the-six-harmonies-pagoda-to-climb-trajectory-for-wuyunsi
 title: 试用了一下 My Tracks，记录从六和塔到五云寺的爬山轨迹
-wordpress_id: 492
+thread: 492
 categories:
 - 游集
 ---

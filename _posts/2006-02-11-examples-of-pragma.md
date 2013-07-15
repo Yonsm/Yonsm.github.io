@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-02-11 08:27:20+00:00
 layout: post
-slug: examples-of-application-pragma-indicator
 title: '#pragma 指示符应用举例'
-wordpress_id: 173
+thread: 173
 categories:
 - 文档
 tags:

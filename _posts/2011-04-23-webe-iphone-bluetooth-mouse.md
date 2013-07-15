@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-04-23 02:42:13+00:00
 layout: post
-slug: webe1-1-6-speaking-of-the-cracked-version-iphone-directly-into-a-bluetooth-mouse-touch-pad
 title: WeBe++ 1.1-6汉化破解版——直接把iPhone做成蓝牙键鼠（触摸板）
-wordpress_id: 535
+thread: 535
 categories:
 - 资源
 ---

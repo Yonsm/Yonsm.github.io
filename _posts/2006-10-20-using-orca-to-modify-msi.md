@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-10-20 06:11:55+00:00
 layout: post
-slug: orca-good-tools-anyway-to-modify-the-msi-file-install-on-win2003-wince5-pb
 title: Orca - 修改 MSI 文件的好工具 - 终于搞定在 Win2003 上安装 WinCE5 PB
-wordpress_id: 266
+thread: 266
 categories:
 - 资源
 tags:

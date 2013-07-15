@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-04-02 05:47:53+00:00
 layout: post
-slug: using-zlib-decompression-tar-gz-simple-procedures-and-code
 title: 用 ZLib 解压缩 TAR GZ 的最简单的过程和代码
-wordpress_id: 301
+thread: 301
 categories:
 - 代码
 tags:

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-09-03 05:51:29+00:00
 layout: post
-slug: analysis-of-log-modified-coreplayer-configuration-save-path
 title: '修改 CorePlayer 配置保存路径'
-wordpress_id: 362
+thread: 362
 categories:
 - 文档
 tags:

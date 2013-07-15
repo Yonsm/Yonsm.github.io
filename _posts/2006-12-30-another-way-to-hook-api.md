@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-12-30 07:46:24+00:00
 layout: post
-slug: anotherwaytohookmodifyapi
 title: Another way to hook/modify API
-wordpress_id: 284
+thread: 284
 categories:
 - 代码
 ---

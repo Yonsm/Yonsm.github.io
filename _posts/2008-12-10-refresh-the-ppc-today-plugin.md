@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-12-10 22:02:51+00:00
 layout: post
-slug: refresh-the-ppc-today-plug-in-change-to-take-effect
 title: 刷新PPC今日使插件更改生效
-wordpress_id: 444
+thread: 444
 categories:
 - 日志
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-13 03:23:41+00:00
 layout: post
-slug: pure-c-implement-shell-context-menu-extention
 title: Pure C++ 实现 Shell Context Menu Extention
-wordpress_id: 147
+thread: 147
 categories:
 - 代码
 ---

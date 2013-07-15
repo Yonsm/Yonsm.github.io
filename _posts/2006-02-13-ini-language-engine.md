@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-02-13 08:43:59+00:00
 layout: post
-slug: ini-files-in-multi-language-interface
 title: 用 INI 文件实现程序多语言界面
-wordpress_id: 177
+thread: 177
 categories:
 - 文档
 tags:

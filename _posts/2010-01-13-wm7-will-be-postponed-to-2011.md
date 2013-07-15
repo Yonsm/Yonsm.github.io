@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2010-01-13 01:16:48+00:00
 layout: post
-slug: rumor-wm7-will-be-postponed-to-2011
 title: '传闻WM7将延期至2011年'
-wordpress_id: 491
+thread: 491
 categories:
 - 日志
 ---

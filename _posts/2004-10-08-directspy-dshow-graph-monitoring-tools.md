@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-08 19:46:08+00:00
 layout: post
-slug: directspy-dshow-graph-monitoring-tools
 title: DirectSpy - DShow Graph 监视工具
-wordpress_id: 157
+thread: 157
 categories:
 - 资源
 ---

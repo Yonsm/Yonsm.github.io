@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-04-25 06:39:23+00:00
 layout: post
-slug: windows-mobile-wifi-switch-a-generic-code
 title: Windows Mobile 中开关 WIFI 的“通用”代码
-wordpress_id: 412
+thread: 412
 categories:
 - 文档
 ---

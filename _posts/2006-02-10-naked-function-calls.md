@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-02-10 08:35:38+00:00
 layout: post
-slug: naked-function-calls
 title: naked 函数调用
-wordpress_id: 175
+thread: 175
 categories:
 - 文档
 tags:

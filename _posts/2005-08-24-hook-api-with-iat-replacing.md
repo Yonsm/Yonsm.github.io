@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2005-08-24 19:23:39+00:00
 layout: post
-slug: replace-import-function-address-implementation-of-the-iat-hook-api
 title: 替换 IAT 中的导入函数地址实现 Hook API
-wordpress_id: 25
+thread: 25
 categories:
 - 代码
 ---

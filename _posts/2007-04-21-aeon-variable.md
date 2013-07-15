@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-04-21 06:00:45+00:00
 layout: post
-slug: ideas-aeon-variable-variable-eternal-life-saving-program-settings-to-the-exe-itself
 title: '[妙想]Aeon Variable/永生变量 - 保存程序设置到EXE本身'
-wordpress_id: 317
+thread: 317
 categories:
 - 文档
 tags:

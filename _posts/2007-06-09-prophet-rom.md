@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-06-09 07:19:27+00:00
 layout: post
-slug: 04-06-the-cutest-prophet-830-818pro-xdaneo-s200-wm5-rom
 title: '[04.06]最帅的 Prophet (830/818Pro/XDANeo/S200) WM5 ROM'
-wordpress_id: 302
+thread: 302
 categories:
 - 资源
 tags:

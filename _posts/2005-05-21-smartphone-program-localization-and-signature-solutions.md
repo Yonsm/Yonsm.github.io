@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2005-05-21 01:03:58+00:00
 layout: post
-slug: smartphone-program-localization-file-digital-signature-solutions-to-the-problem-of
 title: Smartphone 程序汉化——文件数字签名问题的解决方法
-wordpress_id: 46
+thread: 46
 categories:
 - 文档
 tags:

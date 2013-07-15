@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-01-05 05:00:51+00:00
 layout: post
-slug: two-ways-to-extract-cab-files
 title: 解压缩 CAB 文件的两种方法
-wordpress_id: 285
+thread: 285
 categories:
 - 文档
 tags:

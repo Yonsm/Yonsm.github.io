@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-01-18 08:00:00+00:00
 layout: post
-slug: to-enable-top-level-domain-yonsm-net
 title: 启用顶级域名 Yonsm.NET
-wordpress_id: 169
+thread: 169
 categories:
 - 日志
 ---

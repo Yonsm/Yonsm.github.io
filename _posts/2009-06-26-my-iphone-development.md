@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-06-26 16:39:24+00:00
 layout: post
-slug: my-iphone-development
 title: 我会 iPhone 开发啦……
-wordpress_id: 467
+thread: 467
 categories:
 - 日志
 ---

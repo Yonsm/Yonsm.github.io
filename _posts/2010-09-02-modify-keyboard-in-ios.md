@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2010-09-02 11:00:55+00:00
 layout: post
-slug: feel-free-to-modify-the-numeric-keypad-buttons-in-an-iphone-ipad
 title: 在 iPhone/iPad 中随意修改数字键盘按钮
-wordpress_id: 516
+thread: 516
 categories:
 - 文档
 ---

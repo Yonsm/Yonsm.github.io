@@ -1,10 +1,8 @@
 ---
-author: Yonsm
 date: 2006-04-08 00:17:28+00:00
 layout: post
-slug: arm-platform-may-crash-on-normal-code
 title: ARM平台上可能Crash的“正常代码”
-wordpress_id: 201
+thread: 201
 categories:
 - 文档
 tags:

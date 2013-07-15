@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2010-03-06 08:34:41+00:00
 layout: post
-slug: adding-cruise
 title: 加装定速巡航了
-wordpress_id: 496
+thread: 496
 categories:
 - 日志
 ---

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-05 03:20:07+00:00
 layout: post
-slug: domain-name-change
 title: 域名更换
-wordpress_id: 123
+thread: 123
 categories:
 - 日志
 ---

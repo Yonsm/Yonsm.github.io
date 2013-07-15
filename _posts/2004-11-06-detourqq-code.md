@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-06 12:36:04+00:00
 layout: post
-slug: detourqq-source-2-4-18
 title: DetourQQ 2.4.18 源代码
-wordpress_id: 122
+thread: 122
 categories:
 - 代码
 ---

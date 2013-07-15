@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2012-08-31 23:18:54+00:00
 layout: post
-slug: reprint-developing-without-provisioning-profile
 title: '[转载]Developing without Provisioning Profile'
-wordpress_id: 763
+thread: 763
 categories:
 - 文档
 ---

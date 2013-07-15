@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2012-03-03 22:02:22+00:00
 layout: post
-slug: using-gpt-in-mac-os-x-vs-mbr-bcm4331-linux-support-is-enabled
 title: 在 Mac OS X 中使用 GPT vs. MBR   | 启用BCM4331的Linux支持
-wordpress_id: 556
+thread: 556
 categories:
 - 文档
 ---

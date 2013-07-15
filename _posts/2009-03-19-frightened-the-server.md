@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-03-19 04:30:39+00:00
 layout: post
-slug: frightened-the-server
 title: 服务器惊魂……
-wordpress_id: 452
+thread: 452
 categories:
 - 日志
 ---

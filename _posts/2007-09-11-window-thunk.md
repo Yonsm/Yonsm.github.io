@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-09-11 07:41:23+00:00
 layout: post
-slug: thunk-windowclassdemo
 title: Thunk  Window Class Demo
-wordpress_id: 366
+thread: 366
 categories:
 - 代码
 tags:

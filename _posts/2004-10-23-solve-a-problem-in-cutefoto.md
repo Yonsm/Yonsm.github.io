@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-23 07:59:16+00:00
 layout: post
-slug: solve-the-problem-of-long-or-there-is-an-accumulation-of-two
 title: 解决或将要两个积累已久的问题
-wordpress_id: 136
+thread: 136
 categories:
 - 日志
 ---

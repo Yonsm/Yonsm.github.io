@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2010-05-07 07:10:44+00:00
 layout: post
-slug: after-another-two-days-on-the-ipad-well-familiar-with
 title: 折腾了两天，对 iPad 好熟悉了
-wordpress_id: 504
+thread: 504
 categories:
 - 日志
 ---

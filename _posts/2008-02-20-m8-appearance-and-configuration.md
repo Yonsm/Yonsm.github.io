@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-02-20 10:46:39+00:00
 layout: post
-slug: reprint-m8-the-latest-news-appearance-and-configuration-features
 title: '[转载]M8最新消息：外观/配置/功能'
-wordpress_id: 401
+thread: 401
 categories:
 - 网文
 ---

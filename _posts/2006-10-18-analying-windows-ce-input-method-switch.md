@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-10-18 11:38:18+00:00
 layout: post
-slug: ms-windows-ce-input-method-switch-programme-and-code-analysis
 title: MS Windows CE 输入法切换方案和代码分析
-wordpress_id: 265
+thread: 265
 categories:
 - 文档
 tags:

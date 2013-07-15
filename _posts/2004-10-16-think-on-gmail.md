@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-16 02:25:22+00:00
 layout: post
-slug: random-thoughts-on-gmail
 title: 关于 GMail 的一点随想
-wordpress_id: 143
+thread: 143
 categories:
 - 日志
 ---

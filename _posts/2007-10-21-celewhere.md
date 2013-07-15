@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-10-21 23:34:11+00:00
 layout: post
-slug: speed-call-number-celewhere-1-0-70-the-most-finely-vested-query-tool
 title: CeleWhere 1.0.70 - 最精巧快速的来电号码归属查询工具
-wordpress_id: 376
+thread: 376
 categories:
 - 软件
 tags:

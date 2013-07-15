@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-10-15 03:07:04+00:00
 layout: post
-slug: a-windows-service-example
 title: 一个 Windows 服务例子
-wordpress_id: 144
+thread: 144
 categories:
 - 代码
 ---

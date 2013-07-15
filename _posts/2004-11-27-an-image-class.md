@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2004-11-27 07:43:01+00:00
 layout: post
-slug: an-image-class
 title: 一个图像类
-wordpress_id: 101
+thread: 101
 categories:
 - 代码
 ---

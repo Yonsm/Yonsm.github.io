@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-10-24 04:05:28+00:00
 layout: post
-slug: on-the-enumeration-task-window-suspended-animation-and-the-failure-of-the-enumeration-process-solutions-to-common-problems
 title: 关于枚举（任务）窗口假死和枚举进程失败的通用问题解决方案
-wordpress_id: 379
+thread: 379
 categories:
 - 文档
 tags:

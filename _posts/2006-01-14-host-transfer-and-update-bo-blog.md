@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-01-14 11:47:05+00:00
 layout: post
-slug: transfer-web-space-the-upgrade-bo-blog
 title: 转移网站空间，升级 BO-BLOG
-wordpress_id: 167
+thread: 167
 categories:
 - 日志
 tags:

@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2012-09-28 11:47:20+00:00
 layout: post
-slug: support-ios-6-address-book-access
 title: 支持 iOS 6 的通讯录访问功能
-wordpress_id: 775
+thread: 775
 categories:
 - 文档
 ---

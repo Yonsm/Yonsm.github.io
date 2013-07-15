@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2010-10-05 05:58:06+00:00
 layout: post
-slug: northwestern-u
 title: 西北悠行
-wordpress_id: 521
+thread: 521
 categories:
 - 游集
 ---

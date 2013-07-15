@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-04-29 05:08:06+00:00
 layout: post
-slug: search-module-base-function-address
 title: Search module base  & function address
-wordpress_id: 322
+thread: 322
 categories:
 - 代码
 tags:

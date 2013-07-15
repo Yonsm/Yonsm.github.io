@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2006-08-29 03:46:54+00:00
 layout: post
-slug: every-exam-will-fill
 title: 逢考必补
-wordpress_id: 245
+thread: 245
 categories:
 - 日志
 tags:

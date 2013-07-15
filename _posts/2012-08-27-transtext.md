@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2012-08-27 11:13:17+00:00
 layout: post
-slug: transtext-2-2-extract-string-write-back-and-search-and-replace-tool
 title: TransText 2.2 - 字符串提取、回写以及搜索替换工具
-wordpress_id: 316
+thread: 316
 categories:
 - 软件
 tags:

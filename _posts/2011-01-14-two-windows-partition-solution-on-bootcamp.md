@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-01-14 09:27:07+00:00
 layout: post
-slug: two-macbook-imac-bootcamp-windows-partition-of-the-simple-perfect-solution
 title: MacBook/iMac BootCamp 分两个Windows分区的简单快速完美方案
-wordpress_id: 529
+thread: 529
 categories:
 - 文档
 ---

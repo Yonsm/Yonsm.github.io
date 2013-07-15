@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2007-06-25 11:18:14+00:00
 layout: post
-slug: modify-psshutxp-his-hard-features-to-work
 title: 修改 psShutXP 使他的硬起功能生效
-wordpress_id: 342
+thread: 342
 categories:
 - 代码
 ---

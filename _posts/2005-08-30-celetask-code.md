@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2005-08-30 06:25:58+00:00
 layout: post
-slug: celetask-1-6-272-code
 title: CeleTask 1.6.272 代码
-wordpress_id: 24
+thread: 24
 categories:
 - 代码
 ---

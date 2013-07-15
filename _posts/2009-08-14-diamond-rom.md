@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2009-08-14 07:59:59+00:00
 layout: post
-slug: 08-13-htc-touch-diamond-rom-os
 title: '[08.13]HTC Touch Diamond 一站式 ROM OS'
-wordpress_id: 439
+thread: 439
 categories:
 - 资源
 ---

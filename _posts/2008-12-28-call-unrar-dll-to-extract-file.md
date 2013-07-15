@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2008-12-28 08:35:39+00:00
 layout: post
-slug: call-unrar-dll-to-extract-rar-file
 title: 调用 UnRAR.dll 解压缩RAR文件
-wordpress_id: 448
+thread: 448
 categories:
 - 代码
 ---

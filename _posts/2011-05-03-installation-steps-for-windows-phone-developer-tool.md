@@ -1,11 +1,8 @@
 ---
-author: Yonsm
-comments: true
 date: 2011-05-03 23:58:12+00:00
 layout: post
-slug: installation-steps-for-windows-phone-developer-tool
 title: 安装 Windows Phone Developer Tool 的步骤
-wordpress_id: 536
+thread: 536
 categories:
 - 文档
 ---
