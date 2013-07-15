@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
-url: http://yonsm.tk
+url: http://yonsm.net
 name: Yonsm.NET
 author: Yonsm
 pygments: true
