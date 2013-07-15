@@ -1,8 +1,8 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
-url: http://yonsm.net
-name: Yonsm.NET
-author: Yonsm
+url: http://alensw.tk
+name: Alen Software
+author: Alen
 pygments: true
 safe: true
 paginate: 20
