@@ -60,6 +60,7 @@ embed,object,iframe{display:block;margin:4px auto;}
 .gist{font-size: 12px;line-height:1.6;}
 
 footer{
+text-align:center;
 display:block;
 border-top: 1px dashed #CCC;
 }
