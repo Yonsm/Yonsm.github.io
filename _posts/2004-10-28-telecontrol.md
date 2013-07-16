@@ -1,9 +1,9 @@
 ---
 date: 2004-10-28 02:41:16+00:00
 layout: post
-title: TeleControl 2.6.600
+title: TeleControl - 10Moons 电视大师遥控器增强工具
 thread: 131
-categories: 软件
+categories: 软件 分享
 ---
 
   
@@ -172,12 +172,9 @@ categories: 软件
 
    3. 如果你有意见、建议，或者在使用过程中碰到问题，请描述详细信息并 Email 至 [Yonsm@163.com](mailto:Yonsm@163.com)。
 
-  
-
-
-  
-                                                          Powered by Yonsm  
-                                                          2004.9.4  
+    
+Powered by Yonsm  
+2004.9.4  
 
 
   
