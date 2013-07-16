@@ -1,10 +1,10 @@
 ---
 date: 2012-08-22 23:53:11+00:00
 layout: post
-title: Windows 8 可以使用 EFI 模式跳过Bootcamp安装于Mac系列计算机上
+title: 用 EFI 模式跳过Bootcamp安 装Windows 8 到 Mac
 thread: 558
 categories: 文档
-tags: 折腾 Mac
+tags: Mac 折腾
 ---
 
 ——附上安装Windows 8的步骤（2012.08.23更新）—— 
