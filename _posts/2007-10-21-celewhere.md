@@ -1,7 +1,7 @@
 ---
 date: 2007-10-21 23:34:11+00:00
 layout: post
-title: CeleWhere 1.0.70 - 最精巧快速的来电号码归属查询工具
+title: CeleWhere - 最精巧快速的来电号码归属查询工具
 thread: 376
 categories: 软件
 tags: WM 分享
