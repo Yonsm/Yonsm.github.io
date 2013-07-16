@@ -2,7 +2,6 @@
 date: 2013-04-22 02:08:31+00:00
 layout: post
 title: 在iOS进程中修改内存指令和数据（内存补丁）
-thread: 819
 categories: 文档
 tags: iOS 逆向工程
 ---
