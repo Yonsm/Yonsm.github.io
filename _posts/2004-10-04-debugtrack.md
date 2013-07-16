@@ -1,10 +1,10 @@
 ---
 date: 2004-10-04 02:44:30+00:00
 layout: post
-title: DebugTrack 2.4.530
+title: DebugTrack - 调试输出字符串追踪工具
 thread: 164
 categories: 软件
-tags: 分享 Win
+tags:  Win 分享
 ---
 
 ![ ](/assets/1096800239.gif)
