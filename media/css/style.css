@@ -46,7 +46,7 @@ blockquote p{margin:0;padding:.5em 0;}
 .pageNav{font-weight:bold;font-size:17px;}
 .pageNavInvalid{font-weight:bold;font-size:17px;color:#D0D0D0;}
 header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
-nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-7em;width:4em;text-align:right;}
+nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-8em;width:6em;text-align:center;}
 nav a{display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:.5em 0em;}
