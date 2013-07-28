@@ -13,10 +13,22 @@ GitHub上找了个[模板](http://webfrogs.me/2012/12/20/use-jekyll/)，花了�
 
 刚开始使用 Markdown 写东西，很不错。语法高亮可以使用 [Pygments](http://pygments.org/) ，[使用介绍在此](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)。例子效果如下：
 
-{% highlight java linenos %}
-public class HelloWorld {
-    public static void main(String args[]) {
-      System.out.println("Hello World!");
-    }
-}
-{% endhighlight %}
+{% highlight objc linenos %}
+
+void FixWordPressExportedXML(NSString *src, NSString *dst)
+{
+    NSMutableString *data = [NSMutableString stringWithContentsOfFile:src encoding:NSUTF8StringEncoding error:nil];
+	if (data)
+	{
+		for (NSInteger i = data.length - 1; i >= 0; i--)
+		{
+			unichar c = [data characterAtIndex:i];
+			if (c < 0x20 && c != 9 && c != '\r' && c != '\n')
+			{
+				[data replaceCharactersInRange:NSMakeRange(i, 1) withString:@" "];
+			}
+		}
+		[data replaceOccurrencesOfString:@"&nbsp;" withString:@" " options:nil range:NSMakeRange(0, data.length)];
+		[data writeToFile:dst atomically:NO encoding:NSUTF8StringEncoding error:nil];
+	}
+}{% endhighlight %}
