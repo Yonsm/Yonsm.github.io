@@ -13,13 +13,21 @@
 					<key>url</key>
 					<string>http://yonsm.net/ipa/QingChiFan.ipa</string>
 				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>http://yonsm.net/ipa/icon.png</string>
+				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
 				<string>com.gozap.QingChiFan</string>
 				<key>bundle-version</key>
-				<string>1.0.3</string>
+				<string>1.0.4</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
