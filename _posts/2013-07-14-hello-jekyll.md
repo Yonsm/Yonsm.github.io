@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '博客迁移到 Jekyll @ GitHub'
+title: '博客迁移到 Jekyll @ GitHub - 你也可以fork在GitHub建站哦'
 category: 日志
 tags: 博客 GitHub Jekyll Markdown
 ---
