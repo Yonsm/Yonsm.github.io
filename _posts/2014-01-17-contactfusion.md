@@ -6,7 +6,7 @@ categories: 文档
 tags: 分享 iOS
 ---
 
-在 CeleDail for iPhone 的设置界面中，提供了一系列非常有用的整理联系人数据的小功能：
+在 [CeleDail for iPhone](http://www.celedial.com/appstore) 的设置界面中，提供了一系列非常有用的整理联系人数据的小功能：
 
 ![](/assets/ContactFusion.png)
 
@@ -31,3 +31,5 @@ iOS SDK 不支持读取联系人账户的名称，只能读取类型，更悲催
 注意：风险自负，仅供完美主义者或强迫症专用！！！：）
 
 这些功能在一年前的 CeleDial 2.4 开始已提供了，如果需要可在 AppStore 中 [下载 CeleDial](http://www.celedial.com/appstore)。
+
+想在各大在线联系人账户之前迁移的用户，终于有解决方案了，操起手中的肾机开干吧！
