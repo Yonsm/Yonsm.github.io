@@ -1,7 +1,7 @@
 ---
 date: 2014-01-17 22:33:17+00:00
 layout: post
-title: CeleDial 联系人整理功能介绍（如同步GoogleSync、Exchange和iCloud联系人）
+title: CeleDial 联系人整理功能介绍
 categories: 文档
 tags: 分享 iOS
 ---
