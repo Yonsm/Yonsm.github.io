@@ -11,27 +11,27 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://yonsm.net/ipa/QingChiFan.ipa</string>
+					<string>http://yonsm.net/ipa/CeleDial.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
-					<string>display-image</string>
+					<string>full-size-image</string>
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>http://yonsm.net/ipa/icon.png</string>
+					<string>http://yonsm.net/ipa/CeleDial.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.gozap.QingChiFan</string>
+				<string>CeleDialer</string>
 				<key>bundle-version</key>
-				<string>1.0.4</string>
+				<string>2.6.20</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>请吃饭</string>
+				<string>CeleDial 智能拨号</string>
 			</dict>
 		</dict>
 	</array>
