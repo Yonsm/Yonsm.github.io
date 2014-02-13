@@ -6,4 +6,4 @@ categories: 文档
 tags: 分享 网文
 ---
 
-枯燥理论化的和喵星人的表述看得实在头疼，还好有这种说人话、动真格的——[用C++设计模式的解析和实现](http://c.chinaitlab.com/special/sjms/Index.html)。
+[用C++设计模式的解析和实现](http://c.chinaitlab.com/special/sjms/Index.html)
