@@ -12,7 +12,8 @@ tags: 分享 Mac
 
 如果是本地移动硬盘，先确保该目录已共享，然后执行 
 
-		mount_afp afp://user:pass@localhost/Movies ~/百度云同步盘/Movies
+	mount_afp afp://user:pass@localhost/Movies ~/百度云同步盘/Movies
 
 搞定了。
 
+后话：我扯淡了，半夜才想起来，以前创建 RAMDISK 的时候用的 mount -t hfs -o union *** *** 就可以实现这种功能……
