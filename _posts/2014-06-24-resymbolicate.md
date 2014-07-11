@@ -10,7 +10,7 @@ Xcode Organizer 连接手机看 Device Logs 的时候，有个 Re-Symbolicate �
 
 如果收到的是第三者设备提供过来的Crash Log，则无法使用该功能。使用以下命令可以实现同样的目的：
 
-      export DEVELOPER_DIR=`xcode-select —print-path`
+      export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
       /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKitBase.framework/Versions/A/Resources/symbolicatecrash -v ~/CrashLog.crash
 
 
