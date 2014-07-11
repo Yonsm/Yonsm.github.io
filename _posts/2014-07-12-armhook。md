@@ -1,0 +1,53 @@
+---
+date: 2014-07-22 00:14:31+00:00
+layout: post
+title: 分析 Substrate 的 ARM/THUMB 函数 Hook 实现细节
+categories: 文档
+tags: iOS 逆向工程
+---
+
+ARM 架构的 CPU 有 ARM 和 THUMB 执行态。
+
+1. 先说 ARM 态（被Hook的函数）到 ARM 态（自己的替换函数）的 HOOK，非常简单，没有看过 Substrate 的时候我就想到并验证过了（8 个字节）：
+
+      LDR PC, [PC， #-4]
+      replacedFunctionAddress  ; 目标绝对地址（ARM 态的，偶数）
+      
+2. ARM 态到 Thumb 态的 Hook，和上面应该应该类似，只是   变成 replacedFunctionAddress + 1，转跳后自动切换到 THUMB 态。
+
+      未验证（X！）
+      
+3. THUMB 到 THUMB 态的 HOOK，难理解的来了，经过实际测试发现下面的代码可以 HOOK 任意的函数（注意 + 1，MD，在这栽了好长一段时间，感谢曾半仙）
+
+      _MSHookFunction(hookedFunctionAddress + 1, (void *)replacedFunctionAddress, (void **)&pOriginalFunctionAddress); 
+      
+  用以上 Substrate 的方法实现 THUMB 到 THUMB 的 HOOK 之后，我用 GDB 查看了一下内存，总共修改了12个字节，如下：
+ 
+      (gdb) x/3xw _mh_execute_header+0x1073E0
+      0x15e3e0 <_mh_execute_header+1078240>:	0x46c04778	0xe51ff004	0x0029b6b9  
+      
+  和汇编代码（注意 THUMB 模式的地址要 +1 变成奇数）：
+  
+      (gdb) disas _mh_execute_header+0x1073E1 _mh_execute_header+0x1073EC
+      Dump of assembler code from 0x15e3e1 to 0x15e3ec:
+      0x0015e3e1 <_mh_execute_header+1078241>:	bx	pc
+      0x0015e3e3 <_mh_execute_header+1078243>:	nop			(mov r8, r8) 
+      0x0015e3e5 <_mh_execute_header+1078245>:	blx	0x562e24 ; 请忽略
+      0x0015e3e9 <_mh_execute_header+1078249>:	undefined ; 请忽略
+      0x0015e3eb <_mh_execute_header+1078251>:	lsls	r1, r5, #0 ; 请忽略
+
+  第一条指令（C0 46）就是 THUMB 的 BX PC，第二条指令是 78 47 是 THUMB 的 NOP。后面的指令因为实际上是 BX 成 ARM 态了，所以请忽略。
+  
+  BX PC 后实际上是转跳到了 ARM 态的 0x0015e3e4 地址，继续反汇编如下：
+  
+      (gdb) disas _mh_execute_header+0x1073E4 _mh_execute_header+0x1073EC
+      Dump of assembler code from 0x15e3e4 to 0x15e3ec:
+      0x0015e3e4 <_mh_execute_header+1078244>:	ldr	pc, [pc, #-4]	; 0x15e3e8 <_mh_execute_header+1078248>
+      0x0015e3e8 <_mh_execute_header+1078248>:	strheq	r11, [r9], -r9 ; 这个就是和 replacedFunctionAddress + 1 了
+      
+  可以看到从 0x0015e3e4 这里开始和上面提到的第一种情况（从ARM到THUMB）一样了。
+      
+  4. 从 THUMB 到 ARM。
+  
+      你猜~~
+  
