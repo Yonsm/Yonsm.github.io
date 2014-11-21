@@ -19,3 +19,5 @@ Xcode Organizer 连接手机看 Device Logs 的时候，有个 Re-Symbolicate �
     dwarfdump --lookup 0x00002712 -arch armv7 CrashTesting.app.dSYM/
     
 一旦从地址中反查到了符号，将非常有助于分析Crash的原因。
+
+(2014.11.22 验证)
