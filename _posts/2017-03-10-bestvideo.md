@@ -23,13 +23,14 @@ ffmpeg 是全能的多媒体文件转码工具，也是很多 GUI 类转码软�
 6. 在 OUT 目录下可以找到同名视频文件。
 
 # 下载
-###[下载 macOS 版](/assets/BestVideo_macOS.zip)
-###[下载 Windows 版](/assets/BestVideo_Win.zip)
+[下载 macOS 版](/assets/BestVideo_macOS.zip)
+
+[下载 Windows 版](/assets/BestVideo_Win.zip)
 
 
 # 脚本
 
-###macOS 版（在10.12.3测试通过）
+macOS 版（在10.12.3测试通过）
 
 ```sh
 #!/bin/sh
@@ -104,7 +105,8 @@ fi
 popd >/dev/null
 ```
 
-###Windows 版（在 Windows 7 下测试通过）
+
+Windows 版（在 Windows 7 下测试通过）
 
 ```bat
 @ECHO OFF
