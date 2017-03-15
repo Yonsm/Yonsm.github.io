@@ -23,167 +23,165 @@ ffmpeg 是全能的多媒体文件转码工具，也是很多 GUI 类转码软�
 6. 在 OUT 目录下可以找到同名视频文件。
 
 # 下载
-1. [下载 macOS 版](assets/BestVideo_macOS.zip)
+1. [下载 macOS 版](/assets/BestVideo_macOS.zip)
 
-2. [下载 Windows 版](assets/BestVideo_Win.zip)
+2. [下载 Windows 版](/assets/BestVideo_Win.zip)
 
 
 # 脚本
 1. Windows 版（在 Windows 7 下测试通过）
 
-`
-@ECHO OFF
-
-SET inTypes=*.mp4 *.mkv *.mov *.avi *.wmv *.vob
-SET outDir=OUT
-
-SET videoWidth=720
-SET videoHeight=338
-SET videoLevel=3.1
-SET videoProfile=main
-SET videoConstantRateFactor=17
-
-SET audioChannel=2
-SET audioCodec=aac
-SET audioBitRate=225k
-SET audioSampleRate=44.1k
-
-SET audioOptions=-acodec %audioCodec% -ab %audioBitRate% -ar %audioSampleRate% -ac %audioChannel%
-SET videoOptions=-s %videoWidth%x%videoHeight% -vcodec libx264 -crf %videoConstantRateFactor% -profile:v %videoProfile% -level %videoLevel%
-SET cropOptions1=-vf crop=in_w:in_w*%videoHeight%/%videoWidth%
-SET cropOptions2=-vf crop=in_h*%videoWidth%/%videoHeight%:in_h
-
-PATH=%PATH%;%~dp0
-PUSHD %CD%
-
-IF [%1]==[] (
-	SET videoPath=.
-) ELSE (
-	SET videoPath=%1
-)
-
-IF EXIST %videoPath%\NUL (
-	CD /d %videoPath%
-	FOR %%I IN (%inTypes%) DO CALL :MakeVideo "%%~nxI"
-) ELSE (
-	CD /d %~dp1
-	CALL :MakeVideo "%~nx1"
-)
-
-POPD
-EXIT /b 0
-
-:MakeVideo
-	SET subtitleOptions=
-	SET subtitle=%~n1.ass
-	IF NOT EXIST "%subtitle%" SET subtitle=%~n1.srt
-	IF NOT EXIST "%subtitle%" GOTO :endSubtitle
-		SET charsetOption=
-		CALL :DetectCharset "%subtitle%"
-		IF NOT ERRORLEVEL 1 SET charsetOption=:charenc=GB18030
-		SET subtitleOptions=",subtitles=%subtitle%:original_size=%videoWidth%x%videoHeight%%charsetOption%"
-		ECHO.
-		ECHO Subtitle: %subtitle%
-		ECHO Charset: %detectedCharset%
-	:endSubtitle
-
-	IF NOT EXIST %outDir% MD %outDir%
-	@ECHO ON
-	ffmpeg -i %1 -y %audioOptions% %videoOptions% %cropOptions1%%subtitleOptions% "%outDir%\%~n1.mp4"
-	IF %ERRORLEVEL% EQU 1 ffmpeg -i %1 -y %audioOptions% %videoOptions% %cropOptions2%%subtitleOptions% "%outDir%\%~n1.mp4"
 	@ECHO OFF
-EXIT /b 0
 
-:DetectCharset
-	SET hexFile=%~n1.hex
-	CERTUTIL -f -encodehex %1 "%hexFile%" >NUL
-	FOR /f "usebackq delims=" %%E IN ("%hexFile%") DO (
-		SET "firstLine=%%E" >NUL
-		GOTO :endFor
+	SET inTypes=*.mp4 *.mkv *.mov *.avi *.wmv *.vob
+	SET outDir=OUT
+
+	SET videoWidth=720
+	SET videoHeight=338
+	SET videoLevel=3.1
+	SET videoProfile=main
+	SET videoConstantRateFactor=17
+
+	SET audioChannel=2
+	SET audioCodec=aac
+	SET audioBitRate=225k
+	SET audioSampleRate=44.1k
+
+	SET audioOptions=-acodec %audioCodec% -ab %audioBitRate% -ar %audioSampleRate% -ac %audioChannel%
+	SET videoOptions=-s %videoWidth%x%videoHeight% -vcodec libx264 -crf %videoConstantRateFactor% -profile:v %videoProfile% -level %videoLevel%
+	SET cropOptions1=-vf crop=in_w:in_w*%videoHeight%/%videoWidth%
+	SET cropOptions2=-vf crop=in_h*%videoWidth%/%videoHeight%:in_h
+
+	PATH=%PATH%;%~dp0
+	PUSHD %CD%
+
+	IF [%1]==[] (
+		SET videoPath=.
+	) ELSE (
+		SET videoPath=%1
 	)
-	:endFor
-	DEL /Q /F "%hexFile%" >NUL 2>&1
 
-	ECHO %firstLine% | FIND "ef bb bf"     >NUL && SET "detectedCharset=UTF-8"     && EXIT /b 1
-	ECHO %firstLine% | FIND "ff fe 00 00"  >NUL && SET "detectedCharset=UTF-32 LE" && EXIT /b 5
-	ECHO %firstLine% | FIND "ff fe"        >NUL && SET "detectedCharset=UTF-16"    && EXIT /b 2
-	ECHO %firstLine% | FIND "fe ff 00"     >NUL && SET "detectedCharset=UTF-16 BE" && EXIT /b 3
-	ECHO %firstLine% | FIND "00 00 fe ff"  >NUL && SET "detectedCharset=UTF-32 BE" && EXIT /b 4
-	SET "detectedCharset=ASCII"
-EXIT /b 0
-`
+	IF EXIST %videoPath%\NUL (
+		CD /d %videoPath%
+		FOR %%I IN (%inTypes%) DO CALL :MakeVideo "%%~nxI"
+	) ELSE (
+		CD /d %~dp1
+		CALL :MakeVideo "%~nx1"
+	)
+
+	POPD
+	EXIT /b 0
+
+	:MakeVideo
+		SET subtitleOptions=
+		SET subtitle=%~n1.ass
+		IF NOT EXIST "%subtitle%" SET subtitle=%~n1.srt
+		IF NOT EXIST "%subtitle%" GOTO :endSubtitle
+			SET charsetOption=
+			CALL :DetectCharset "%subtitle%"
+			IF NOT ERRORLEVEL 1 SET charsetOption=:charenc=GB18030
+			SET subtitleOptions=",subtitles=%subtitle%:original_size=%videoWidth%x%videoHeight%%charsetOption%"
+			ECHO.
+			ECHO Subtitle: %subtitle%
+			ECHO Charset: %detectedCharset%
+		:endSubtitle
+
+		IF NOT EXIST %outDir% MD %outDir%
+		@ECHO ON
+		ffmpeg -i %1 -y %audioOptions% %videoOptions% %cropOptions1%%subtitleOptions% "%outDir%\%~n1.mp4"
+		IF %ERRORLEVEL% EQU 1 ffmpeg -i %1 -y %audioOptions% %videoOptions% %cropOptions2%%subtitleOptions% "%outDir%\%~n1.mp4"
+		@ECHO OFF
+	EXIT /b 0
+
+	:DetectCharset
+		SET hexFile=%~n1.hex
+		CERTUTIL -f -encodehex %1 "%hexFile%" >NUL
+		FOR /f "usebackq delims=" %%E IN ("%hexFile%") DO (
+			SET "firstLine=%%E" >NUL
+			GOTO :endFor
+		)
+		:endFor
+		DEL /Q /F "%hexFile%" >NUL 2>&1
+
+		ECHO %firstLine% | FIND "ef bb bf"     >NUL && SET "detectedCharset=UTF-8"     && EXIT /b 1
+		ECHO %firstLine% | FIND "ff fe 00 00"  >NUL && SET "detectedCharset=UTF-32 LE" && EXIT /b 5
+		ECHO %firstLine% | FIND "ff fe"        >NUL && SET "detectedCharset=UTF-16"    && EXIT /b 2
+		ECHO %firstLine% | FIND "fe ff 00"     >NUL && SET "detectedCharset=UTF-16 BE" && EXIT /b 3
+		ECHO %firstLine% | FIND "00 00 fe ff"  >NUL && SET "detectedCharset=UTF-32 BE" && EXIT /b 4
+		SET "detectedCharset=ASCII"
+	EXIT /b 0
 
 2. macOS 版（在10.12.3测试通过）
 
-`
-#!/bin/sh
+	#!/bin/sh
 
-inTypes="mp4|mkv|mov|avi|wmv|vob"
-outDir=OUT
+	inTypes="mp4|mkv|mov|avi|wmv|vob"
+	outDir=OUT
 
-videoWidth=720
-videoHeight=338
-videoLevel=3.1
-videoProfile=main
-videoConstantRateFactor=17
+	videoWidth=720
+	videoHeight=338
+	videoLevel=3.1
+	videoProfile=main
+	videoConstantRateFactor=17
 
-audioChannel=2
-audioCodec=aac
-audioBitRate=225k
-audioSampleRate=44.1k
+	audioChannel=2
+	audioCodec=aac
+	audioBitRate=225k
+	audioSampleRate=44.1k
 
-audioOptions="-acodec $audioCodec -ab $audioBitRate -ar $audioSampleRate -ac $audioChannel"
-videoOptions="-s ${videoWidth}x$videoHeight -vcodec libx264 -crf $videoConstantRateFactor -profile:v $videoProfile -level $videoLevel"
-cropOptions1="-vf crop=in_w:in_w*$videoHeight/$videoWidth"
-cropOptions2="-vf crop=in_h*$videoWidth/$videoHeight:in_h"
+	audioOptions="-acodec $audioCodec -ab $audioBitRate -ar $audioSampleRate -ac $audioChannel"
+	videoOptions="-s ${videoWidth}x$videoHeight -vcodec libx264 -crf $videoConstantRateFactor -profile:v $videoProfile -level $videoLevel"
+	cropOptions1="-vf crop=in_w:in_w*$videoHeight/$videoWidth"
+	cropOptions2="-vf crop=in_h*$videoWidth/$videoHeight:in_h"
 
-CDIR=$(cd "${0%/*}"; pwd)
-PATH=$CDIR:$PATH
-pushd $PWD >/dev/null
+	CDIR=$(cd "${0%/*}"; pwd)
+	PATH=$CDIR:$PATH
+	pushd $PWD >/dev/null
 
-if [ $# = 0 ]; then
-	videoPath=.
-else
-	videoPath="$1"
-fi
-
-MakeVideo()
-{
-	if [ ! -d "$outDir" ]; then mkdir "$outDir"; fi
-
-	subtitle="${1%.*}.ass"
-	if [ ! -f "$subtitle" ]; then subtitle="${1%.*}.srt"; fi
-	if [ -f "$subtitle" ]; then 
-		detectedCharset=`file -b --mime-encoding "$subtitle"`
-		if [[ "$detectedCharset" =~ "utf" ]]; then charsetOption=; else charsetOption=":charenc=GB18030"; fi
-		echo "Subtitle: $subtitle"
-		echo "Charset: $detectedCharset"
-		ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions1,subtitles="$subtitle"$charsetOption "$outDir/${1%.*}.mp4" </dev/null
-		if [ $? == 1 ]; then
-			ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions2,subtitles="$subtitle"$charsetOption "$outDir/${1%.*}.mp4" </dev/null
-		fi
+	if [ $# = 0 ]; then
+		videoPath=.
 	else
-		ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions1 "$outDir/${1%.*}.mp4" </dev/null
-		if [ $? == 1 ]; then
-			ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions2 "$outDir/${1%.*}.mp4" </dev/null
-		fi
+		videoPath="$1"
 	fi
-}
 
-if [ -d "$videoPath" ]; then
-	cd "$videoPath"
-	find -E . -iregex ".*\.($inTypes)" -maxdepth 1 | while read f ; do MakeVideo "${f##*/}" ; done
-	if [ ! -d "$outDir" ]; then
-		cd "$CDIR"
+	MakeVideo()
+	{
+		if [ ! -d "$outDir" ]; then mkdir "$outDir"; fi
+
+		subtitle="${1%.*}.ass"
+		if [ ! -f "$subtitle" ]; then subtitle="${1%.*}.srt"; fi
+		if [ -f "$subtitle" ]; then 
+			detectedCharset=`file -b --mime-encoding "$subtitle"`
+			if [[ "$detectedCharset" =~ "utf" ]]; then charsetOption=; else charsetOption=":charenc=GB18030"; fi
+			echo "Subtitle: $subtitle"
+			echo "Charset: $detectedCharset"
+			ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions1,subtitles="$subtitle"$charsetOption "$outDir/${1%.*}.mp4" </dev/null
+			if [ $? == 1 ]; then
+				ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions2,subtitles="$subtitle"$charsetOption "$outDir/${1%.*}.mp4" </dev/null
+			fi
+		else
+			ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions1 "$outDir/${1%.*}.mp4" </dev/null
+			if [ $? == 1 ]; then
+				ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions2 "$outDir/${1%.*}.mp4" </dev/null
+			fi
+		fi
+	}
+
+	if [ -d "$videoPath" ]; then
+		cd "$videoPath"
 		find -E . -iregex ".*\.($inTypes)" -maxdepth 1 | while read f ; do MakeVideo "${f##*/}" ; done
 		if [ ! -d "$outDir" ]; then
-			echo "Usage: $0 [FILE|DIR|] - Empty means ./ or $CDIR"
+			cd "$CDIR"
+			find -E . -iregex ".*\.($inTypes)" -maxdepth 1 | while read f ; do MakeVideo "${f##*/}" ; done
+			if [ ! -d "$outDir" ]; then
+				echo "Usage: $0 [FILE|DIR|] - Empty means ./ or $CDIR"
+			fi
 		fi
+	else
+		if [[ "${videoPath}" =~ "/" ]]; then cd "${videoPath%/*}"; fi
+		MakeVideo "${videoPath##*/}"
 	fi
-else
-	if [[ "${videoPath}" =~ "/" ]]; then cd "${videoPath%/*}"; fi
-	MakeVideo "${videoPath##*/}"
-fi
 
-popd >/dev/null
-`
+	popd >/dev/null
+
+仅记录
