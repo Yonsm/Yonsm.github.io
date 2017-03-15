@@ -23,12 +23,88 @@ ffmpeg 是全能的多媒体文件转码工具，也是很多 GUI 类转码软�
 6. 在 OUT 目录下可以找到同名视频文件。
 
 # 下载
-1.[下载 macOS 版](/assets/BestVideo_macOS.zip)
-2.[下载 Windows 版](/assets/BestVideo_Win.zip)
+###[下载 macOS 版](/assets/BestVideo_macOS.zip)
+###[下载 Windows 版](/assets/BestVideo_Win.zip)
 
 
 # 脚本
-1. Windows 版（在 Windows 7 下测试通过）
+
+###macOS 版（在10.12.3测试通过）
+
+```sh
+#!/bin/sh
+
+inTypes="mp4|mkv|mov|avi|wmv|vob"
+outDir=OUT
+
+videoWidth=720
+videoHeight=338
+videoLevel=3.1
+videoProfile=main
+videoConstantRateFactor=17
+
+audioChannel=2
+audioCodec=aac
+audioBitRate=225k
+audioSampleRate=44.1k
+
+audioOptions="-acodec $audioCodec -ab $audioBitRate -ar $audioSampleRate -ac $audioChannel"
+videoOptions="-s ${videoWidth}x$videoHeight -vcodec libx264 -crf $videoConstantRateFactor -profile:v $videoProfile -level $videoLevel"
+cropOptions1="-vf crop=in_w:in_w*$videoHeight/$videoWidth"
+cropOptions2="-vf crop=in_h*$videoWidth/$videoHeight:in_h"
+
+CDIR=$(cd "${0%/*}"; pwd)
+PATH=$CDIR:$PATH
+pushd $PWD >/dev/null
+
+if [ $# = 0 ]; then
+	videoPath=.
+else
+	videoPath="$1"
+fi
+
+MakeVideo()
+{
+	if [ ! -d "$outDir" ]; then mkdir "$outDir"; fi
+
+	subtitle="${1%.*}.ass"
+	if [ ! -f "$subtitle" ]; then subtitle="${1%.*}.srt"; fi
+	if [ -f "$subtitle" ]; then 
+		detectedCharset=`file -b --mime-encoding "$subtitle"`
+		if [[ "$detectedCharset" =~ "utf" ]]; then charsetOption=; else charsetOption=":charenc=GB18030"; fi
+		echo "Subtitle: $subtitle"
+		echo "Charset: $detectedCharset"
+		ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions1,subtitles="$subtitle"$charsetOption "$outDir/${1%.*}.mp4" </dev/null
+		if [ $? == 1 ]; then
+			ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions2,subtitles="$subtitle"$charsetOption "$outDir/${1%.*}.mp4" </dev/null
+		fi
+	else
+		ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions1 "$outDir/${1%.*}.mp4" </dev/null
+		if [ $? == 1 ]; then
+			ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions2 "$outDir/${1%.*}.mp4" </dev/null
+		fi
+	fi
+}
+
+if [ -d "$videoPath" ]; then
+	cd "$videoPath"
+	find -E . -iregex ".*\.($inTypes)" -maxdepth 1 | while read f ; do MakeVideo "${f##*/}" ; done
+	if [ ! -d "$outDir" ]; then
+		cd "$CDIR"
+		find -E . -iregex ".*\.($inTypes)" -maxdepth 1 | while read f ; do MakeVideo "${f##*/}" ; done
+		if [ ! -d "$outDir" ]; then
+			echo "Usage: $0 [FILE|DIR|] - Empty means ./ or $CDIR"
+		fi
+	fi
+else
+	if [[ "${videoPath}" =~ "/" ]]; then cd "${videoPath%/*}"; fi
+	MakeVideo "${videoPath##*/}"
+fi
+
+popd >/dev/null
+```
+
+###Windows 版（在 Windows 7 下测试通过）
 
 ```bat
 @ECHO OFF
@@ -110,81 +186,6 @@ EXIT /b 0
 	ECHO %firstLine% | FIND "00 00 fe ff"  >NUL && SET "detectedCharset=UTF-32 BE" && EXIT /b 4
 	SET "detectedCharset=ASCII"
 EXIT /b 0
-```
-
-2. macOS 版（在10.12.3测试通过）
-
-```sh
-#!/bin/sh
-
-inTypes="mp4|mkv|mov|avi|wmv|vob"
-outDir=OUT
-
-videoWidth=720
-videoHeight=338
-videoLevel=3.1
-videoProfile=main
-videoConstantRateFactor=17
-
-audioChannel=2
-audioCodec=aac
-audioBitRate=225k
-audioSampleRate=44.1k
-
-audioOptions="-acodec $audioCodec -ab $audioBitRate -ar $audioSampleRate -ac $audioChannel"
-videoOptions="-s ${videoWidth}x$videoHeight -vcodec libx264 -crf $videoConstantRateFactor -profile:v $videoProfile -level $videoLevel"
-cropOptions1="-vf crop=in_w:in_w*$videoHeight/$videoWidth"
-cropOptions2="-vf crop=in_h*$videoWidth/$videoHeight:in_h"
-
-CDIR=$(cd "${0%/*}"; pwd)
-PATH=$CDIR:$PATH
-pushd $PWD >/dev/null
-
-if [ $# = 0 ]; then
-	videoPath=.
-else
-	videoPath="$1"
-fi
-
-MakeVideo()
-{
-	if [ ! -d "$outDir" ]; then mkdir "$outDir"; fi
-
-	subtitle="${1%.*}.ass"
-	if [ ! -f "$subtitle" ]; then subtitle="${1%.*}.srt"; fi
-	if [ -f "$subtitle" ]; then 
-		detectedCharset=`file -b --mime-encoding "$subtitle"`
-		if [[ "$detectedCharset" =~ "utf" ]]; then charsetOption=; else charsetOption=":charenc=GB18030"; fi
-		echo "Subtitle: $subtitle"
-		echo "Charset: $detectedCharset"
-		ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions1,subtitles="$subtitle"$charsetOption "$outDir/${1%.*}.mp4" </dev/null
-		if [ $? == 1 ]; then
-			ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions2,subtitles="$subtitle"$charsetOption "$outDir/${1%.*}.mp4" </dev/null
-		fi
-	else
-		ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions1 "$outDir/${1%.*}.mp4" </dev/null
-		if [ $? == 1 ]; then
-			ffmpeg -i "$1" -y $audioOptions $videoOptions $cropOptions2 "$outDir/${1%.*}.mp4" </dev/null
-		fi
-	fi
-}
-
-if [ -d "$videoPath" ]; then
-	cd "$videoPath"
-	find -E . -iregex ".*\.($inTypes)" -maxdepth 1 | while read f ; do MakeVideo "${f##*/}" ; done
-	if [ ! -d "$outDir" ]; then
-		cd "$CDIR"
-		find -E . -iregex ".*\.($inTypes)" -maxdepth 1 | while read f ; do MakeVideo "${f##*/}" ; done
-		if [ ! -d "$outDir" ]; then
-			echo "Usage: $0 [FILE|DIR|] - Empty means ./ or $CDIR"
-		fi
-	fi
-else
-	if [[ "${videoPath}" =~ "/" ]]; then cd "${videoPath%/*}"; fi
-	MakeVideo "${videoPath##*/}"
-fi
-
-popd >/dev/null
 ```
 
 仅记录
