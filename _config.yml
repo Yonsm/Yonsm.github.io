@@ -10,7 +10,6 @@ beian: 浙ICP备12026616号
 cnzz: 119959
 weibo: 1885061391
 github: Yonsm
-pygments: true
 safe: true
 paginate: 20
 about: "这里是 Yonsm 的个人博客，创建于 2004 年。开始使用了 ExBlog 博客程序；之后长期（2004 ~ 2011）使用 Bo-Blog；2012 年更换为 WordProess；2013年7月迁移到 Jekyll @ GitHub。<br /><br />这里包含了部分个人的“折腾”过程、结论和成果，切换到分类模可以更快地找到感兴趣的内容，欢迎观赏、建议、拍砖……"
