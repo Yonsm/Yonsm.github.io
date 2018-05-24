@@ -43,4 +43,4 @@ RawPlayer 是一个解码后的原始视频数据的分析工具。它支持多�
 最好用、最有用的裸视频播放器（播放、对比、分析、转换等功能），专业人士必备：）  
 多余的不说了，懂的人看着办。  
   
-[下载](/assets/RawPlayer.2.2.222.exe) 
+[下载](https://github.com/Yonsm/RawPlayer/releases/download/2.2.222/RawPlayer.2.2.222.exe) 
