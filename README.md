@@ -1,11 +1,11 @@
-[Yonsm.NET](http://www.yonsm.net) 的博客
+[Yonsm.NET](https://yonsm.github.io) 的博客
 
-本博客运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/Yonsm/NET)，博客模板修改自 [WebFrog](http://webfrogs.me/) 的博客。本博客模板已经全部通用化，使用极其简单。
+本博客运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/Yonsm/Yonsm.github.io)，博客模板修改自 [WebFrog](http://webfrogs.me/) 的博客。本博客模板已经全部通用化，使用极其简单。
 
 
 ## 安装
 
-1. [Fork](https://github.com/Yonsm/NET/fork) [http://github.com/Yonsm/NET](http://github.com/Yonsm/NET)。
+1. [Fork](https://github.com/Yonsm/Yonsm.github.io/fork) [http://github.com/Yonsm/Yonsm.github.io](http://github.com/Yonsm/NET)。
 
 2. 所有个人相关的配置都在 _config.yml 中，修改其中内容：
   * markdown: rdiscount ***（建议不修改）***
