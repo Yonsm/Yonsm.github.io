@@ -1,0 +1,19 @@
+---
+date: 2019-02-14 21:33:04+08:00
+layout: post
+title:  把 Home Assistant 接入到 Scratch 儿童编程中
+categories: 代码
+tags: 智能家居
+---
+
+在家过了个年，把 Scratch 3.0 尚未成熟的插件体系搞明白了；一番倒腾之后把家里的 Home Assistant 桥接到了 Scratch 3.0 中，这样孩子也能在 Scratch 中编程控制到家里的智能设备了。编程中能接触真实世界中的东西，有助于激发孩子的兴趣。如图：
+
+![](https://bbs.hassbian.com/data/attachment/forum/201902/14/212637tg6g6cro9d56g0c0.png)
+
+如果你也想试试，看这个我这里好的脚本，已在 macOS 和 Debian 中测试可用，注意单步执行并检查结果：https://github.com/Yonsm/scratch ... op/scratch_setup.sh
+
+我写的插件已包含在相关步骤中。由于 Scratch 3.0 插件机制还不完全成型，以上步骤中需要安装 node js，并自己运行完整的 scratch-gui 和 scratch-vm。为了孩子容易理解和易用，插件中我设定了固定的 Home Assistant 地址和长效令牌，需要自己修改（nano src/extensions/scratch3_homeassistant/index.js），运行后孩子可以直接选择设备以便执行相关操作，使用非常方便。
+
+另外，如果孩子没有接触过 Scratch 编程，可以先用 http://code.org 做编程教育启蒙，家长和孩子均无需编程背景知识，都可以入门，适合5岁以上小朋友。
+
+具体代码参考：[https://github.com/Yonsm/HAExtra/blob/master/www/dash.html](https://github.com/Yonsm/HAExtra/blob/master/www/dash.html)
