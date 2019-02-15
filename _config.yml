@@ -1,12 +1,4 @@
 markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    span: false
-highlighter: rouge
-theme: minima
 permalink: /:title/
 url: https://yonsm.ga
 name: Yonsm.NET
