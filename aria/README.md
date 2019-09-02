@@ -1,7 +1,7 @@
 YAAW
 ====
 
-汉化修改版的 YAAW，添加转到离线下载网站的链接。
+汉化修改版的 YAAW，添加转到离线下载网站的链接。在线访问：https://yonsm.github.io/aria
 
 Yet Another Aria2 Web Frontend in pure HTML/CSS/Javascirpt.
 

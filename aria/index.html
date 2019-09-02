@@ -140,7 +140,7 @@
           </div>
         </li>
       </ul>
-      <ul id="stoped-tasks-table" class="tasks-table"> </ul>
+      <ul id="stopped-tasks-table" class="tasks-table"> </ul>
       </section>
     </div>
 
@@ -234,7 +234,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <div id="copyright">© Copyright <a href="https://github.com/binux/yaaw" target="_blank">Binux</a>  汉化 <a href="http://yonsm.net" target="_blank">Yonsm.NET</a> </div>
+      <div id="copyright">© Copyright <a href="https://github.com/binux/yaaw" target="_blank">Binux</a>  汉化 <a href="https://yonsm.github.io" target="_blank">Yonsm.NET</a> </div>
       <a href="#" id="saveSettings"  class="btn btn-success">保存</a>
       <a href="#" class="btn" data-dismiss="modal">取消</a>
     </div>
@@ -336,6 +336,8 @@
 
     <script id="ib-status-tpl" type="text/mustache-template">
       <ul>
+        {{#uris}}<li><strong>地址: </strong><a target=_blank href="{{.}}">{{.}}</a>{{/uris}}
+        {{#infoHash}}<li><strong>哈希: </strong><a target=_blank href="magnet:?xt=urn:btih:{{infoHash}}">{{infoHash}}</a></li>{{/infoHash}}
         <li><strong>大小: </strong>{{#_v.format_size}}{{totalLength}}{{/_v.format_size}} ({{numPieces}} @ {{#_v.format_size}}{{pieceLength}}{{/_v.format_size}})</li>
         <li><strong>状态: </strong>{{status}} {{error_msg}}</li>
         <li><strong>目录: </strong>{{dir}}</li>
