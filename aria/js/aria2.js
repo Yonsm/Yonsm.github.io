@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (C) 2015 Binux <roy@binux.me>
  *
  * This file is part of YAAW (https://github.com/binux/yaaw).
@@ -49,7 +49,7 @@ if (typeof ARIA2=="undefined"||!ARIA2) var ARIA2=(function(){
     $("#main-alert .alert-msg").html(msg);
     $("#main-alert").data("msg_id", msg_id).show();
     if (timeout) {
-      window.setTimeout(function() { 
+      window.setTimeout(function() {
         if($("#main-alert").data("msg_id") == msg_id) {
           $("#main-alert").fadeOut();
         }
@@ -102,19 +102,7 @@ if (typeof ARIA2=="undefined"||!ARIA2) var ARIA2=(function(){
       $("#add-task-option-wrap").empty().append(YAAW.tpl.add_task_option({}));
       $("#aria2-gsetting").empty().append(YAAW.tpl.aria2_global_setting({}));
 
-      // Mod by Yonsm
-      if (location.search.length)
-      {
-        jsonrpc_interface = location.search.substring(1);
-        if (jsonrpc_interface.indexOf("/jsonrpc") == -1)
-        {
-          jsonrpc_interface += "/jsonrpc";
-        }
-      }
-      else
-      {
-        jsonrpc_interface = path || location.protocol+"//"+(location.host.split(":")[0]||"localhost")+":6800"+"/jsonrpc";
-      }
+      jsonrpc_interface = path || location.protocol+"//"+(location.host.split(":")[0]||"localhost")+":6800"+"/jsonrpc";
       var auth_str = request_auth(jsonrpc_interface);
       if (auth_str && auth_str.indexOf('token:') == 0) {
         rpc_secret = auth_str;
@@ -261,7 +249,7 @@ if (typeof ARIA2=="undefined"||!ARIA2) var ARIA2=(function(){
           ARIA2.refresh();
           $("#add-task-modal").modal('hide');
           YAAW.add_task.clean();
-        }, 
+        },
         function(result) {
           //console.debug(result);
 
@@ -312,7 +300,7 @@ if (typeof ARIA2=="undefined"||!ARIA2) var ARIA2=(function(){
           ARIA2.refresh();
           $("#add-task-modal").modal('hide');
           YAAW.add_task.clean();
-        }, 
+        },
         function(result) {
           //console.debug(result);
 
@@ -333,7 +321,7 @@ if (typeof ARIA2=="undefined"||!ARIA2) var ARIA2=(function(){
           ARIA2.refresh();
           $("#add-task-modal").modal('hide');
           YAAW.add_task.clean();
-        }, 
+        },
         function(result) {
           //console.debug(result);
 
@@ -383,7 +371,7 @@ if (typeof ARIA2=="undefined"||!ARIA2) var ARIA2=(function(){
             if (auto_refresh && !select_lock)
               ARIA2.refresh();
           }
-        
+
           result = ARIA2.status_fix(result.result);
           $("#active-tasks-table").empty().append(YAAW.tpl.active_task({"tasks": result}));
           $.each(result, function(n, e) {

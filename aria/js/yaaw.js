@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (C) 2015 Binux <roy@binux.me>
  *
  * This file is part of YAAW (https://github.com/binux/yaaw).
@@ -815,7 +815,22 @@ var YAAW = (function() {
 
     setting: {
       init: function() {
-        this.jsonrpc_path = $.Storage.get("jsonrpc_path") || location.protocol+"//"+(location.host.split(":")[0]||"localhost")+":6800"+"/jsonrpc";
+        if (location.search.length) { // Mod by yonsm
+          var jsonrpc_path = location.search.substring(1);
+          if (jsonrpc_path.indexOf('://') == -1) {
+            jsonrpc_path = location.protocol + "//" + jsonrpc_path;
+          }
+          if (jsonrpc_path.indexOf("/jsonrpc") == -1) {
+            if (jsonrpc_path.indexOf(':', 7) == -1) {
+              jsonrpc_path += ':6800';
+            }
+            jsonrpc_path += "/jsonrpc";
+          }
+          this.jsonrpc_path = jsonrpc_path;
+          console.log('Build jsonrpc_path: ' + jsonrpc_path);
+        } else {
+          this.jsonrpc_path = $.Storage.get("jsonrpc_path") || location.protocol+"//"+(location.host.split(":")[0]||"localhost")+":6800"+"/jsonrpc";
+        }
         this.refresh_interval = Number($.Storage.get("refresh_interval") || 10000);
         this.finish_notification = Number($.Storage.get("finish_notification") || 1);
         this.add_task_option = $.Storage.get("add_task_option");
