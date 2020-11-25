@@ -1,0 +1,180 @@
+<!doctype html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8" />  
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"> 
+    <title> canvas 递进</title>  
+<style type="text/css">  
+#canvasId {  
+    background-color: #f2e0ba;  
+}  
+</style>  
+</head>  
+<body>  
+  
+<canvas id="canvasId"></canvas><br />  
+<input type="button" value="clear" onclick="hw.clear();" />  
+<img id="pen22" src="pen22.png"/>
+<img id="pen2" src="pen2.png"/>
+<!-- <script type="text/javascript" src="jQuery.min.js"></script> -->
+<script type="text/javascript">  
+    var p =0;
+    var l = 20;
+    var arr = [];
+
+function Handwriting(id) {  
+    this.canvas = document.getElementById(id);  
+    this.ctx = this.canvas.getContext("2d");  
+    this.canvas.setAttribute('width',window.screen.width * 0.9);
+    this.canvas.setAttribute('height',window.screen.height *0.8);
+    this.ctx.fillStyle = "rgba(0,0,0,0.8)";  
+    var _this = this;
+    this.canvas.addEventListener("touchstart", this.downEvent.bind(this), false);  
+    this.canvas.addEventListener("touchmove", this.moveEvent.bind(this), false);  
+    this.canvas.addEventListener("touchend", this.upEvent.bind(this), false);  
+    this.canvas.addEventListener("contextmenu", function(e){ e.preventDefault() }, false);  
+
+    // this.canvas.onmousedown = function (e) { _this.downEvent(e)};  
+    // this.canvas.onmousemove = function (e) { _this.moveEvent(e)};  
+    // this.canvas.onmouseup = function (e) { _this.upEvent(e)};  
+    // this.canvas.onmouseout = function (e) { _this.upEvent(e)};  
+    this.canvas.addEventListener("mousedown",function(e){ _this.downEvent(e)},false);
+    this.canvas.addEventListener("mousemove",function(e){ _this.moveEvent(e)},false);
+    this.canvas.addEventListener("mouseup",function(e){ _this.upEvent(e)},false);
+    this.canvas.addEventListener("mouseout",function(e){ _this.upEvent(e)},false);
+    this.canvas.addEventListener("click",function(e){ _this.clickEvent(e),false});
+
+    this.moveFlag = false;  
+    this.upof = {};  
+    this.radius = 0;  
+    this.has = [];  
+    this.lineMax = 30;  
+    this.lineMin = 3;  
+    this.linePressure = 1;  
+    this.smoothness = 80;  
+
+    this.img = document.getElementById('pen2');
+    this.img1 = document.getElementById('pen22');
+}  
+  
+Handwriting.prototype.clear = function () {  
+    this.ctx.clearRect(0,0,this.canvas.width,this.canvas.height);    
+}  
+
+Handwriting.prototype.clickEvent = function(e){
+    this.cli = this.getXY(e);
+    // this.ctx.drawImage(this.img,this.cli.x - l/2,this.cli.y - l/2,l,l);
+}
+  
+Handwriting.prototype.downEvent = function (e) {  
+    this.moveFlag = true;  
+    this.has = [];  
+    this.upof = this.getXY(e);  
+    // this.ctx.drawImage(this.img,(this.upof.x - this.big/2),(this.upof.y - this.big/2),this.big,this.big);
+    var x1 = this.upof.x;
+    var y1 = this.upof.y;
+    arr.unshift({x1,y1});
+}  
+  
+Handwriting.prototype.moveEvent = function (e) {  
+    if (!this.moveFlag)  
+        return;
+    e.preventDefault();  
+    var of = this.getXY(e); //move
+    var up = this.upof;  //down
+    var ur = this.radius;  //banjing
+    var b = 0;
+    this.has.unshift({time:new Date().getTime() ,dis:this.distance(up,of)});  
+    var dis = 0;  
+    var time = 0;  
+    for (var n = 0; n < this.has.length-1; n++) {  
+        dis += this.has[n].dis;  
+        time += this.has[n].time-this.has[n+1].time;  
+        if (dis>this.smoothness)  
+            break;  
+    }  
+    var or = Math.min(time/dis*this.linePressure+this.lineMin , this.lineMax) / 2;  
+    this.radius = or;  
+    this.upof = of;  
+    var len = Math.round(this.has[0].dis/2)+1;  
+    for (var i = 0; i < len; i++) {  
+        var x = up.x + (of.x-up.x)/len*i;  
+        var y = up.y + (of.y-up.y)/len*i;  
+        var r = ur + (or-ur)/len*i;  
+        this.ctx.beginPath();  
+        // this.ctx.arc(x,y,r,0.2*Math.PI,1.5*Math.PI,true);  
+        // this.ctx.fill();  
+        var r_r = r*2;
+
+        x = x-l/2;
+        y = y - l/2;
+        arr.unshift({x,y});
+        this.ctx.drawImage(this.img,x,y,l,l);
+        l = l - 0.2;
+        if( l < 10) l = 10;
+        // console.log(l);
+        p++;
+    }  
+}  
+  
+Handwriting.prototype.upEvent = function (e) {  
+    this.moveFlag = false;  
+    // console.log(p);
+    l = 20;
+    // console.log(arr);
+    if(arr.length >100){
+         for(var j = 0; j <60 ;j++){
+            // arr[j].x = arr[j].x - 2;
+            // arr[j].y = arr[j].y - 1;
+            arr[j].x = arr[j].x-l/4;
+            arr[j].y = arr[j].y - l/4;          
+            this.ctx.drawImage(this.img,arr[j].x,arr[j].y,l,l);
+
+            l = l - 0.3;
+            if( l < 5) l = 5;
+        }
+        l = 20;
+        arr = [];       
+    }
+    if (arr.length==1) {
+        // arr[0].x = 
+        this.ctx.drawImage(this.img,arr[0].x1 - l/2,arr[0].y1 - l/2,l,l);
+        console.log(arr[0].x);
+        arr = [];
+    }
+    console.log(arr);
+}  
+  
+Handwriting.prototype.getXY = function (e)  
+{   
+    var x = e.clientX || e.touches[0].clientX;
+    var y = e.clientY || e.touches[0].clientY;
+    // // return {  
+    //     x : e.clientX - this.canvas.offsetLeft + (document.body.scrollLeft || document.documentElement.scrollLeft),  
+    //     y : e.clientY - this.canvas.offsetTop  + (document.body.scrollTop || document.documentElement.scrollTop)  
+    // }  
+    return {  
+        x : x - this.canvas.offsetLeft + (document.body.scrollLeft || document.documentElement.scrollLeft),  
+        y : y - this.canvas.offsetTop  + (document.body.scrollTop || document.documentElement.scrollTop)  
+    }  
+}  
+  
+Handwriting.prototype.distance = function (a,b)  
+{  
+    var x = b.x-a.x , y = b.y-a.y;  
+    return Math.sqrt(x*x+y*y);  
+}  
+ 
+
+// $('input').eq(1).val(5);
+// $('input').eq(2).val(20); 
+var hw = new Handwriting("canvasId");  
+hw.lineMax = 20;  
+hw.lineMin = 10;  
+hw.linePressure = 2.5;  
+hw.smoothness = 100;  
+
+  
+</script>  
+</body>  
+</html>  
