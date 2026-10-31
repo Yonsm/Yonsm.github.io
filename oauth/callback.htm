@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Authorized</title>
+<style>
+  html,body{margin:0;height:100%;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f5f5f7;color:#1d1d1f}
+  .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}
+  .card{max-width:360px}
+  .icon{width:64px;height:64px;margin:0 auto 20px;border-radius:16px;background:#34c759;display:flex;align-items:center;justify-content:center}
+  .icon svg{width:36px;height:36px;fill:#fff}
+  h1{font-size:20px;margin:0 0 8px}
+  p{font-size:14px;line-height:1.6;color:#6e6e73;margin:0}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="icon">
+        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+      </div>
+      <h1>Landing...</h1>
+    </div>
+  </div>
+  <script>
+    // 在 WebView 内通过 url.startsWith 拦截此回调。页面其实不会被渲染；这里仅作为浏览器直接打开时的兜底提示。
+    try { window.close(); } catch (e) {}
+  </script>
+</body>
+</html>
